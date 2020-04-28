@@ -176,7 +176,7 @@ table {
 		display: flex;
 		flex-wrap: wrap;
 		padding: 0 5px;
-		margin-top: 25px;
+		margin-top: 10px;
 		z-index: -1;
 	}
 	.coloana {
@@ -197,6 +197,7 @@ table {
 
 	.header { /* pentru bara de navigarede copiat de aici */
 		background-color: white;
+		position: sticky;
 		margin-top: 5px;
 		z-index: 1;
 	}
