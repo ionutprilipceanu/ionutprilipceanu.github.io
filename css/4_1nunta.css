@@ -218,6 +218,10 @@ table {
   	font-size: 15px;
   	padding: 0 5px;
   }
+
+  .header { /* pentru bara de navigarede copiat de aici */
+		position: static; top: 0; width: 100%;
+  }
 }
 
 	@media (max-width: 650px) {
@@ -230,6 +234,9 @@ table {
   	padding: 0 5px;
   }
 
+  .header { /* pentru bara de navigarede copiat de aici */
+		position: static; top: 0; width: 100%;
+  }
 }
 
 	@media (max-width: 550px) {
@@ -248,6 +255,7 @@ table {
    .header { /* pentru bara de navigarede copiat de aici */
 		background-color: white;
 		margin-top: 301px;
+		position: static; top: 0; width: 100%;
 	}
 	.row { /* pentru bara de navigare de copiat de aici */
 		margin-top: 320px;
