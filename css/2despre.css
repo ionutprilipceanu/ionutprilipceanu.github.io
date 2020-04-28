@@ -244,7 +244,11 @@ table {
 		transform:scale(0.9);
 	}
 
-
+	@media screen and (max-width: 550px) {
+		.scris p {
+			font-size: 80%;
+		}
+	}
 
 
 /* Aici se termina sectiunea */
