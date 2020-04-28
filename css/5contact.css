@@ -163,7 +163,8 @@ table {
 			padding: 5px 0 10px 0;
 		}
 		.contact p {
-			width: 80%;
+			width: 100%;
+			font-size: 80%;
 		}
 		textarea {
   			width: 100% !important;
