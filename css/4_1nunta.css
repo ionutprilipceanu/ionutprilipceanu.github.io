@@ -201,7 +201,7 @@ table {
 	.header { /* pentru bara de navigarede copiat de aici */
 		background-color: white;
 		
-		margin-top: 57px;
+		margin-top: 15px;
 		z-index: 1;
 	}
 
@@ -254,7 +254,7 @@ table {
 
 	}
 	.row { /* pentru bara de navigare de copiat de aici */
-		margin-top: 100px;
+		margin-top: 0px;
 	}
 }
 
