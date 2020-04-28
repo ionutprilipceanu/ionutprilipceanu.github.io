@@ -141,14 +141,12 @@ table {
 	box-sizing: border-box;
 }
 
-
 	.continut {
 		padding: 10px 30%;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		text-decoration: none;
-		
 	}
 
 	.continut a {
@@ -223,7 +221,7 @@ table {
   }
   .continut a {
   	font-size: 15px;
-  	padding: 0px;
+  	padding: 0 5px;
   }
 
   
@@ -237,7 +235,7 @@ table {
   
   .continut a {
   	font-size: 15px;
-  	padding: 0px;
+  	padding: 0 5px;
   }
   .header a {
 			font-size: 12px;
