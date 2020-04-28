@@ -145,17 +145,7 @@ table {
   		width: 100%;
   	}
 
-  	.intro {
-  		width: 100%;
-  		display: block;
-  	}
-
- 	.intro img {
-  		margin-top: 73%;
-  		width: 100%;
-
- 	}
-
+  	
 
 }
 /* Aici se termina bara de navigare*/
@@ -249,6 +239,18 @@ table {
 			font-size: 80%;
 			padding-bottom: 5px;
 		}
+
+		.intro {
+  		width: 100%;
+  		display: block;
+  	}
+
+ 	.intro img {
+  		margin-top: 0%;
+  		width: 100%;
+
+ 	}
+
 	}
 
 
