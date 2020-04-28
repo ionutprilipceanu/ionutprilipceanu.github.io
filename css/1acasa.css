@@ -269,9 +269,11 @@ table {
 	}
 
 
-	.prezentare2 {
-		font-size: -10px !important;
-		letter-spacing: 1px;
+	.prezentare2 p {
+		padding-top: 15px;
+		padding-right: -400px;
+		font-size: 30px !important;
+		letter-spacing: 10px;
 		font-family: Engravers MT Expanded Medium;
 	}
 
@@ -321,10 +323,11 @@ table {
 	}
 
 
-	.prezentare2 {
-		
-		font-size: 10px !important;
-		letter-spacing: 1px;
+	.prezentare2 p {
+		padding-top: 15px;
+		padding-right: -400px;
+		font-size: 30px !important;
+		letter-spacing: 10px;
 		font-family: Engravers MT Expanded Medium;
 	}
 
@@ -360,11 +363,12 @@ table {
 		height: 50px;
 	}
 
-	.prezentare2 {
-		
-		font-size: 10px !important;
-		letter-spacing: 1px;
-		font-family: Time News Roman;
+	.prezentare2 p {
+		padding-top: 15px;
+		padding-right: -400px;
+		font-size: 30px !important;
+		letter-spacing: 10px;
+		font-family: Engravers MT Expanded Medium;
 	}
 
 	}
@@ -399,11 +403,12 @@ table {
 		
 	}
 
-	.prezentare2 {
-		
-		font-size: 10px !important;
-		letter-spacing: 1px;
-		font-family: Time News Roman;
+	.prezentare2 p {
+		padding-top: 15px;
+		padding-right: -400px;
+		font-size: 30px !important;
+		letter-spacing: 10px;
+		font-family: Engravers MT Expanded Medium;
 	}
 
 	}
@@ -452,10 +457,12 @@ table {
 	}
 
 
-	.prezentare2 {
-		font-family: Time News Roman;
-		font-size: 10px !important;
-		letter-spacing: 1px;
+	.prezentare2 p {
+		padding-top: 15px;
+		padding-right: -400px;
+		font-size: 30px !important;
+		letter-spacing: 10px;
+		font-family: Engravers MT Expanded Medium;
 	}
 
 	}
