@@ -140,14 +140,12 @@ table {
 	box-sizing: border-box;
 }
 
-
 	.continut {
 		padding: 10px 30%;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		text-decoration: none;
-		
 	}
 
 	.continut a {
@@ -158,12 +156,11 @@ table {
 
 
 	.continut a:hover {
-		color: rgba(0, 0, 0, 1)!important;
+		color: rgba(0, 0, 0, 1) !important;
 	}
 
 	.activ2  {
   		color: rgba(0, 0, 0, 1);
-
 	} 
 
 	.body {
@@ -172,18 +169,17 @@ table {
 	}
 
 
-	.row { /* de copiat de aici */
+	.row { /* pentru bara de navigare de copiat de aici */
 		display: flex;
 		flex-wrap: wrap;
 		padding: 0 5px;
-		margin-top: 95px;
+		margin-top: 0px;
 		z-index: -1;
 	}
 	.coloana {
 		flex-wrap: wrap;
 		max-width: 16.66%;
 		padding: 0 5px;
-
 	}
 
 	.coloana .column img {
@@ -194,15 +190,15 @@ table {
 	.coloana .column img:hover {
 		transition: 1s;
 		opacity: 0.25;
-
 	}
 
 	.header { /* pentru bara de navigarede copiat de aici */
 		background-color: white;
-		position: fixed; top: 0; width: 100%;
-		margin-top: 57px;
+		position: sticky;
+		margin-top: 0px;
 		z-index: 1;
 	}
+
 	@media (max-width: 900px) {
 
   .coloana {
@@ -213,6 +209,8 @@ table {
   	font-size: 15px;
   	padding: 0 5px;
   }
+
+  
 }
 
 	@media (max-width: 650px) {
@@ -220,10 +218,12 @@ table {
     flex: 50%;
     max-width: 50%;
   }
-    .continut a {
+  .continut a {
   	font-size: 15px;
   	padding: 0 5px;
   }
+
+  
 }
 
 	@media (max-width: 550px) {
@@ -231,21 +231,25 @@ table {
     flex: 100%;
     max-width: 100%;
   }
-    .continut a {
+  
+  .continut a {
   	font-size: 15px;
   	padding: 0 5px;
   }
   .header a {
 			font-size: 12px;
-  }
-  .header { /* pentru bara de navigarede copiat de aici */
+   }
+   .header { /* pentru bara de navigarede copiat de aici */
 		background-color: white;
-		margin-top: 301px;
+		
+
 	}
 	.row { /* pentru bara de navigare de copiat de aici */
-		margin-top: 320px;
+		margin-top: 0px;
 	}
 }
+
+
 
 
 /* Aici incepe footer-ul */
