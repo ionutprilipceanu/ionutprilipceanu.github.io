@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Ionut Prilipceanu - Fotograf eveniment Iași|Botoșani|Moldova</title>
+	<link rel="stylesheet" type="text/css" href="css/5contact.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+
+<body>
+
+	
+	<header style="position: fixed; top: 0; width: 100%;">
+		 <div class="lista">
+			<ul>
+  				<li><img src="./imagini/10.png" style="width: 170px; height: 50px;"></li>
+  				<li><a href="1acasa.html">Acasa</a></li>
+  				<li><a href="2despre.html">Despre</a></li>
+ 				<li><a href="3servicii.html">Servicii</a></li>
+ 				<li class="dropdown">
+    				<a href="4portofoliu.html" class="dropbtn">Portofoliu</a>
+    				<div class="dropdown-content">
+      				<a href="4_1nunta.html">Nuntă</a>
+      				<a href="4_2crestinare.html">Creștinare</a>
+      				<a href="4_3logodna.html">Logodnă</a>
+      				<a href="4_4sedinte.html">Ședințe</a>
+      				<a href="4_5diverse.html">Diverse</a>
+   					</div>
+   					</li>
+ 				<li><a class="activ" href="5contact.html">Contact</a></li>	 
+			</ul>	
+		 </div>
+	</header>
+<div class="fundal">
+	<section>	
+		<div class="contact">
+			<h1>Contact</h1>
+			<p style="text-align: justify;"> Povestește mai multe despre voi și evenimentul vostru prin completarea formularului de mai jos iar eu vă voi raspunde în cel mai scurt timp posibil.</p>
+
+	<div id="error_message"></div>
+
+			<div class="tabel">
+					<form id="myform" onsubmit="return validation()" action="" method="_post">
+					 <table>
+				<tr>
+					<th>
+  						<label for="name">Nume:</label><br>
+  						<input type="text" id="name" placeholder="Nume și prenume.."><br><br>
+  					</th>
+					<th>
+  						<label for="eveniment">Tip eveniment:</label><br>
+  						<input type="text" id="eveniment" placeholder="Tipul evenimentului.."><br><br>
+  					</th>
+  				</tr>
+				<tr>
+					<th>
+  						<label for="telefon">Telefon:</label><br>
+  						<input type="text" id="telefon" placeholder="Numarul de telefon.."><br><br>
+  					</th>
+					<th>
+  						<label for="data">Data eveniment:</label><br>
+  						<input type="text" id="data" placeholder="Data evenimentului.."><br><br>
+  					</th>
+  				</tr>
+
+					<br>
+
+				<tr>
+					<th>
+  						<label for="mail">E-mail:</label><br>
+  						<input type="text" id="mail" placeholder="Adresa de e-mail..">
+  					</th>
+				<br>
+					<th>
+  						<label for="locatie">Orașul și locația:</label><br>
+  						<input type="text" id="locatie" placeholder="Orașul și locația..">
+  					</th>
+  				</tr>
+  				<tr>
+					<th>
+  						<label for="facebook" >Adresa facebook:</label><br>
+  						<input type="text" id="facebook" placeholder="Adresa ta de facebook.." style="width: 205%;">
+  					</th>
+				
+  					</table>
+
+  					<br>
+
+  						<label for="poveste">Povestește despre evenimentului tau mai jos:</label><br>
+  						<textarea id="poveste" rows="15" cols="45" placeholder="Povestește despre eveniment.." style="width: 50%;"></textarea>
+  						  <br><br>
+  						<input type="submit">
+					</form> 
+			</div>
+		</div>
+	</section>
+</div>
+
+<hr>
+
+	<footer>
+		<div class="sectiune">
+		 	<div class="scrisst">
+			<p class="textst">
+				Ionut Prilipceanu - Image&copy<br>
+				prilipceanu.ionut@gmail.com <br>
+				+4075 168 4142<br>
+			</p>
+			 </div>
+
+			<div class="logo">
+				<a href="https://www.facebook.com/ionutprilipceanuimage" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				<a href="https://www.instagram.com/ionutprilipceanu/" target="_blank"> <i class="fa fa-instagram"></i></a>
+
+				<a href="https://mail.google.com/mail/u/0/?tab=mm#inbox?compose=GTvVlcRwRrtXznxwhmqsKMfkkZVlPCsxqVrQKSFTMhzJMRrccFcCZNTWpcQHFVPVrvKtltNlqxFsx" target="_blank"> <i class="fa fa-google-plus"></i></a>
+				
+				<a href="https://ro.pinterest.com/ionutip/wedding-image/" target="_blank"> <i class="fa fa-pinterest-p"></i></a>
+		 	</div>
+
+		 	<div class="scrisdr">
+			<p class="textdr">
+				#scriempoveștiîmpreună<br>
+				#imagineatacontează<br>
+				Iași, România 2020<br>
+			</p>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/form.js"></script>
+</body>
+</html>

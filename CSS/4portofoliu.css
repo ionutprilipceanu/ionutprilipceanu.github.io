@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: black;
+	margin-top: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* INCEPUT TEXT CSS */
+/* BARA DE NAVIGARE */
+
+	.lista ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333333;
+		width: 100%;
+	}
+
+	.lista li {
+		float: left;
+	}
+
+	 li a, .dropbtn {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 16px;
+		text-decoration: none;
+	}
+
+	.lista li a:hover, .dropdown:hover .dropbtn {
+		background-color: #111111;
+		border-radius: 2px;
+	}
+
+	.dropdown {
+		display: inline-block;
+	}
+
+	.dropdown-content {
+  		display: none;
+  		position: absolute;
+  		background-color: #aaa;
+  		min-width: 160px;
+  		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  		z-index: 1;
+	}
+
+	.dropdown-content a {
+  		color: white;
+  		padding: 12px 16px;
+  		text-decoration: none;
+  		display: block;
+  		
+	}
+
+
+	.dropdown:hover .dropdown-content {
+  		display: block;
+	}
+
+	.lista li img {
+		margin: 1%;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.activ {
+  		background-color: #aaa;
+  		border-radius: 2px;
+	}
+
+		@media screen and (max-width: 600px) {
+  	.lista li {
+  		width: 100%;
+  		float: none;
+  		text-align: center;
+  		display: block;
+  	}
+
+  	li a, .dropbtn {
+  		display: block;
+  	}
+
+  	.dropdown-content {
+  		width: 100%;
+  	}
+}
+
+/* Aici se termina bara de navigare*/
+
+.continut {
+	display: flex;
+	flex-wrap: nowrap;
+	margin-top: 100px;
+	padding-bottom: 10%;
+	z-index: -1;
+	animation-name: myanimation;
+	animation-duration: 4s;
+		
+	}
+
+
+@keyframes myanimation {
+	0% {opacity: 0.15;}
+	100% {opacity: 1;}
+}
+
+.continut .responsive {
+	width: 100%;
+	height: 100%;
+	margin-top: 0%;
+	font-size: 16px;
+	flex-grow: 2;
+}
+
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 550px) {
+.continut {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 15px;
+	}
+
+}
+
+
+/* Aici incepe footer-ul */
+
+
+	.sectiune {
+		display: flex;
+		flex-wrap: nowrap;
+		width: 100%;
+		height: auto;
+		background-color: #333333;
+		text-align: center;
+
+	}
+
+	.sectiune .scrisst {
+		width: 33.3%;
+		font-size: 90%;
+		padding: 1%;
+		color: #f3f3f3;
+
+	}
+
+	.sectiune .logo {
+		padding-top: 1.5%; 
+		width: 33.3%;
+		color: white;
+	}
+
+	.logo a {
+		color: white;
+		opacity: 0.5;
+		padding-left: 7.5px;
+		font-size: 20px;
+	}
+
+	.logo a:hover {
+		opacity: 1;
+	}
+
+	.sectiune .scrisdr {
+		width: 33.3%;
+		font-size: 90%;
+		padding: 1%;
+		color: #f3f3f3;
+	}
+
+	.textst {
+		text-align: left;
+	}
+
+	.textdr {
+		text-align: right;
+	}
+
+
+	@media screen and (max-width: 550px) {
+		.sectiune .logo {
+		padding-top: 3%;
+	}
+		.logo a {
+			font-size: 15px;
+		}
+		.sectiune p  {
+			font-size: 10px;
+			margin: 0 4px;
+		}
+	}
+	/* Aici se termina footer-ul*/

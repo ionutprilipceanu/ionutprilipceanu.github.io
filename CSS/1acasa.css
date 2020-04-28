@@ -1,0 +1,510 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+b, u, i, center,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: black;
+	margin-top: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* INCEPUT TEXT CSS */
+/* BARA DE NAVIGARE */
+
+	header {
+		z-index: 1;
+	}
+
+	.lista ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333333;
+		width: 100%;
+	}
+
+	.lista li {
+		float: left;
+	}
+
+	li a, .dropbtn {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 16px;
+		text-decoration: none;
+	}
+
+	.lista li a:hover, .dropdown:hover .dropbtn {
+		background-color: #111111;
+		border-radius: 2px;
+	}
+
+	.dropdown {
+		display: inline-block;
+	}
+
+	.dropdown-content {
+  		display: none;
+  		position: absolute;
+  		background-color: #aaa;
+  		min-width: 160px;
+  		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  		z-index: 1;
+	}
+
+	.dropdown-content a {
+  		color: white;
+  		padding: 12px 16px;
+  		text-decoration: none;
+  		display: block;
+  		
+	}
+
+
+	.dropdown:hover .dropdown-content {
+  		display: block;
+	}
+
+	.lista li img {
+		margin: 1%;
+		margin-right: 10px;
+		margin-left: 10px;
+
+	}
+
+	.activ {
+  		background-color: #aaa;
+  		border-radius: 2px;
+	}
+
+
+
+	@media screen and (max-width: 550px) {
+  	.lista li {
+  		width: 100%;
+  		float: none;
+  		text-align: center;
+  		display: block;
+  	}
+
+  	li a, .dropbtn {
+  		display: block;
+  		
+  	}
+
+  	.dropdown-content {
+  		width: 100%;
+  		
+  	}
+
+  
+}
+/* Aici se termina bara de navigare*/
+
+	
+	a{
+		text-decoration: none;
+		color: white;
+	}
+
+	.chenar {
+		position: absolute;
+		top: 30%;
+		left: 25%;
+		margin: 0px auto 0 auto;
+		width: 600px;
+		height: 100px;
+		border: 2px solid white;
+		border-radius: 10px; 
+		overflow: hidden;
+		transition: 2s !important;
+		z-index: 0;
+	}
+
+
+	.prezentare, .prezentare2 {
+		width: auto;
+		height: 100px;
+		text-align: center;
+		line-height: 110px;
+		text-transform: uppercase;
+		font-family: Engravers MT Expanded Medium;
+		}
+		
+	.prezentare {
+		height: 130px;
+		background-color: rgba(248, 253, 254, 0.25);
+	}
+
+	.prezentare2{
+		margin-top:-5%;
+		background-color: rgba(248, 253, 254, 0.35);
+	}
+	
+	.functie  {
+		font-size: 30px;
+		letter-spacing: 125px;
+		margin-top: -60px;
+		margin-left: 1%;
+		transition: 3s !important;
+	}
+
+	.prezentare p{
+		margin-top: -25px;
+		font-size: 45px;
+		padding-top: 3px
+		letter-spacing: 20px;
+		padding-bottom: -30px;
+		transition: 3s !important;
+	}
+
+	.prezentare2 p {
+		letter-spacing: 30px;
+		font-size: 45px;
+		padding-left: 20px;
+	}
+
+	.prezentare:hover {
+		margin-top: -130px;
+		transition: 1.5s !important;
+	}
+
+
+
+	.box {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: auto;
+		background-color: #eee;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.poze{
+		transition: 1s;
+		padding: 2.5px;
+		margin: 0.1% 0.1% 0.1% 0.1%;
+		width: 20%;
+		opacity: 0.9;
+	}
+
+	.poze:hover {
+		opacity: 1;
+		transform:scale(0.9);
+
+	}
+
+@media screen and (max-width: 1100px) {
+	img{
+		margin-top: 7%;
+		
+	}
+
+	.chenar {
+		top: 15%;
+		left: 5%;
+		right: 5%;
+		width: 300px;
+		height: 50px;
+		
+	}
+
+	.prezentare {
+		padding-top: -10%;
+		font-size: 45%;
+		line-height: 90px;
+	}
+
+	.functie {
+		font-size: 1% !important;
+		margin-top: -70px !important;
+		letter-spacing: 52.5px !important;
+	}
+
+
+	.prezentare2 {
+		
+		font-size: -10px !important;
+		letter-spacing: 1px;
+	}
+
+	}
+
+@media screen and (max-width: 550px) {
+		section img{
+		margin-top: 71%;
+	}
+
+	.box img {
+		margin-top: 0;
+		padding: 2.5px;
+		margin-left: -140px;
+		width: 340px;
+		
+	}
+
+	.box {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	}
+
+	.chenar {
+		top: 41%;
+		left: 5%;
+		right: 5%;
+		width: 300px;
+		height: 50px;
+		
+	}
+
+	.prezentare {
+		padding-top: -10%;
+		font-size: 45%;
+		line-height: 90px;
+	}
+
+	.functie {
+		font-size: 1% !important;
+		margin-top: -70px !important;
+		letter-spacing: 52.5px !important;
+	}
+
+
+	.prezentare2 {
+		
+		font-size: -10px !important;
+		letter-spacing: 1px;
+	}
+
+	}
+
+
+	@media screen and (max-width: 375px) {
+	section img{
+		margin-top: 80%;
+	}
+
+	.box img {
+		margin-top: 0;
+		padding: 2.5px;
+		margin-left: -140px;
+		width: 340px;
+		
+	}
+
+	.box {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	}
+
+	.chenar {
+		top: 45%;
+		left: 5%;
+		right: 5%;
+		width: 300px;
+		height: 50px;
+	}
+
+	}
+
+@media screen and (max-width: 360px) {
+		section img{
+		margin-top: 80%;
+	}
+
+	.box img {
+		margin-top: 0;
+		padding: 2.5px;
+		margin-left: -140px;
+		width: 340px;
+		
+	}
+
+	.box {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	}
+
+	.chenar {
+		top: 45%;
+		left: 3%;
+		right: 3%;
+		width: 300px;
+		height: 50px;
+		
+	}
+
+	}
+
+@media screen and (max-width: 325px) {
+	section img{
+		margin-top: 93%;
+	}
+
+	.box img {
+		margin-top: 0;
+		padding: 2.5px;
+		margin-left: -140px;
+		width: 340px;
+		
+	}
+
+	.box {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	}
+
+	.chenar {
+		top: 57%;
+		left: 2%;
+		right: 2%;
+		width: 300px;
+		height: 50px;
+		
+	}
+
+	.prezentare {
+		padding-top: -10%;
+		font-size: 45%;
+		line-height: 90px;
+	}
+
+	.functie {
+		font-size: 1% !important;
+		margin-top: -70px !important;
+		letter-spacing: 52.5px !important;
+	}
+
+
+	.prezentare2 {
+		
+		font-size: -10px !important;
+		letter-spacing: 1px;
+	}
+
+	}
+
+/* Aici incepe footer-ul */
+
+
+	.sectiune {
+		display: flex;
+		flex-wrap: nowrap;
+		width: 100%;
+		height: auto;
+		background-color: #333333;
+		text-align: center;
+
+	}
+
+	.sectiune .scrisst {
+		width: 33.3%;
+		font-size: 90%;
+		padding: 1%;
+		color: #f3f3f3;
+
+	}
+
+	.sectiune .logo {
+		padding-top: 1.5%; 
+		width: 33.3%;
+		color: white;
+	}
+
+	.logo a {
+		color: white;
+		opacity: 0.5;
+		padding-left: 7.5px;
+		font-size: 20px;
+	}
+
+	.logo a:hover {
+		opacity: 1;
+	}
+
+	.sectiune .scrisdr {
+		width: 33.3%;
+		font-size: 90%;
+		padding: 1%;
+		color: #f3f3f3;
+	}
+
+	.textst {
+		text-align: left;
+	}
+
+	.textdr {
+		text-align: right;
+	}
+
+
+	@media screen and (max-width: 550px) {
+		.sectiune .logo {
+		padding-top: 3%;
+	}
+		.logo a {
+			font-size: 15px;
+		}
+		.sectiune p  {
+			font-size: 10px;
+			margin: 0 4px;
+		}
+	}
+	/* Aici se termina footer-ul*/
