@@ -304,16 +304,13 @@ table {
 	@media screen and (max-width: 550px) {
 		.sectiune .logo {
 		padding-top: 3%;
-		}
+	}
 		.logo a {
 			font-size: 15px;
 		}
 		.sectiune p  {
-			font-size: 9.5px;
+			font-size: 8px;
 			margin: 0 4px;
 		}
-		
-		
-		
 	}
 	/* Aici se termina footer-ul*/

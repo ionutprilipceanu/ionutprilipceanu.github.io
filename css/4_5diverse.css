@@ -303,9 +303,9 @@ table {
 		.logo a {
 			font-size: 15px;
 		}
-		.sectiune p {
-			font-size: 9.5px;
+		.sectiune p  {
+			font-size: 8px;
 			margin: 0 4px;
-	}
+		}
 	}
 	/* Aici se termina footer-ul*/
