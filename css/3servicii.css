@@ -212,12 +212,13 @@ table {
 		margin-top: 22%;
 		}
 
-		h1 {
+		.scris h1 {
 			padding-top: 15px;
 			font-size: 15px;
 		}
-		p {
+		.scris p {
 			padding-bottom: 10px;
+			font-size: 80%;
 		}
 	}
 
@@ -297,7 +298,7 @@ table {
 			font-size: 15px;
 		}
 		.sectiune p  {
-			font-size: 10px;
+			font-size: 8px;
 			margin: 0 4px;
 		}
 	}
