@@ -278,7 +278,7 @@ table {
 
 @media screen and (max-width: 550px) {
 		section img{
-		margin-top: 71%;
+		margin-top: 40%;
 	}
 
 	.box img {
@@ -298,7 +298,7 @@ table {
 	}
 
 	.chenar {
-		top: 41%;
+		top: 50%;
 		left: 5%;
 		right: 5%;
 		width: 300px;
