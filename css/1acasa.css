@@ -278,7 +278,7 @@ table {
 
 @media screen and (max-width: 550px) {
 		section img{
-		margin-top: 40%;
+		margin-top: 0%;
 	}
 
 	.box img {
@@ -330,7 +330,7 @@ table {
 
 	@media screen and (max-width: 375px) {
 	section img{
-		margin-top: 60%;
+		margin-top: 0%;
 	}
 
 	.box img {
@@ -361,7 +361,7 @@ table {
 
 @media screen and (max-width: 360px) {
 		section img{
-		margin-top: 60%;
+		margin-top: 0%;
 	}
 
 	.box img {
@@ -393,7 +393,7 @@ table {
 
 @media screen and (max-width: 325px) {
 	section img{
-		margin-top: 93%;
+		margin-top: 0%;
 	}
 
 	.box img {
