@@ -198,7 +198,7 @@ table {
 	.header { /* pentru bara de navigarede copiat de aici */
 		background-color: white;
 		position: sticky;
-		margin-top: 5px;
+		margin-top: 0px;
 		z-index: 1;
 	}
 
