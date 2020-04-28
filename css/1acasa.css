@@ -259,6 +259,7 @@ table {
 		padding-top: -10%;
 		font-size: 45%;
 		line-height: 90px;
+		font-family: Engravers MT Expanded Medium;
 	}
 
 	.functie {
@@ -272,6 +273,7 @@ table {
 		
 		font-size: -10px !important;
 		letter-spacing: 1px;
+		font-family: Engravers MT Expanded Medium;
 	}
 
 	}
@@ -310,6 +312,7 @@ table {
 		padding-top: -10%;
 		font-size: 45%;
 		line-height: 90px;
+		font-family: Engravers MT Expanded Medium;
 	}
 
 	.functie {
@@ -323,6 +326,7 @@ table {
 		
 		font-size: -10px !important;
 		letter-spacing: 1px;
+		font-family: Engravers MT Expanded Medium;
 	}
 
 	}
@@ -425,6 +429,7 @@ table {
 		padding-top: -10%;
 		font-size: 45%;
 		line-height: 90px;
+		font-family: Engravers MT Expanded Medium;
 	}
 
 	.functie {
@@ -435,7 +440,7 @@ table {
 
 
 	.prezentare2 {
-		
+		font-family: Engravers MT Expanded Medium;
 		font-size: -10px !important;
 		letter-spacing: 1px;
 	}
