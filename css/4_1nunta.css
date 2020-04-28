@@ -176,7 +176,7 @@ table {
 		display: flex;
 		flex-wrap: wrap;
 		padding: 0 5px;
-		margin-top: 10px;
+		margin-top: 0px;
 		z-index: -1;
 	}
 	.coloana {
