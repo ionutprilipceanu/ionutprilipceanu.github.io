@@ -156,7 +156,7 @@ table {
 
 	@media screen and (max-width: 550px) {
 		.fundal {
-			padding-top: 63%;
+			padding-top: 50%;
 			width: 100%;
 		}
 		.contact h1 {
