@@ -124,6 +124,11 @@ table {
 
 
 	@media screen and (max-width: 550px) {
+
+		header {
+			position: none;
+		}
+
   	.lista li {
   		width: 100%;
   		float: none;
