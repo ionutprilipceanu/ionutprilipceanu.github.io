@@ -159,6 +159,10 @@ table {
 			padding-top: 5%;
 			width: 100%;
 		}
+
+		.contact {
+			margin:0% 2% 0% 2%;
+		}
 		.contact h1 {
 			padding: 5px 0 10px 0;
 		}
