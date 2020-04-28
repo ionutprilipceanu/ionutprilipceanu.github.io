@@ -126,7 +126,7 @@ table {
 	@media screen and (max-width: 550px) {
 
 		header {
-			position: none;
+			position: static;
 		}
 
   	.lista li {
@@ -145,7 +145,7 @@ table {
   		width: 100%;
   		
   	}
-
+  	
   
 }
 /* Aici se termina bara de navigare*/
