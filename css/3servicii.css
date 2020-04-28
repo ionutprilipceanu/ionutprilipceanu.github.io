@@ -217,7 +217,7 @@ table {
 			font-size: 15px;
 		}
 		.scris p {
-			padding-bottom: 10px;
+			padding-bottom: 5px;
 			font-size: 80%;
 		}
 	}
@@ -277,18 +277,7 @@ table {
 		text-align: right;
 	}
 
-	@media screen and (max-width: 365px) {
-		.intro img{
-			margin-top: 59%;
-
-		}
-	}
-	@media screen and (max-width: 415px) {
-		.intro img{
-			margin-top: 13%;
-
-		}
-	}
+	
 
 	@media screen and (max-width: 550px) {
 		.sectiune .logo {
