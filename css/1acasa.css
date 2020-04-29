@@ -279,6 +279,10 @@ table {
 		font-family: Engravers MT Expanded Medium;
 	}
 
+	.prezentare2 p {
+		padding-left: 10px !important;
+	}
+
 	}
 
 @media screen and (max-width: 550px) {
@@ -338,7 +342,7 @@ table {
 	.prezentare2 p {
 		padding-left: 10px !important;
 	}
-	
+
 	}
 
 
@@ -394,6 +398,10 @@ table {
 		font-family: Engravers MT Expanded Medium;
 	}
 
+	.prezentare2 p {
+		padding-left: 10px !important;
+	}
+
 	}
 
 @media screen and (max-width: 360px) {
@@ -447,6 +455,10 @@ table {
 		font-size: 30px !important;
 		letter-spacing: 10px;
 		font-family: "Times New Roman", Times, serif;
+	}
+
+	.prezentare2 p {
+		padding-left: 10px !important;
 	}
 
 	}
@@ -505,6 +517,10 @@ table {
 		font-family: Engravers MT Expanded Medium;
 	}
 
+	.prezentare2 p {
+		padding-left: 10px !important;
+	}
+	
 	}
 
 /* Aici incepe footer-ul */
