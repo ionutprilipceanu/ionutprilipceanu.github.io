@@ -262,7 +262,7 @@ table {
 		font-family: Engravers MT Expanded Medium;
 	}
 
-	.functie {
+	.functie p{
 		font-size: 1% !important;
 		margin-top: -70px !important;
 		letter-spacing: 52.5px !important;
@@ -271,7 +271,7 @@ table {
 
 	.prezentare2 p {
 		padding-top: 15px;
-		padding-right: -500px;
+		padding-right: -600px;
 		font-size: 30px !important;
 		letter-spacing: 10px;
 		font-family: Engravers MT Expanded Medium;
@@ -316,7 +316,7 @@ table {
 		font-family: Engravers MT Expanded Medium;
 	}
 
-	.functie {
+	.functie p{
 		font-size: 1% !important;
 		margin-top: -70px !important;
 		letter-spacing: 52.5px !important;
@@ -325,7 +325,7 @@ table {
 
 	.prezentare2 p {
 		padding-top: 15px;
-		padding-right: -500px;
+		padding-right: -600px;
 		font-size: 30px !important;
 		letter-spacing: 10px;
 		font-family: Engravers MT Expanded Medium;
@@ -363,9 +363,15 @@ table {
 		height: 50px;
 	}
 
+	.functie p{
+		font-size: 1% !important;
+		margin-top: -70px !important;
+		letter-spacing: 52.5px !important;
+	}
+
 	.prezentare2 p {
 		padding-top: 15px;
-		padding-right: -500px;
+		padding-right: -600px;
 		font-size: 30px !important;
 		letter-spacing: 10px;
 		font-family: Engravers MT Expanded Medium;
@@ -394,6 +400,12 @@ table {
 	
 	}
 
+	.functie p{
+		font-size: 1% !important;
+		margin-top: -70px !important;
+		letter-spacing: 52.5px !important;
+	}
+
 	.chenar {
 		top: 55%;
 		left: 3%;
@@ -405,7 +417,7 @@ table {
 
 	.prezentare2 p {
 		padding-top: 15px;
-		padding-right: -500px;
+		padding-right: -600px;
 		font-size: 30px !important;
 		letter-spacing: 10px;
 		font-family: Engravers MT Expanded Medium;
@@ -450,7 +462,7 @@ table {
 		font-family: Time News Roman;
 	}
 
-	.functie {
+	.functie p{
 		font-size: 1% !important;
 		margin-top: -70px !important;
 		letter-spacing: 52.5px !important;
@@ -459,7 +471,7 @@ table {
 
 	.prezentare2 p {
 		padding-top: 15px;
-		padding-right: -500px;
+		padding-right: -600px;
 		font-size: 30px !important;
 		letter-spacing: 10px;
 		font-family: Engravers MT Expanded Medium;
