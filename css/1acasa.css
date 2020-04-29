@@ -206,7 +206,7 @@ table {
 	.prezentare2 p {
 		letter-spacing: 30px;
 		font-size: 45px;
-		padding-left: 0px;
+		padding-left: 20px;
 	}
 
 	.prezentare:hover {
@@ -520,7 +520,7 @@ table {
 	.prezentare2 p {
 		padding-left: 10px !important;
 	}
-	
+
 	}
 
 /* Aici incepe footer-ul */
