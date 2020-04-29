@@ -54,7 +54,7 @@ function validation (){
 		return false;
 	}
 
-	if(poveste.length <= 120){
+	if(poveste.length <= 80){
 		text = "Te rog să povestești mai mult!";
 		error_message.innerHTML = text;
 		return false;
