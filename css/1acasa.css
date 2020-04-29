@@ -206,7 +206,7 @@ table {
 	.prezentare2 p {
 		letter-spacing: 30px;
 		font-size: 45px;
-		padding-left: 20px;
+		padding-left: 0px;
 	}
 
 	.prezentare:hover {
@@ -335,6 +335,10 @@ table {
 		font-family: Engravers MT Expanded Medium;
 	}
 
+	.prezentare2 p {
+		padding-left: 10px !important;
+	}
+	
 	}
 
 
