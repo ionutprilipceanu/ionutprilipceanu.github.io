@@ -259,14 +259,14 @@ table {
 		padding-top: -10%;
 		font-size: 45%;
 		line-height: 90px;
-		font-family: Engravers MT Expanded Medium;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	.functie p{
 		font-size: 15px !important;
 		margin-top: -70px !important;
 		letter-spacing: 58px !important;
-		font-family: Engravers MT Expanded Medium;
+		font-family: "Times New Roman", Times, serif;
 		padding-left: 6px;
 	}
 
@@ -315,14 +315,14 @@ table {
 		padding-top: -10%;
 		font-size: 45%;
 		line-height: 90px;
-		font-family: Engravers MT Expanded Medium;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	.functie p{
 		font-size: 15px !important;
 		margin-top: -70px !important;
 		letter-spacing: 58px !important;
-		font-family: Engravers MT Expanded Medium;
+		font-family: "Times New Roman", Times, serif;
 		padding-left: 6px;
 	}
 
@@ -367,11 +367,18 @@ table {
 		height: 50px;
 	}
 
+	.prezentare {
+		padding-top: -10%;
+		font-size: 45%;
+		line-height: 90px;
+		font-family: "Times New Roman", Times, serif;
+	}
+
 	.functie p{
 		font-size: 15px !important;
 		margin-top: -70px !important;
 		letter-spacing: 58px !important;
-		font-family: Engravers MT Expanded Medium;
+		font-family: "Times New Roman", Times, serif;
 		padding-left: 6px;
 	}
 
@@ -406,11 +413,18 @@ table {
 	
 	}
 
+	.prezentare {
+		padding-top: -10%;
+		font-size: 45%;
+		line-height: 90px;
+		font-family: "Times New Roman", Times, serif;
+	}
+	
 	.functie p{
 		font-size: 15px !important;
 		margin-top: -70px !important;
 		letter-spacing: 58px !important;
-		font-family: Engravers MT Expanded Medium;
+		font-family: "Times New Roman", Times, serif;
 		padding-left: 6px;
 	}
 
@@ -428,7 +442,7 @@ table {
 		padding-right: -1200px;
 		font-size: 30px !important;
 		letter-spacing: 10px;
-		font-family: Engravers MT Expanded Medium;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	}
@@ -467,14 +481,14 @@ table {
 		padding-top: -10%;
 		font-size: 45%;
 		line-height: 90px;
-		font-family: Time News Roman;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	.functie p{
 		font-size: 15px !important;
 		margin-top: -70px !important;
 		letter-spacing: 58px !important;
-		font-family: Engravers MT Expanded Medium;
+		font-family: "Times New Roman", Times, serif;
 		padding-left: 6px;
 	}
 
