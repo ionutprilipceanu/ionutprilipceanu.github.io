@@ -289,6 +289,10 @@ table {
 
 	}
 
+	.poze img {
+		border-radius: 4px;
+	}
+
 @media screen and (max-width: 550px) {
 		section img{
 		margin-top: 0%;
@@ -349,6 +353,9 @@ table {
 
 	}
 
+	.poze img {
+		border-radius: 4px;
+	}
 
 	@media screen and (max-width: 375px) {
 	section img{
@@ -408,6 +415,10 @@ table {
 
 	}
 
+	.poze img {
+		border-radius: 4px;
+	}
+
 @media screen and (max-width: 360px) {
 		section img{
 		margin-top: 0%;
@@ -465,6 +476,10 @@ table {
 		padding-left: 10px !important;
 	}
 
+	}
+
+	.poze img {
+		border-radius: 4px;
 	}
 
 @media screen and (max-width: 325px) {
@@ -527,6 +542,10 @@ table {
 
 	}
 
+	.poze img {
+		border-radius: 4px;
+	}
+	
 /* Aici incepe footer-ul */
 
 
