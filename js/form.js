@@ -48,13 +48,13 @@ function validation (){
 		return false;
 	}
 
-	if(facebook.length <10){
+	if(facebook.length <4){
 		text = "Te rog să introduci profilul facebook!";
 		error_message.innerHTML = text;
 		return false;
 	}
 
-	if(poveste.length <= 80){
+	if(poveste.length <= 40){
 		text = "Te rog să povestești mai mult!";
 		error_message.innerHTML = text;
 		return false;
