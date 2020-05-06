@@ -3,31 +3,52 @@
 <head> 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Ionut Prilipceanu - Fotograf eveniment Iași | Botoșani | </title>
-	<meta name="description" content="Mă numesc Ionuț Prilipceanu sunt fotograf profesionist. Știu foarte bine că imaginea ta contează, dacă și tu crezi asta hai să scriem povești împreună.">
-	<meta name="keywords" content="fotograf eveniment, fotograf nunta, botez, familie, sedinte foto, image, scriem povesti impreuna">
-	<meta name="author" content="Ionut Prilipceanu">
-	<meta property="og:locale" content="ro_RO">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Ionut Prilipceanu - Fotograf eveniment Iași">
-	<meta property="og:description" content="Mă numesc Ionuț Prilipceanu și sunt fotograf profesionist. Știu foarte bine că imaginea ta contează, dacă și tu crezi asta hai să scriem povești împreună.">
-	<meta property="og:url" content="https://ionut-prilipceanu.com/">
-	<meta property="og:site_name" content="Ionut Prilipceanu - Fotograf eveniment">
-	<meta property="og:image" content="https://ionut-prilipceanu.com/imagini/portofoliu/nunta/Ionuț_Prilipceanu_IMAGE_Fotograf_Profesionist_Iași-32.jpg">
-	<meta property="og:image:width" content="1200">
-	<meta property="og:image:height" content="630">
-	<link rel="icon" href="./imagini/icon/favicon.png">
-	<link rel="stylesheet" type="text/css" href="..//css/5contact.css">
-	<link rel="stylesheet" type="text/css" href="..//css/lightbox.min.css">
+	<title> Ionut Prilipceanu - Fotograf eveniment Iași|Botoșani|Moldova</title>
+	<link rel="stylesheet" type="text/css" href="css/5contact.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 </head>
 
 <body>
+
+	
 	<header>
+		<div class="menu-wrap">
+		<input type="checkbox" class="toggler">
+		<div class="hamburger">
+			<div></div>
+		</div>
+		<div class="menu">
+			<div>
+				<div>
+					<ul>
+						<li><img src="./imagini/10.png" style="width: 170px; height: 50px;"></li>
+						<li><a href="1acasa.html">Acasa</a></li>
+  						<li><a href="2despre.html">Despre</a></li>
+ 						<li><a href="3servicii.html">Servicii</a></li>
+ 						<li class="dropdown">
+    						<a href="4portofoliu.html" class="dropbtn">Portofoliu</a>
+    							<div class="dropdown-content">
+      								<a href="4_1nunta.html">Nuntă</a>
+      								<a href="4_2crestinare.html">Creștinare</a>
+      								<a href="4_3logodna.html">Logodnă</a>
+      								<a href="4_4sedinte.html">Ședințe</a>
+      								<a href="4_5diverse.html">Diverse</a>
+   								</div>
+   						</li>
+ 						<li><a class="activ" href="5contact.html">Contact</a></li>
+ 						<li><a href="#" style="text-transform: lowercase;">prilipceanu.ionut@gmail.com</a></li>
+ 						<li><a href="#">075 168 4142</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
 		 <div class="lista">
 			<ul>
   				<li><img src="./imagini/10.png" style="width: 170px; height: 50px;"></li>
-  				<li><a href="index.html">Acasa</a></li>
+  				<li><a href="1acasa.html">Acasa</a></li>
   				<li><a href="2despre.html">Despre</a></li>
  				<li><a href="3servicii.html">Servicii</a></li>
  				<li class="dropdown">
@@ -43,7 +64,9 @@
  				<li><a class="activ" href="5contact.html">Contact</a></li>	 
 			</ul>	
 		 </div>
+		 <div class="logo_mare"><img src="./imagini/10.png" style="width: 170px; height: 50px; margin-left: 15vh;"></li></div>
 	</header>
+
 <div class="fundal">
 	<section>	
 		<div class="contact">
@@ -53,26 +76,26 @@
 	<div id="error_message"></div>
 
 			<div class="tabel">
-					<form id="myform" onsubmit="return validation()" action="" method="POST" data-netlify="true">
+					<form id="myform" onsubmit="return validation()" action="" method="_post">
 					 <table>
 				<tr>
 					<th>
   						<label for="name">Nume:</label><br>
-  						<input type="text" id="name" name="fname" placeholder="Nume și prenume.."><br><br>
+  						<input type="text" id="name" placeholder="Nume și prenume.."><br><br>
   					</th>
 					<th>
   						<label for="eveniment">Tip eveniment:</label><br>
-  						<input type="text" id="eveniment" name="eveniment" placeholder="Tipul evenimentului.."><br><br>
+  						<input type="text" id="eveniment" placeholder="Tipul evenimentului.."><br><br>
   					</th>
   				</tr>
 				<tr>
 					<th>
   						<label for="telefon">Telefon:</label><br>
-  						<input type="text" id="telefon" name="telefon" placeholder="Numarul de telefon.."><br><br>
+  						<input type="text" id="telefon" placeholder="Numarul de telefon.."><br><br>
   					</th>
 					<th>
   						<label for="data">Data eveniment:</label><br>
-  						<input type="text" id="data" name="data" placeholder="Data evenimentului.."><br><br>
+  						<input type="text" id="data" placeholder="Data evenimentului.."><br><br>
   					</th>
   				</tr>
 
@@ -81,18 +104,18 @@
 				<tr>
 					<th>
   						<label for="mail">E-mail:</label><br>
-  						<input type="text" id="mail" name="mail" placeholder="Adresa de e-mail..">
+  						<input type="text" id="mail" placeholder="Adresa de e-mail..">
   					</th>
 				<br>
 					<th>
   						<label for="locatie">Orașul și locația:</label><br>
-  						<input type="text" id="locatie" name="locatie" placeholder="Orașul și locația..">
+  						<input type="text" id="locatie" placeholder="Orașul și locația..">
   					</th>
   				</tr>
   				<tr>
 					<th>
   						<label for="facebook" >Adresa facebook:</label><br>
-  						<input type="text" id="facebook" name="facebook" placeholder="Adresa ta de facebook.." style="width: 205%;">
+  						<input type="text" id="facebook" placeholder="Adresa ta de facebook.." style="width: 205%;">
   					</th>
 				
   					</table>
@@ -100,7 +123,7 @@
   					<br>
 
   						<label for="poveste">Povestește despre evenimentului tau mai jos:</label><br>
-  						<textarea id="poveste" name="mesaj" rows="15" cols="45" placeholder="Povestește despre eveniment.." style="width: 50%;"></textarea>
+  						<textarea id="poveste" rows="15" cols="45" placeholder="Povestește despre eveniment.." style="width: 50%;"></textarea>
   						  <br><br>
   						<input type="submit">
 					</form> 
@@ -140,6 +163,6 @@
 			</div>
 		</div>
 	</footer>
-	<script src="..//js/form.js"></script>
+	<script src="./js/form.js"></script>
 </body>
 </html>
