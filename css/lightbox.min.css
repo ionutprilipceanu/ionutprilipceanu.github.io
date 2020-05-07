@@ -15,7 +15,7 @@ body.lb-disable-scrolling{
 	left:0;
 	z-index:9999;
 	background-color:#000;
-	filter:alpha(Opacity=80);
+	
 	opacity:.8;display:none;
 }
 
@@ -98,7 +98,7 @@ body.lb-disable-scrolling{
 	left:0;
 	float:left;
 	background:url(../images/prev.png) left 48% no-repeat;
-	filter:alpha(Opacity=0);
+	
 	opacity:0;
 	-webkit-transition:opacity .6s;
 	-moz-transition:opacity .6s;
@@ -107,7 +107,7 @@ body.lb-disable-scrolling{
 }
 
 .lb-nav a.lb-prev:hover{
-	filter:alpha(Opacity=100);
+	
 	opacity:1;
 
 }
@@ -117,7 +117,7 @@ body.lb-disable-scrolling{
 	right:0;
 	float:right;
 	background:url(../images/next.png) right 48% no-repeat;
-	filter:alpha(Opacity=0);
+	
 	opacity:0;
 	-webkit-transition:opacity .6s;
 	-moz-transition:opacity .6s;
@@ -127,7 +127,7 @@ body.lb-disable-scrolling{
 
 
 .lb-nav a.lb-next:hover{
-	filter:alpha(Opacity=100);
+	
 	opacity:1;
 }
 
@@ -183,7 +183,7 @@ body.lb-disable-scrolling{
 	background:url(../images/close.png) top right no-repeat;
 	text-align:right;
 	outline:0;
-	filter:alpha(Opacity=70);
+	
 	opacity:.7;
 	-webkit-transition:opacity .2s;
 	-moz-transition:opacity .2s;
@@ -193,6 +193,6 @@ body.lb-disable-scrolling{
 
 .lb-data .lb-close:hover{
 	cursor:pointer;
-	filter:alpha(Opacity=100);
+	
 	opacity:1;
 }
