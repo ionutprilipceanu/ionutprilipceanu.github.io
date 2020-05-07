@@ -122,8 +122,14 @@ table {
 		display: none;
 	}
 
-
-
+@media screen and (max-width: 320px) {
+	header .logo_mare{
+		padding-left: 20%;
+		padding-top: 0px;
+		margin-bottom: 15px;
+		margin-top: -80px !important;
+	}
+}
 
 @media screen and (max-width: 360px) {
 
@@ -925,7 +931,7 @@ table {
 	}
 
 	.chenar {
-		top: 12%;
+		top: 15%;
 		left: 2%;
 		right: 2%;
 		width: 300px;
@@ -963,17 +969,7 @@ table {
 
 	}
 
-	@media screen and (max-width: 325px) {
 
-		.chenar {
-		top: 12%;
-		left: 2%;
-		right: 2%;
-		width: 300px;
-		height: 50px;
-		
-	}
-	}
 
 	.poze img {
 		border-radius: 4px;
