@@ -630,6 +630,16 @@ table {
 		
 	}
 
+	#linie {
+		width: 20%;
+		opacity: 0.5;
+
+	}
+	
+	#linie:hover {
+		width: 50%;
+		transition: 0.5s ease-in-out;
+	}
 
 @keyframes myanimation {
 	0% {top:-370px;}
