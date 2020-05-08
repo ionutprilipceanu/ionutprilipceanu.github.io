@@ -577,6 +577,122 @@ table {
 }
 /* Aici se termina bara de navigare*/
 
+/* Aici incepe sectiunea*/
+
+	.scris h1 {
+		width: 75%;
+		margin-left: 6.5%;
+		color: #404040;
+		font-size: 140%;
+		padding: 1%;
+		z-index: -1;
+		
+		
+	}
+	
+	.scris p {
+		width: 85%;
+		padding: 1%;
+		margin-left: 6.5%;
+		color: #404040;
+		font-size: 120%;
+		text-align: justify;
+		z-index: -1;
+	}
+
+	.scris a {
+		text-decoration: none;
+		color: #404040;
+	}
+
+	.scris a:hover {
+		background-color: rgba(51, 51, 51, 0.25);
+		border-radius: 3px;
+		
+	}
+
+	.intro img {
+		padding: 0%;
+		border-collapse: collapse;
+		
+	}
+
+
+	.scris {
+		width: 75%;
+		margin-top: -0.5%;
+		margin-left: 12.5%;
+		background-color: #eee;
+		z-index: -1;
+		position: relative;
+		animation-name: myanimation;
+		animation-duration: 3s;
+
+		
+	}
+
+	#linie {
+		width: 20%;
+		opacity: 0.5;
+
+	}
+	
+	#linie:hover {
+		width: 50%;
+		transition: 0.5s ease-in-out;
+	}
+
+@keyframes myanimation {
+	0% {top:-370px;}
+	100% {top: 0px;}
+}
+
+	.box {
+		margin-left: 12.5%;
+		display: flex;
+		flex-direction: row;
+		width: 75%;
+		background-color: #eee;
+		border-radius: 0 0 10px 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.poze{
+		transition: 1s;
+		padding: 5px;
+		margin: 0.5%;
+		width: 20%;
+		opacity: 0.9;
+	}
+
+	.poze:hover {
+		
+		transform:scale(0.9);
+	}
+
+	@media screen and (max-width: 550px) {
+		.scris p {
+			font-size: 80%;
+			padding-bottom: 5px;
+		}
+
+		.intro {
+  		width: 100%;
+  		display: block;
+  	}
+
+ 	.intro img {
+  		margin-top: 0%;
+  		width: 100%;
+
+ 	}
+
+	}
+
+
+/* Aici se termina sectiunea */
+
 /* Aici incepe footer-ul */
 
 
