@@ -172,7 +172,7 @@ table {
 	}
 	
 	.dropdown-content { /* Aici se aliniaza ce-i sub portofoliu */
-  		margin-left: -4.75%;
+  		margin-left: -4.5%;
   		background-color: #aaa;
   		min-width: 160px;
   		box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.2);
@@ -393,7 +393,7 @@ table {
 	}
 	
 	.dropdown-content { /* Aici se aliniaza ce-i sub portofoliu */
-  		margin-left: -4.75%;
+  		margin-left: -4.5%;
   		background-color: #aaa;
   		min-width: 160px;
   		box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.2);
