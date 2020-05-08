@@ -463,7 +463,7 @@ table {
 	width: 60%;
 	height: 3px;
 	border-radius: 1.5px;
-	background-color: #111111;
+	background-color: #ffffff; /* aici schimbi culoarea la linia din mijloc*/
 	transition: .4s;
 }
 
@@ -473,7 +473,7 @@ table {
 	width: 100%;
 	height: 3px;
 	border-radius: 1.5px;
-	background-color: #ffffff;
+	background-color: #ffffff; /* aici schimbi culoarea la linia de sus*/
 	top: -10px;
 	left: 0;
 	transition: .4s;
@@ -485,7 +485,7 @@ table {
 	width: 100%;
 	height: 3px;
 	border-radius: 1.5px;
-	background-color: #111111;
+	background-color: #ffffff; /* aici schimbi culoarea la linia de jos*/
 	top: 10px;
 	left: 0;
 	transition: .4s;
