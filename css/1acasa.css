@@ -122,6 +122,18 @@ table {
 		display: none;
 	}
 
+@media screen and (max-width: 320px) {
+
+
+
+	header .logo_mare{
+		display: block;
+		padding-left: 20%;
+		padding-top: 10px;
+		margin-bottom: 15px;
+		margin-top: -80px;
+	}
+}
 
 
 @media screen and (max-width: 360px) {
