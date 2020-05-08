@@ -134,7 +134,7 @@ table {
 		padding-left: 20%;
 		padding-top: 10px;
 		margin-bottom: 15px;
-		margin-top: -20px;
+		margin-top: 0px;
 	}
 
 	header .logo_mare {
@@ -142,7 +142,7 @@ table {
 	}
 
 	.lista ul { 
-		visibility: hidden;
+		display: none;
 		margin-top: -20%;
 		width: 100%;
 	}
@@ -354,7 +354,7 @@ table {
 		padding-left: 20%;
 		padding-top: 10px;
 		margin-bottom: 15px;
-		margin-top: -20px;
+		margin-top: 0px;
 	}
 
 	header .logo_mare {
@@ -362,7 +362,7 @@ table {
 	}
 
 	.lista ul { 
-		visibility: hidden;
+		display: none;
 		margin-top: -20%;
 		width: 100%;
 	}

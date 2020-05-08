@@ -123,9 +123,7 @@ table {
 	}
 
 @media screen and (max-width: 320px) {
-
-
-
+	
 	header .logo_mare{
 		display: block;
 		padding-left: 20%;
