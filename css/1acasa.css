@@ -322,7 +322,7 @@ table {
 .menu > div > div > ul > li > a{
 	text-decoration: none;
 	
-	font-weight: 550;
+	
 	text-transform: uppercase;
 	text-align: center !important;
 	transition: .3s;
@@ -542,7 +542,7 @@ table {
 
 .menu > div > div > ul > li > a{
 	text-decoration: none;
-	font-weight: 550;
+	
 	text-transform: uppercase;
 	text-align: center !important;
 	transition: .3s;
