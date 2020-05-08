@@ -126,10 +126,12 @@ table {
 	
 	header .logo_mare{
 		display: block;
+		padding-top: 3%;
 		padding-left: 20%;
-		padding-top: 10px;
-		margin-bottom: 15px;
-		margin-top: 0px !important;
+		padding-bottom: 15px;
+		padding-right: 50px;
+		background-color: #111111;
+		margin-top: 0px;
 	}
 }
 
@@ -142,12 +144,13 @@ table {
 
 	header .logo_mare{
 		display: block;
+		padding-top: 3%;
 		padding-left: 20%;
-		padding-top: 10px;
-		margin-bottom: 15px;
+		padding-bottom: 15px;
+		padding-right: 50px;
+		background-color: #111111;
 		margin-top: 0px;
 	}
-
 
 	header .logo_mare {
 		float: left;
@@ -172,7 +175,7 @@ table {
 	}
 	
 	.dropdown-content { /* Aici se aliniaza ce-i sub portofoliu */
-  		margin-left: -4.75%;
+  		margin-left: -4.5%;
   		background-color: #aaa;
   		min-width: 160px;
   		box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.2);
@@ -322,7 +325,7 @@ table {
 .menu > div > div > ul > li > a{
 	text-decoration: none;
 	
-	font-weight: 550;
+	
 	text-transform: uppercase;
 	text-align: center !important;
 	transition: .3s;
@@ -363,9 +366,11 @@ table {
 
 	header .logo_mare{
 		display: block;
+		padding-top: 3%;
 		padding-left: 20%;
-		padding-top: 10px;
-		margin-bottom: 15px;
+		padding-bottom: 15px;
+		padding-right: 50px;
+		background-color: #111111;
 		margin-top: 0px;
 	}
 
@@ -393,7 +398,7 @@ table {
 	}
 	
 	.dropdown-content { /* Aici se aliniaza ce-i sub portofoliu */
-  		margin-left: -4.75%;
+  		margin-left: -4.5%;
   		background-color: #aaa;
   		min-width: 160px;
   		box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.2);
@@ -542,7 +547,7 @@ table {
 
 .menu > div > div > ul > li > a{
 	text-decoration: none;
-	font-weight: 550;
+	
 	text-transform: uppercase;
 	text-align: center !important;
 	transition: .3s;
@@ -575,6 +580,7 @@ table {
 
 }
 /* Aici se termina bara de navigare*/
+/* Aici incepe section*/
 
 	.contact {
 		margin:2% 10% 15% 10%;
