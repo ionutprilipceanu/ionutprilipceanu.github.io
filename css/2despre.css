@@ -143,12 +143,13 @@ table {
 
 	header .logo_mare{
 		display: block;
+		padding-top: 3%;
 		padding-left: 20%;
-		padding-top: 10px;
 		margin-bottom: 15px;
+		padding-right: 50px;
+		background-color: #111111;
 		margin-top: 0px;
 	}
-
 
 	header .logo_mare {
 		float: left;
@@ -364,9 +365,11 @@ table {
 
 	header .logo_mare{
 		display: block;
+		padding-top: 3%;
 		padding-left: 20%;
-		padding-top: 10px;
 		margin-bottom: 15px;
+		padding-right: 50px;
+		background-color: #111111;
 		margin-top: 0px;
 	}
 
