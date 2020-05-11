@@ -397,7 +397,7 @@ table {
 	}
 	
 	.dropdown-content { /* Aici se aliniaza ce-i sub portofoliu */
-  		margin-left: -4.75%;
+  		margin-left: -4%;
   		background-color: #aaa;
   		min-width: 160px;
   		z-index: 1;
