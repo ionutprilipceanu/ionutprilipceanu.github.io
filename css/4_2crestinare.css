@@ -50,7 +50,6 @@ table {
 }
 
 
-/
 /* INCEPUT TEXT CSS */
 /* BARA DE NAVIGARE */
 
@@ -694,7 +693,6 @@ table {
 
 
 
-
 /* Aici incepe footer-ul */
 
 
@@ -751,13 +749,16 @@ table {
 	@media screen and (max-width: 550px) {
 		.sectiune .logo {
 		padding-top: 3%;
-	}
+		}
 		.logo a {
 			font-size: 15px;
 		}
 		.sectiune p  {
-			font-size: 8px;
+			font-size: 9.5px;
 			margin: 0 4px;
 		}
+		
+		
+		
 	}
 	/* Aici se termina footer-ul*/
