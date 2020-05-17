@@ -998,6 +998,7 @@ table {
 		flex-direction: column;
 		z-index: 3;
 		background-color: #eee;
+		margin-right: -5%;
  	}
 
  	.coloana a {
