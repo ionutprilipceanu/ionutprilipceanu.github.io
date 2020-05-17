@@ -1135,7 +1135,7 @@ table {
 }
 
 .cookie-container p{
-  margin:10px 0 10px 0;
+  margin:10px 10px 10px 10px;
   
 }
 
@@ -1145,7 +1145,7 @@ table {
 
 .cookie-container a {
   color: #f5f6fa;
-  margin-right: 15px;
+  padding-right: 15px;
 }
 
 .cookie-btn {
