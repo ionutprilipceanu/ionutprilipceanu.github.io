@@ -578,8 +578,7 @@ table {
 /* Aici incepe continutul */
 
 .continut {
-	display: flex;
-	justify-content: center;
+	text-align: center;
 	width: 75%;
 	background-color: #eee;
 }
