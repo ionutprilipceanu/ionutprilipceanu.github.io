@@ -592,6 +592,14 @@ table {
 	color: rgb(0, 0, 0, 0.25);
 }
 
+.capitol h3 {
+	font-size: 15px;
+}
+
+.capitol p {
+	text-align: justify;
+}
+
 
 /* Aici se termina continutul */
 
