@@ -934,7 +934,7 @@ table {
 		margin-top: -7px;
 		padding: 2.5px;
 		width: 340px !important;
-		margin-left: 283px;
+		margin-left: 281px;
 	}
 
 	.prezentare {
@@ -1188,6 +1188,37 @@ table {
 			margin-bottom: 15px; 
 		}
 }
+
+@media screen and (max-width: 1200px) {
+		.cookie-container {
+  			flex-direction: column;
+		}
+
+		.cookie-container p{
+  			margin-top: 0;
+		}
+
+		.cookie-btn-detalii {
+			margin-bottom: 15px; 
+		}
+
+}
+
+@media screen and (max-width: 750px) {
+		.cookie-container {
+  			flex-direction: column;
+		}
+
+		.cookie-container p{
+  			margin-top: 0;
+		}
+
+		.cookie-btn-detalii {
+			margin-bottom: 15px; 
+		}
+
+}
+
 
 	@media screen and (max-width: 375px) {
 		.cookie-container {
