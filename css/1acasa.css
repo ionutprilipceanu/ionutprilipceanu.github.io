@@ -811,6 +811,13 @@ table {
 	.prezentare2 p {
 		padding-left: 10px !important;
 	}
+	
+	.coloana {
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		flex-direction: column;
+ 	}
 		
 }
 
