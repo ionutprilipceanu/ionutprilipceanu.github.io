@@ -1,1 +1,1 @@
-Cookies.set('fotograf', 'true')
+Cookies.set('fotograf', 'true');
