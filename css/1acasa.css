@@ -1139,6 +1139,7 @@ table {
   transition: 400ms;
   display: flex;
   flex-direction: row;
+   justify-content: center;
 }
 
 .cookie-container p{
@@ -1151,7 +1152,7 @@ table {
 
 .cookie-container a {
   color: #f5f6fa;
-  margin-right: 15px;
+  text-decoration: none;
 }
 
 .cookie-btn {
@@ -1186,7 +1187,6 @@ table {
 
 		.cookie-btn-detalii {
 			margin-bottom: 15px; 
-			margin-right: 0px; 
 		}
 }
 
@@ -1230,7 +1230,6 @@ table {
 
 		.cookie-btn-detalii {
 			margin-bottom: 15px; 
-			margin-right: 0px; 
 		}
 }
 
@@ -1245,7 +1244,6 @@ table {
 
 		.cookie-btn-detalii {
 			margin-bottom: 15px; 
-			margin-right: 0px; 
 		}
 }
 
