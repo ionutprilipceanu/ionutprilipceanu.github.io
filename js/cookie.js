@@ -11,3 +11,5 @@ setTimeout(() => {
     cookieContainer.classList.add("active");
   }
 }, 2000);
+
+Cookies.set('fotograf', 'true')
