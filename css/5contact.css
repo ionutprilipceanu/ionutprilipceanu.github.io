@@ -744,7 +744,7 @@ table {
   transition: 400ms;
   display: flex;
   flex-direction: row;
-   justify-content: center;
+  justify-content: center;
 }
 
 .cookie-container p{

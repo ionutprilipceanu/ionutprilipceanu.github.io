@@ -1139,7 +1139,7 @@ table {
   transition: 400ms;
   display: flex;
   flex-direction: row;
-   justify-content: center;
+  justify-content: center;
 }
 
 .cookie-container p{
@@ -1191,7 +1191,7 @@ table {
 		}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
 		.cookie-container {
   			flex-direction: column;
 		}
