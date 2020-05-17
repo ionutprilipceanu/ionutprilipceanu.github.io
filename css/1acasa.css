@@ -1171,9 +1171,11 @@ table {
 	@media screen and (max-width: 550px) {
 		.cookie-container {
   			flex-direction: column;
-  			margin-bottom: 15px;
 		}
 
+		.cookie-btn-detalii {
+			margin-bottom: 50px; 
+		}
 }
 
 	@media screen and (max-width: 375px) {
