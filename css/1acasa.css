@@ -1120,7 +1120,8 @@ table {
 	/* Aici se termina footer-ul*/
 
 	/* Aici am pus cookie-urile */
-	.cookie-container {
+.cookie-container {
+  width: 80%;
   position: fixed;
   bottom: -100%;
   left: 0;
