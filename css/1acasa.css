@@ -1170,8 +1170,11 @@ table {
 
 	@media screen and (max-width: 550px) {
 		.cookie-container {
-			margin-top: -10px;
   			flex-direction: column;
+		}
+
+		.cookie-container p{
+  			margin-top: 0;
 		}
 
 		.cookie-btn-detalii {
@@ -1184,6 +1187,10 @@ table {
   			flex-direction: column;
 		}
 
+		.cookie-container p{
+  			margin-top: 0;
+		}
+
 		.cookie-btn-detalii {
 			margin-bottom: 15px; 
 		}
@@ -1193,6 +1200,10 @@ table {
 	@media screen and (max-width: 360px) {
 		.cookie-container {
   			flex-direction: column;
+		}
+		
+		.cookie-container p{
+  			margin-top: 0;
 		}
 
 		.cookie-btn-detalii {
