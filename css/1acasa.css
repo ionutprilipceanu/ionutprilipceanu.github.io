@@ -890,6 +890,10 @@ table {
 		align-content: center;
 		justify-content: center;
 		flex-direction: column;
+		margin-top: -7px;
+		padding: 2.5px;
+		width: 340px !important;
+		margin-left: 283px;
  	}
 
 }
