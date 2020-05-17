@@ -851,8 +851,8 @@ table {
  	.coloana a {
 		margin-top: -7px;
 		padding: 2.5px;
-		width: 340px !important;
-		margin-left: 283px;
+		width: 360px !important;
+		margin-left: 295px;
 	}
 
 	.chenar {
@@ -1201,7 +1201,7 @@ table {
 		.cookie-container {
   			flex-direction: column;
 		}
-		
+
 		.cookie-container p{
   			margin-top: 0;
 		}
