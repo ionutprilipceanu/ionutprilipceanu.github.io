@@ -706,3 +706,131 @@ table {
 		}
 	}
 	/* Aici se termina footer-ul*/
+
+	/* Aici am pus cookie-urile */
+.cookie-container {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: #2f3640;
+  color: #f5f6fa;
+  padding: 15px 15px;
+  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+  transition: 400ms;
+  display: flex;
+  flex-direction: row;
+   justify-content: center;
+}
+
+.cookie-container p{
+  margin:10px 10px 10px 10px;
+}
+
+.cookie-container.active {
+  bottom: 0;
+}
+
+.cookie-container a {
+  color: #f5f6fa;
+  text-decoration: none;
+}
+
+.cookie-btn {
+  background: #111111;
+  border: 0;
+  color: #f5f6fa;
+  padding: 12px 12px;
+  font-size: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cookie-btn-detalii {
+  background: #111111;
+  border: 0;
+  color: #f5f6fa;
+  padding: 12px 12px;
+  font-size: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px; 
+}
+
+@media screen and (max-width: 550px) {
+		.cookie-container {
+  			flex-direction: column;
+		}
+
+		.cookie-container p{
+  			margin-top: 0;
+		}
+
+		.cookie-btn-detalii {
+			margin-bottom: 15px; 
+			margin-right: 0px; 
+		}
+}
+
+@media screen and (max-width: 1200px) {
+		.cookie-container {
+  			flex-direction: column;
+		}
+
+		.cookie-container p{
+  			margin-top: 0;
+		}
+
+		.cookie-btn-detalii {
+			margin-bottom: 15px; 
+			margin-right: 0px; 
+		}
+}
+
+@media screen and (max-width: 790px) {
+		.cookie-container {
+  			flex-direction: column;
+		}
+
+		.cookie-container p{
+  			margin-top: 0;
+		}
+
+		.cookie-btn-detalii {
+			margin-bottom: 15px;  
+			margin-right: 0px; 
+		}
+}
+
+
+	@media screen and (max-width: 375px) {
+		.cookie-container {
+  			flex-direction: column;
+		}
+
+		.cookie-container p{
+  			margin-top: 0;
+		}
+
+		.cookie-btn-detalii {
+			margin-bottom: 15px; 
+			margin-right: 0px; 
+		}
+}
+
+	@media screen and (max-width: 360px) {
+		.cookie-container {
+  			flex-direction: column;
+		}
+
+		.cookie-container p{
+  			margin-top: 0;
+		}
+
+		.cookie-btn-detalii {
+			margin-bottom: 15px; 
+			margin-right: 0px; 
+		}
+}
+
+/* Aici se termina cookie-urile */
