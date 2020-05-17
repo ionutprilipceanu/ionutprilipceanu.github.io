@@ -1121,7 +1121,6 @@ table {
 
 	/* Aici am pus cookie-urile */
 .cookie-container {
-  
   position: fixed;
   bottom: -100%;
   left: 0;
@@ -1134,8 +1133,8 @@ table {
 }
 
 .cookie-container p{
+  margin:0 15% 10px 15%;
   
-  margin-bottom: 10px;
 }
 
 .cookie-container.active {
