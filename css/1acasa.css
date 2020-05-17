@@ -1127,7 +1127,7 @@ table {
   right: 0;
   background: #2f3640;
   color: #f5f6fa;
-  padding: 15px 20px;
+  padding: 15px 15px;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
   transition: 400ms;
   display: flex;
@@ -1145,6 +1145,7 @@ table {
 
 .cookie-container a {
   color: #f5f6fa;
+  padding-right: 15px;
 }
 
 .cookie-btn {
@@ -1155,6 +1156,7 @@ table {
   font-size: 12px;
   border-radius: 8px;
   cursor: pointer;
+  padding-right: 15px;
 }
 
 /* Aici se termina cookie-urile */
