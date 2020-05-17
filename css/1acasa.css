@@ -1166,12 +1166,12 @@ table {
   font-size: 12px;
   border-radius: 8px;
   cursor: pointer;
-  margin-right: 15px;
 }
 
 	@media screen and (max-width: 550px) {
 		.cookie-container {
   			flex-direction: column;
+  			margin-bottom: 15px;
 		}
 
 }
