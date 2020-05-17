@@ -1156,6 +1156,7 @@ table {
   font-size: 12px;
   border-radius: 8px;
   cursor: pointer;
+  text-align: center;
 }
 
 .cookie-btn-detalii {
@@ -1167,6 +1168,7 @@ table {
   border-radius: 8px;
   cursor: pointer;
   margin-right: 15px;
+  text-align: center;
 }
 
 
