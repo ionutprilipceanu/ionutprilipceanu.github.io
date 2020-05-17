@@ -1169,6 +1169,23 @@ table {
   margin-right: 15px;
 }
 
+	@media screen and (max-width: 550px) {
+		.cookie-container {
+  			flex-direction: column;
+		}
+
+}
+
+	@media screen and (max-width: 375px) {
+	
+
+}
+
+	@media screen and (max-width: 360px) {
+	
+
+}
+
 
 
 /* Aici se termina cookie-urile */
