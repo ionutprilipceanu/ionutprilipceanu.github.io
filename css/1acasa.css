@@ -1179,12 +1179,24 @@ table {
 }
 
 	@media screen and (max-width: 375px) {
-	
+		.cookie-container {
+  			flex-direction: column;
+		}
+
+		.cookie-btn-detalii {
+			margin-bottom: 15px; 
+		}
 
 }
 
 	@media screen and (max-width: 360px) {
-	
+		.cookie-container {
+  			flex-direction: column;
+		}
+
+		.cookie-btn-detalii {
+			margin-bottom: 15px; 
+		}
 
 }
 
