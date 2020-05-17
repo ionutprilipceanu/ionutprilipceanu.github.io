@@ -1170,6 +1170,7 @@ table {
 
 	@media screen and (max-width: 550px) {
 		.cookie-container {
+			margin-top: -10px;
   			flex-direction: column;
 		}
 
