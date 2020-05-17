@@ -776,6 +776,7 @@ table {
   transition: 400ms;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .cookie-container p{
@@ -788,7 +789,7 @@ table {
 
 .cookie-container a {
   color: #f5f6fa;
-  margin-right: 15px;
+  text-decoration: none;
 }
 
 .cookie-btn {
@@ -810,7 +811,6 @@ table {
   border-radius: 8px;
   cursor: pointer;
   margin-right: 10px; 
-  text-decoration: none;
 }
 
 @media screen and (max-width: 550px) {
