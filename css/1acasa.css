@@ -1121,7 +1121,7 @@ table {
 
 	/* Aici am pus cookie-urile */
 .cookie-container {
-  width: 80%;
+  
   position: fixed;
   bottom: -100%;
   left: 0;
@@ -1131,6 +1131,11 @@ table {
   padding: 15px 32px;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
   transition: 400ms;
+}
+
+.cookie-container p{
+  
+  margin-bottom: 10px;
 }
 
 .cookie-container.active {
