@@ -776,7 +776,7 @@ table {
   transition: 400ms;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .cookie-container p{
