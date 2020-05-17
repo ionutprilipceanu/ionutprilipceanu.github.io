@@ -809,6 +809,7 @@ table {
   font-size: 12px;
   border-radius: 8px;
   cursor: pointer;
+  margin-right: 10px; 
 }
 
 @media screen and (max-width: 550px) {
@@ -822,6 +823,7 @@ table {
 
 		.cookie-btn-detalii {
 			margin-bottom: 15px; 
+			margin-right: 0px; 
 		}
 }
 
@@ -865,6 +867,7 @@ table {
 
 		.cookie-btn-detalii {
 			margin-bottom: 15px; 
+			margin-right: 0px; 
 		}
 }
 
@@ -879,7 +882,10 @@ table {
 
 		.cookie-btn-detalii {
 			margin-bottom: 15px; 
+			margin-right: 0px; 
 		}
 }
+
+
 
 /* Aici se termina cookie-urile */
