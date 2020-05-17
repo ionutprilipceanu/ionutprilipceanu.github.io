@@ -1130,6 +1130,8 @@ table {
   padding: 15px 32px;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
   transition: 400ms;
+  display: flex;
+  flex-direction: row;
 }
 
 .cookie-container p{
