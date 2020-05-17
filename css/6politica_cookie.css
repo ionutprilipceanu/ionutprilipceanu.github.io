@@ -578,9 +578,9 @@ table {
 /* Aici incepe continutul */
 
 .continut {
-	text-align: center;
 	width: 75%;
 	background-color: #eee;
+	margin: 0 12.5% 0 12.5%;
 }
 
 .continut h1 {
