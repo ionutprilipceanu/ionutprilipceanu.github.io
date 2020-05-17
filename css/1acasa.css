@@ -1172,7 +1172,6 @@ table {
   font-size: 12px;
   border-radius: 8px;
   cursor: pointer;
-  margin-right: 10px; 
 }
 
 @media screen and (max-width: 550px) {
