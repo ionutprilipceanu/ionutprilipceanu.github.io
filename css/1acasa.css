@@ -1135,7 +1135,7 @@ table {
 }
 
 .cookie-container p{
-  margin:10px 20px 10px 10px;
+  margin:10px 10px 10px 10px;
   
 }
 
@@ -1156,7 +1156,17 @@ table {
   font-size: 12px;
   border-radius: 8px;
   cursor: pointer;
-  
+}
+
+.cookie-btn-detalii {
+  background: #111111;
+  border: 0;
+  color: #f5f6fa;
+  padding: 12px 12px;
+  font-size: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 15px;
 }
 
 
