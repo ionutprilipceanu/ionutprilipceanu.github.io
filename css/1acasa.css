@@ -771,8 +771,8 @@ table {
  	.coloana a {
 		margin-top: -7px;
 		padding: 2.5px;
-		width: 340px !important;
-		margin-left: 283px;
+		width: 385px !important;
+		margin-left: 325px;
 	}
 
 	.chenar {
@@ -811,7 +811,7 @@ table {
 	.prezentare2 p {
 		padding-left: 10px !important;
 	}
-	
+
 	.coloana {
 		display: flex;
 		align-content: center;
