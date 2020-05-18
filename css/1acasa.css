@@ -1186,7 +1186,6 @@ table {
 		display: block;
 		padding-left: 2%;
 		text-align: center;
-
 	}
 
 		.scris_sus {
@@ -1197,11 +1196,9 @@ table {
 
 	@media screen and (max-width: 450px) {
 
-		
 		.scris_jos ul {
 		display: block;
 		padding-left: 2%;
-
 	}
 
 		.scris_sus {
@@ -1217,11 +1214,11 @@ table {
 		text-align: center;
 		margin-right: 0;
 	}
+
 		.logo a {
 			font-size: 30px;
 			padding: 0 3%;
 		}
-	
 	}
 	/* Aici se termina footer-ul*/
 
