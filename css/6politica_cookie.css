@@ -653,6 +653,11 @@ table {
 }
 
 .continut h1 {
+	font-size: 30px;
+	font-family: Engravers MT Expanded Medium;
+}
+
+.capitol h3 {
 	font-size: 20px;
 	font-family: Engravers MT Expanded Medium;
 }
@@ -664,8 +669,15 @@ table {
 	padding: 3% 2% 5% 2%;
 	margin: 0;
 }
+.continut h1 {
+	font-size: 30px;
+	font-family: Engravers MT Expanded Medium;
+}
 
-
+.capitol h3 {
+	font-size: 20px;
+	font-family: Engravers MT Expanded Medium;
+}
 } 
 
 /* Aici se termina continutul */
