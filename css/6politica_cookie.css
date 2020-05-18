@@ -648,16 +648,24 @@ table {
 @media screen and (max-width:550px) {
 .continut {
 	width: 100%;
-
 	padding: 3% 2% 5% 2%;
+}
+
+.continut h1 {
+	font-size: 20px;
+	font-family: Engravers MT Expanded Medium;
 }
 } 
 
 @media screen and (max-width:450px) {
 .continut {
 	width: 100%;
-	
 	padding: 3% 2% 5% 2%;
+}
+
+.continut h1 {
+	font-size: 20px;
+	font-family: Engravers MT Expanded Medium;
 }
 } 
 
