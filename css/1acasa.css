@@ -65,7 +65,7 @@ table {
 		float: left;
 	}
 
-	li a, .dropbtn {
+	.menu li a, .dropbtn {
 		display: inline-block;
 		color: white;
 		text-align: center;
@@ -1137,7 +1137,7 @@ table {
 		padding-left: 2%;
 	}
 
-	.scris_jos a: hover {
+	.scris_jos a:hover {
 		opacity: 0.75;
 	}
 
