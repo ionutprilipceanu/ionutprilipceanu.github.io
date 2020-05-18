@@ -1137,6 +1137,10 @@ table {
 		padding-left: 2%;
 	}
 
+	.scris_jos: hover {
+		opacity: 0.75;
+	}
+
 
 	.politici ul li {
 		justify-content: space-around;
