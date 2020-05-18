@@ -132,6 +132,19 @@ table {
 
 @media screen and (max-width: 360px) {
 
+		/* Aici gasesti setarile pentru logo meniu telefon*/
+	.logo_superior {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.logo_superior a {
+		font-size: 30px;
+		margin: 0 -10% !important;
+	} 
+
+	/* Aici se termina setarile pentru logo din meniu telefon*/
+
 	.menu-wrap {
 		display: block;
 	}
@@ -352,6 +365,19 @@ table {
 
 
 @media screen and (max-width: 450px) {
+
+		/* Aici gasesti setarile pentru logo meniu telefon*/
+	.logo_superior {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.logo_superior a {
+		font-size: 30px;
+		margin: 0 -10% !important;
+	} 
+
+	/* Aici se termina setarile pentru logo din meniu telefon*/
 
 	.menu-wrap {
 		display: block;
