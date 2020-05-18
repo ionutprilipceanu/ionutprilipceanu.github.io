@@ -661,6 +661,12 @@ table {
 	font-size: 20px;
 	font-family: Engravers MT Expanded Medium;
 }
+
+.capitol p {
+	font-size: 10px;
+	font-family: Engravers MT Expanded Medium;
+	text-indent: 2%;
+}
 } 
 
 @media screen and (max-width:450px) {
@@ -677,6 +683,12 @@ table {
 .capitol h3 {
 	font-size: 20px;
 	font-family: Engravers MT Expanded Medium;
+}
+
+.capitol p {
+	font-size: 10px;
+	font-family: Engravers MT Expanded Medium;
+	text-indent: 2%;
 }
 } 
 
