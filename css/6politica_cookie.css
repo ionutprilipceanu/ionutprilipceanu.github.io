@@ -575,37 +575,76 @@ table {
 }
 /* Aici se termina bara de navigare*/
 
+
 /* Aici incepe continutul */
 
 .continut {
 	width: 75%;
-	background-color: #eee;
-	margin: 0 12.5% 0 12.5%;
-	padding: 5% 2% 5% 2%;
+	background-color: rgba(238,238,238, 0.40);
+	margin: -15px 12.5% 0 12.5%;
+	padding: 3% 2% 5% 2%;
 }
 
 .continut h1 {
 	text-align: center;
-	margin-bottom: 2%;
+	margin-bottom: 5%;
 	font-size: 50px;
 	letter-spacing: 1%;
-	color: rgb(0, 0, 0, 0.5);
+	color: rgb(0, 0, 0, 0.6);
 	font-family: Engravers MT Expanded Medium;
 }
 
 .capitol h3 {
 	font-size: 30px;
 	font-family: Engravers MT Expanded Medium;
-	color: rgb(0, 0, 0, 0.5);
+	color: rgb(0, 0, 0, 0.6);
+	margin-bottom: 1%;
 }
 
 .capitol p {
 	font-size: 20px;
 	text-align: justify;
 	font-family: Engravers MT Expanded Medium;
-	color: rgb(0, 0, 0, 0.5);
+	color: rgb(0, 0, 0, 0.6);
+	text-indent: 5%;
+	margin-bottom: 3%;
 }
 
+.capitol ul {
+	font-size: 20px;
+	text-align: justify;
+	font-family: Engravers MT Expanded Medium;
+	color: rgb(0, 0, 0, 0.6);
+	margin-top: -2.5%;
+}
+
+.capitol ol{
+	font-size: 20px;
+	text-align: justify;
+	font-family: Engravers MT Expanded Medium;
+	color: rgb(0, 0, 0, 0.6);
+	margin-top: -2.5%;
+	margin-left: 5%;
+}
+
+.capitol h4 {
+	font-size: 20px;
+	font-family: Engravers MT Expanded Medium;
+	color: rgb(0, 0, 0, 0.6);
+	margin-bottom: 1%;
+	margin-top: 2%;
+}
+
+.setari a{
+	color: rgb(0, 0, 0, 0.6); 
+	margin: 0;
+	padding: 0;
+	
+}
+
+.setari li {
+	list-style-type: none;
+}
 
 /* Aici se termina continutul */
 
