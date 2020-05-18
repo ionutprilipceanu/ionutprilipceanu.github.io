@@ -316,7 +316,7 @@ table {
 
 .menu > div {
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translateX(-150%) translateY(-50%);
     width: 2600px;
