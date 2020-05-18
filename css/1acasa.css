@@ -1156,6 +1156,7 @@ table {
 
 		.politici{
 			flex-direction: column;
+			letter-spacing: 1px;
 		}
 
 		.politici ul {
