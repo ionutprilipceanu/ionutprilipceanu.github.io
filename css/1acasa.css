@@ -1122,6 +1122,7 @@ table {
 		display: flex;
 		flex-direction: row;
 		width: 100%
+		letter-spacing:1px;
 	}
 
 	.scris_sus {
