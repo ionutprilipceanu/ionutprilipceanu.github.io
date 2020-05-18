@@ -648,12 +648,16 @@ table {
 @media screen and (max-width:550px) {
 .continut {
 	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 } 
 
 @media screen and (max-width:450px) {
 .continut {
 	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 } 
 
