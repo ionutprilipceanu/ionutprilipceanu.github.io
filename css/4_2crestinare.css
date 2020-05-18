@@ -721,71 +721,132 @@ table {
 
 /* Aici incepe footer-ul */
 
-
-	.sectiune {
-		display: flex;
-		flex-wrap: nowrap;
-		width: 100%;
-		height: auto;
-		background-color: #333333;
-		text-align: center;
-	}
-
-	.sectiune .scrisst {
-		width: 33.3%;
-		font-size: 90%;
-		padding: 1%;
-		color: #f3f3f3;
-
-	}
-
-	.sectiune .logo {
-		padding-top: 1.5%; 
-		width: 33.3%;
+	.politici .logo {
+		padding-top: 0; 
 		color: white;
+		margin-right: 15px;
 	}
 
 	.logo a {
 		color: white;
 		opacity: 0.5;
-		padding-left: 7.5px;
+		padding-left: 8px;
 		font-size: 20px;
 	}
 
 	.logo a:hover {
 		opacity: 1;
 	}
+	
 
-	.sectiune .scrisdr {
-		width: 33.3%;
-		font-size: 90%;
-		padding: 1%;
-		color: #f3f3f3;
+	.politici {
+		list-style-type: none;
+		background-color: #333333;
+		color: white;
+		padding: 2% 0;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		letter-spacing:0.5px;
 	}
 
-	.textst {
-		text-align: left;
+	.scris_sus {
+		display: flex;
+		flex-direction: row;
+		padding-left: 2%;
 	}
 
-	.textdr {
-		text-align: right;
+	.scris_jos{
+		display: flex;
+		flex-direction: row;
+		padding-left: 2%;
+	}
+
+	.scris_jos a:hover {
+		opacity: 0.75;
+	}
+
+
+	.politici ul li {
+		justify-content: space-around;
+		padding: 2px;
+	}
+
+	.documentatie {
+		flex-grow: 10;
+	}
+
+	.logo {
+		flex-grow: 2;
 	}
 
 
 	@media screen and (max-width: 550px) {
-		.sectiune .logo {
-		padding-top: 3%;
+
+		.politici{
+			flex-direction: column;
+			letter-spacing: 1px;
 		}
+
+		.politici ul {
+			flex-direction: column;
+			text-align: center;
+		}
+
+		.politici .logo {
+		padding: 3% 0;
+		text-align: center;
+		margin-right: 0;
+	}
 		.logo a {
-			font-size: 15px;
+			font-size: 30px;
+			padding: 0 3%;
 		}
-		.sectiune p  {
-			font-size: 9.5px;
-			margin: 0 4px;
+
+		.bara {
+			display: none;
 		}
-		
+
+		.scris_jos a{
+		display: block;
+		padding-left: 2%;
+		text-align: center;
+	}
+
+		.scris_sus {
+		display: none;
+	}
+	
+	}
+
+	@media screen and (max-width: 450px) {
+
+		.scris_jos ul {
+		display: block;
+		padding-left: 2%;
+	}
+
+		.scris_sus {
+		display: none;
+	}
+
+		.scris_jos a{
+			width: auto;
+		}
+
+		.politici .logo {
+		padding: 3% 0;
+		text-align: center;
+		margin-right: 0;
+	}
+
+		.logo a {
+			font-size: 30px;
+			padding: 0 3%;
+		}
 	}
 	/* Aici se termina footer-ul*/
+
 
 	/* Aici am pus cookie-urile */
 .cookie-container {
