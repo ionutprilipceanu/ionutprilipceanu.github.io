@@ -645,6 +645,18 @@ table {
 	list-style-type: none;
 }
 
+@media screen and (max-width:550px) {
+.continut {
+	width: 100%;
+}
+} 
+
+@media screen and (max-width:450px) {
+.continut {
+	width: 100%;
+}
+} 
+
 /* Aici se termina continutul */
 
 /* Aici am pus cookie-urile */
