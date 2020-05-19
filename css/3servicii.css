@@ -605,7 +605,7 @@ table {
 	.scris h1 {
 		width: 75%;
 		margin-left: 6.5%;
-		color: #404040;
+		color: rgb(0, 0, 0, 0.6);
 		font-size: 140%;
 		padding: 2% 1% 0 1%;
 		z-index: -1;
@@ -615,7 +615,7 @@ table {
 		width: 85%;
 		padding: 0 1% 1% 1%;
 		margin-left: 6.5%;
-		color: #404040;
+		color: rgb(0, 0, 0, 0.6);
 		font-size: 120%;
 		text-align: justify;
 		z-index: -1;
@@ -623,7 +623,7 @@ table {
 
 	a {
 		text-decoration: none;
-		color: #404040;
+		color: rgb(0, 0, 0, 0.6);
 	}
 
 	a:hover {
