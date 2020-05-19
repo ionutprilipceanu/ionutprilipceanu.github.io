@@ -742,7 +742,7 @@ table {
 	
 
 	.politici {
-		list-style-type: none;
+		list-style: none;
 		background-color: #333333;
 		color: white;
 		padding: 2% 0;
@@ -756,12 +756,14 @@ table {
 		display: flex;
 		flex-direction: row;
 		padding-left: 2%;
+		list-style: none;
 	}
 
 	.scris_jos{
 		display: flex;
 		flex-direction: row;
 		padding-left: 2%;
+		list-style: none;
 	}
 
 	.scris_jos a:hover {
@@ -782,8 +784,43 @@ table {
 		flex-grow: 2;
 	}
 
+	@media screen and (max-width: 800px) {
 
-	@media screen and (max-width: 550px) {
+		.politici{
+			flex-direction: column;
+			letter-spacing: 1px;
+		}
+
+		.politici ul {
+			text-align: center;
+			list-style: none;
+		}
+
+		.politici .logo {
+		padding: 3% 0;
+		text-align: center;
+		margin-right: 0;
+	}
+		.logo a {
+			font-size: 30px;
+			padding: 0 3%;
+		}
+
+		.bara {
+			display: none;
+		}
+
+		.scris_jos a{
+		display: block;
+		padding-left: 2%;
+		text-align: center;
+	}
+	
+	}
+
+
+
+	@media screen and (max-width: 700px) {
 
 		.politici{
 			flex-direction: column;
