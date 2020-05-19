@@ -187,7 +187,7 @@ table {
 	.menu li a, .dropbtn { /* Aici se alinieaza header-ul X*/
 		width: 250%;
 		padding: 26px 0;
-		margin-left: -65%;
+		margin-left: -75%;
 		text-align: center !important;
 	}
 
@@ -420,7 +420,7 @@ table {
 	.menu li a, .dropbtn { /* Aici se alinieaza header-ul X*/
 		width: 250%;
 		padding: 16px 0;
-		margin-left: -65%;
+		margin-left: -75%;
 		text-align: center !important;
 	}
 
