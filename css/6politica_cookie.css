@@ -789,8 +789,8 @@ table {
 		}
 
 		.politici ul {
-			flex-direction: column;
 			text-align: center;
+			list-style: none;
 		}
 
 		.politici .logo {
