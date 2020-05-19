@@ -741,7 +741,7 @@ table {
 	
 
 	.politici {
-		list-style-type: none;
+		list-style: none;
 		background-color: #333333;
 		color: white;
 		padding: 2% 0;
@@ -755,12 +755,14 @@ table {
 		display: flex;
 		flex-direction: row;
 		padding-left: 2%;
+		list-style: none;
 	}
 
 	.scris_jos{
 		display: flex;
 		flex-direction: row;
 		padding-left: 2%;
+		list-style: none;
 	}
 
 	.scris_jos a:hover {
