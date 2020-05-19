@@ -604,7 +604,8 @@ table {
 
 .continut {
 	width: 75%;
-	background-color: rgba(238,238,238, 0.40);
+	background-color: rgba(238,238,238, 0.25);
+    border-radius: 0 0 10px 10px;
 	margin: 0 12.5% 0 12.5%;
 	padding: 3% 2% 5% 2%;
 }
