@@ -615,12 +615,12 @@ table {
 	font-size: 50px;
 	letter-spacing: 1%;
 	color: rgb(0, 0, 0, 0.6);
-	font-family: Engravers MT Expanded Medium;
+	font-family: "Engravers MT Expanded Medium";
 }
 
 .capitol h3 {
 	font-size: 30px;
-	font-family: Engravers MT Expanded Medium;
+	font-family: "Engravers MT Expanded Medium";
 	color: rgb(0, 0, 0, 0.6);
 	margin-bottom: 1%;
 }
@@ -628,7 +628,7 @@ table {
 .capitol p {
 	font-size: 20px;
 	text-align: justify;
-	font-family: Engravers MT Expanded Medium;
+	font-family: "Engravers MT Expanded Medium";
 	color: rgb(0, 0, 0, 0.6);
 	text-indent: 5%;
 	margin-bottom: 3%;
@@ -637,7 +637,7 @@ table {
 .capitol ul {
 	font-size: 20px;
 	text-align: justify;
-	font-family: Engravers MT Expanded Medium;
+	font-family: "Engravers MT Expanded Medium";
 	color: rgb(0, 0, 0, 0.6);
 	margin-top: -2.5%;
 	margin-left: 5%;
@@ -647,7 +647,7 @@ table {
 .capitol ol{
 	font-size: 20px;
 	text-align: justify;
-	font-family: Engravers MT Expanded Medium;
+	font-family: "Engravers MT Expanded Medium";
 	color: rgb(0, 0, 0, 0.6);
 	margin-top: -2.5%;
 	margin-left: 5%;
@@ -655,7 +655,7 @@ table {
 
 .capitol h4 {
 	font-size: 20px;
-	font-family: Engravers MT Expanded Medium;
+	font-family: "Engravers MT Expanded Medium";
 	color: rgb(0, 0, 0, 0.6);
 	margin-bottom: 1%;
 	margin-top: 2%;
@@ -681,17 +681,17 @@ table {
 
 .continut h1 {
 	font-size: 30px;
-	font-family: Engravers MT Expanded Medium;
+	font-family: "Engravers MT Expanded Medium";
 }
 
 .capitol h3 {
 	font-size: 20px;
-	font-family: Engravers MT Expanded Medium;
+	font-family: "Engravers MT Expanded Medium";
 }
 
 .capitol p {
 	font-size: 15px;
-	font-family: Engravers MT Expanded Medium;
+	font-family: "Engravers MT Expanded Medium";
 	text-indent: 2%;
 }
 } 
@@ -704,17 +704,17 @@ table {
 }
 .continut h1 {
 	font-size: 30px;
-	font-family: Engravers MT Expanded Medium;
+	font-family: "Engravers MT Expanded Medium";
 }
 
 .capitol h3 {
 	font-size: 20px;
-	font-family: Engravers MT Expanded Medium;
+	font-family: "Engravers MT Expanded Medium";
 }
 
 .capitol p {
 	font-size: 15px;
-	font-family: Engravers MT Expanded Medium;
+	font-family: "Engravers MT Expanded Medium";
 	text-indent: 2%;
 }
 } 
