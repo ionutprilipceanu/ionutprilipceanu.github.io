@@ -22,7 +22,13 @@ console.log(localStorage.getItem('botez'))
 
 cookieButton.addEventListener("click", () => {
   cookieContainer.classList.remove("active");
-  localStorage.setItem("nunta", "mireasa");
+  localStorage.setItem("petrecere", "invitati");
 });
 
 document.cookie = "nunta=mireasa; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+
+document.cookie = "nunta=mire; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+
+document.cookie = "nunta=fotograf; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+
+document.cookie = "accesorii_nunta=invitatii; expires=Fri, 31 Dec 9999 23:59:59 GMT";
