@@ -124,12 +124,12 @@ table {
 	.lista{
 		display: flex;
 		flex-direction: row;
-		background-color: #333333;
+		/*background-color: #333333;*/
 	}
 
 	.logo_laptop {
-		padding-top: 17px;
-		margin-right: 16px;
+		padding-top: 18px;
+		margin-right: 100px;
 		width: 30%;
 		text-align: right;
 		font-size: 20px;
@@ -147,7 +147,7 @@ table {
 
 
 
-	@media screen and (max-width: 815px) {
+	@media screen and (max-width: 900px) {
 		.logo_laptop {
 			display: none;
 		}
