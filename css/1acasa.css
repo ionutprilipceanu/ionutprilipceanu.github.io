@@ -132,6 +132,7 @@ table {
 
 	.logo_laptop a:hover {
 		opacity: 1
+		background-color: black;
 	}
 
 	@media screen and (max-width: 810px) {
