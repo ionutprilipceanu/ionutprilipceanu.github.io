@@ -57,7 +57,6 @@ table {
 		margin-top: 0;
 		padding: 1px;
 		overflow: hidden;
-		background-color: #333333;
 		width: 100%;
 	}
 
@@ -125,14 +124,17 @@ table {
 	.lista{
 		display: flex;
 		flex-direction: row;
+		background-color: #333333;
 	}
 
 	.logo_laptop {
-		background-color: #333333;
+		margin-right: 10px;
 		width: 25%;
 	}
+
 	.logo_laptop a {
 		opacity: 0.5;
+		padding: 16px;
 	}
 
 	.logo_laptop a:hover {
