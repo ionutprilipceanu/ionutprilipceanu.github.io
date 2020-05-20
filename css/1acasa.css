@@ -127,6 +127,8 @@ table {
 		background-color: #333333;
 	}
 
+
+/* Aici gasesti setarile pentru logo meniu laptopului*/
 	.logo_laptop {
 		padding-top: 18px;
 		margin-right: 100px;
@@ -152,6 +154,8 @@ table {
 			display: none;
 		}
 	}
+	/* Aici se termina setarile pentru logo din meniu laptopului*/
+
 
 @media screen and (max-width: 320px) {
 	
