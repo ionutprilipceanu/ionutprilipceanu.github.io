@@ -128,10 +128,11 @@ table {
 	}
 
 	.logo_laptop {
-		padding-top: 16px;
+		padding-top: 17px;
 		margin-right: 16px;
 		width: 30%;
 		text-align: right;
+		font-size: 20px;
 	}
 
 	.logo_laptop a {
@@ -146,7 +147,7 @@ table {
 
 
 
-	@media screen and (max-width: 810px) {
+	@media screen and (max-width: 815px) {
 		.logo_laptop {
 			display: none;
 		}
