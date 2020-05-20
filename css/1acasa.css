@@ -130,9 +130,9 @@ table {
 		opacity: 0.5;
 	}
 
-	.logo_laptop a:hover {
+	.lista li .logo_laptop a:hover {
 		opacity: 1
-		background-color: black;
+		background-color: red;
 	}
 
 	@media screen and (max-width: 810px) {
