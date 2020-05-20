@@ -130,6 +130,7 @@ table {
 	.logo_laptop {
 		margin-right: 10px;
 		width: 30%;
+		text-align: right;
 	}
 
 	.logo_laptop a {
