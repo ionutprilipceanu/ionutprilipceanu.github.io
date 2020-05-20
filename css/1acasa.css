@@ -122,18 +122,11 @@ table {
 		display: none;
 	}
 
-	.logo_laptop {
-		margin-right: 10px;
-	}
-
 	.logo_laptop a {
 		opacity: 0.5;
 	}
 
-	.lista li .logo_laptop a:hover {
-		opacity: 1
-		background-color: red;
-	}
+
 
 	@media screen and (max-width: 810px) {
 		.logo_laptop {
