@@ -14,6 +14,10 @@ setTimeout(() => {
 
 
 
+
+
+
+
 cookieButton.addEventListener("click", () => {
   cookieContainer.classList.remove("active");
   localStorage.setItem("nunta", "fotograf");
@@ -42,4 +46,4 @@ cookieButton.addEventListener("click", () => {
   localStorage.setItem("nunta", "mireasa");
 });
 
-document.cookie = "hello=true"
+document.cookie = "nunta=mireasa; expires=Fri, 31 Dec 9999 23:59:59 GMT";
