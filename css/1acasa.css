@@ -122,18 +122,6 @@ table {
 		display: none;
 	}
 
-	.logo_laptop {
-		margin-left: 15px;
-		display: flex;
-		flex-direction: row;
-	}
-
-/*@media screen and (max-width: 810px) {
-	.logo_laptop {
-		display: none;
-	} */
-}
-
 @media screen and (max-width: 320px) {
 	
 	header .logo_mare{
@@ -151,7 +139,6 @@ table {
 		font-size: 30px;
 		margin: 0 -10% !important;
 	}
-
 }
 
 
@@ -167,15 +154,6 @@ table {
 		font-size: 30px;
 		margin: 0 -10% !important;
 	} 
-
-	.logo_laptop {
-		margin-left: 15px;
-		display: flex;
-		flex-direction: row;
-	}
-}
-
-
 
 	/* Aici se termina setarile pentru logo din meniu telefon*/
 
