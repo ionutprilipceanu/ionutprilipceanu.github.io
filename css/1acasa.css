@@ -124,7 +124,7 @@ table {
 	.lista{
 		display: flex;
 		flex-direction: row;
-		/*background-color: #333333;*/
+		background-color: #333333;
 	}
 
 	.logo_laptop {
