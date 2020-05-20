@@ -122,10 +122,10 @@ table {
 		display: none;
 	}
 
-@media screen and (max-width: 810px) {
+/*@media screen and (max-width: 810px) {
 	.logo_laptop {
 		display: none;
-	}
+	} */
 }
 
 @media screen and (max-width: 320px) {
