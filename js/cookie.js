@@ -14,8 +14,8 @@ setTimeout(() => {
 
 
 
-localStorage.setItem('nunta','rochie');
-console.log(localStorage.getItem('botez'))
+localStorage.setItem('majorat','distractie');
+console.log(localStorage.getItem('true'))
 
 
 
