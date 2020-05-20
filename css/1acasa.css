@@ -122,6 +122,11 @@ table {
 		display: none;
 	}
 
+	.lista{
+		display: flex;
+		flex-direction: row;
+	}
+
 	.logo_laptop a {
 		opacity: 0.5;
 	}
