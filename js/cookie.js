@@ -13,6 +13,7 @@ setTimeout(() => {
 }, 2000);
 
 
+
 cookieButton.addEventListener("click", () => {
   cookieContainer.classList.remove("active");
   localStorage.setItem("nunta", "fotograf");
@@ -24,6 +25,7 @@ setTimeout(() => {
   }
 }, 2000);
 
+
 cookieButton.addEventListener("click", () => {
   cookieContainer.classList.remove("active");
   localStorage.setItem("nunta", "mireasa");
@@ -34,3 +36,10 @@ setTimeout(() => {
     cookieContainer.classList.add("nunta");
   }
 }, 2000);
+
+cookieButton.addEventListener("click", () => {
+  cookieContainer.classList.remove("active");
+  localStorage.setItem("nunta", "mireasa");
+});
+
+document.cookie = "hello=true"
