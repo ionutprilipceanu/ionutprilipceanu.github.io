@@ -27,9 +27,5 @@ cookieButton.addEventListener("click", () => {
 
 document.cookie = "nunta=mireasa; expires=Fri, 31 Dec 9999 23:59:59 GMT";
 
-document.cookie = "nunta=mire; expires=Fri, 31 Dec 9999 23:59:59 GMT";
-
-document.cookie = "nunta=fotograf; expires=Fri, 31 Dec 9999 23:59:59 GMT";
-
 document.cookie = "accesorii_nunta=invitatii; expires=Fri, 31 Dec 9999 23:59:59 GMT";
 
