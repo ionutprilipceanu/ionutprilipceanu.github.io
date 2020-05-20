@@ -1,4 +1,4 @@
-const cookieContainer = document.querySelector(".cookie-container");
+/*const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
 
 cookieButton.addEventListener("click", () => {
@@ -12,9 +12,10 @@ setTimeout(() => {
   }
 }, 2000);
 
+*/
 
-
-
+localStorage.setItem('nunta','rochie');
+console.log(localStorage.getItem('botez'))
 
 
 
