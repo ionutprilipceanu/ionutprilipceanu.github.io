@@ -124,7 +124,14 @@ table {
 
 	.logo_laptop {
 		margin-right: 10px;
+	}
+
+	.logo_laptop a {
 		opacity: 0.5;
+	}
+
+	.logo_laptop a:hover {
+		opacity: 1
 	}
 
 	@media screen and (max-width: 810px) {
