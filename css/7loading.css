@@ -92,6 +92,130 @@ table {
   top:0;
   left:-5%;
   animation: aparat_logo 2s infinite ease-in-out;
+}
+
+@media screen and (max-width: 450px) {
+
+  .aparat_logo { /*logo aparat foto*/
+  position: relative;
+  top:0;
+  left:-10%;
+  }
+
+  .loader { /* forma patratului ce se roteste*/
+  position: relative;
+  top: 0;
+  left:9.5%;
+  }
+
+}
+
+
+@media screen and (max-width: 1025px) {
+
+  .aparat_logo { /*logo aparat foto*/
+  position: relative;
+  top:0;
+  left:-4%;
+  }
+
+  .loader { /* forma patratului ce se roteste*/
+  position: relative;
+  top: 0;
+  left:2.5%;
+  }
+
+}
+@media screen and (max-width: 770px) {
+
+  .aparat_logo { /*logo aparat foto*/
+  position: relative;
+  top:0;
+  left:-7%;
+  }
+
+  .loader { /* forma patratului ce se roteste*/
+  position: relative;
+  top: 0;
+  left:2%;
+  }
+
+}
+
+@media screen and (max-width: 415px) {
+
+  .aparat_logo { /*logo aparat foto*/
+  position: relative;
+  top:0;
+  left:-10%;
+  }
+
+  .loader { /* forma patratului ce se roteste*/
+  position: relative;
+  top: 0;
+  left:6.7%;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+
+  .aparat_logo { /*logo aparat foto*/
+  position: relative;
+  top:0;
+  left:-9.5%;
+  }
+
+  .loader { /* forma patratului ce se roteste*/
+  position: relative;
+  top: 0;
+  left:9%;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+
+  .aparat_logo { /*logo aparat foto*/
+  position: relative;
+  top:0;
+  left:-10.25%;
+  }
+
+  .loader { /* forma patratului ce se roteste*/
+  position: relative;
+  top: 0;
+  left:9%;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .loader-wrapper { /* setarile de fundal */
+  width: 105%;
+  height: 105%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+  .aparat_logo { /*logo aparat foto*/
+  position: relative;
+  top:0;
+  left:-13%;
+  }
+
+  .loader { /* forma patratului ce se roteste*/
+  position: relative;
+  top: 0;
+  left:7.5%;
+  }
 
 }
 
