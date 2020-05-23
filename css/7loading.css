@@ -110,8 +110,17 @@ table {
 
 }
 
+@media screen and (max-width: 1300px) {
 
-@media screen and (max-width: 1025px) {
+  .aparat_logo { /*logo aparat foto*/
+  position: relative;
+  top:0;
+  left:-5.75%;
+  }
+
+}
+
+@media screen and (max-width: 1050px) {
 
   .aparat_logo { /*logo aparat foto*/
   position: relative;
@@ -126,6 +135,23 @@ table {
   }
 
 }
+
+@media screen and (max-width: 950px) {
+
+  .aparat_logo { /*logo aparat foto*/
+  position: relative;
+  top:0;
+  left:-6.25%;
+  }
+
+  .loader { /* forma patratului ce se roteste*/
+  position: relative;
+  top: 0;
+  left:2.5%;
+  }
+
+}
+
 @media screen and (max-width: 770px) {
 
   .aparat_logo { /*logo aparat foto*/
