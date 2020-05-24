@@ -651,16 +651,23 @@ table {
 /* Aici se termina bara de navigare*/
 
 /* Aici incepe sectiunea*/
+	
+
+	 .scris .titlu {
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 240%;
+		margin-bottom: -1%;
+	}
 
 	.scris h1 {
 		width: 75%;
 		margin-left: 6.5%;
 		color: rgb(0, 0, 0, 0.6);
-		font-size: 140%;
+		font-size: 180%;
 		padding: 1%;
 		z-index: -1;
-		
-		
+		padding-top: 2.5%;
 	}
 	
 	.scris p {
@@ -734,6 +741,23 @@ table {
 		transform:scale(0.9);
 	}
 
+	@media screen and (max-width: 1025px) {
+
+ 		.intro img {
+  			margin-top: 0%;
+  			width: 100%;
+ 	}
+
+		.titlu {
+	 		position: absolute;
+	 		top: 20%;
+	 		left:5%;
+			font-size: 540%;
+			opacity: 0.5;
+	}
+
+	}
+
 	@media screen and (max-width: 550px) {
 		.scris p {
 			font-size: 80%;
@@ -741,15 +765,51 @@ table {
 		}
 
 		.intro {
-  		width: 100%;
-  		display: block;
+  			width: 100%;
+  			display: block;
   	}
 
- 	.intro img {
-  		margin-top: 0%;
-  		width: 100%;
-
+ 		.intro img {
+  			margin-top: 0%;
+  			width: 100%;
  	}
+
+ 		.scris .titlu {
+			text-transform: uppercase;
+			text-align: center;
+			font-size: 180%;
+		
+	}
+
+		.scris h1 {
+			font-size: 140%;
+
+	}
+
+		.titlu {
+	 		position: absolute;
+	 		top: 20%;
+	 		left:10%;
+			font-size: 240%;
+			opacity: 0.5;
+	}
+
+	}
+
+	@media screen and (max-width: 320px) {
+
+ 		.intro img {
+  			margin-top: -6%;
+  			width: 100%;
+ 	}
+
+		.titlu {
+	 		position: absolute;
+	 		top: 20%;
+	 		left:5%;
+			font-size: 240%;
+			opacity: 0.5;
+	}
 
 	}
 
