@@ -748,14 +748,6 @@ table {
   			width: 100%;
  	}
 
-		.titlu {
-	 		position: absolute;
-	 		top: 20%;
-	 		left:5%;
-			font-size: 540%;
-			opacity: 0.5;
-	}
-
 	}
 
 	@media screen and (max-width: 550px) {
@@ -778,20 +770,10 @@ table {
 			text-transform: uppercase;
 			text-align: center;
 			font-size: 180%;
-		
 	}
 
 		.scris h1 {
 			font-size: 140%;
-
-	}
-
-		.titlu {
-	 		position: absolute;
-	 		top: 20%;
-	 		left:10%;
-			font-size: 240%;
-			opacity: 0.5;
 	}
 
 	}
@@ -803,18 +785,8 @@ table {
   			width: 100%;
  	}
 
-		.titlu {
-	 		position: absolute;
-	 		top: 20%;
-	 		left:5%;
-			font-size: 240%;
-			opacity: 0.5;
 	}
 
-	}
-
-
-/* Aici se termina sectiunea */
 
 /* Aici incepe footer-ul */
 
