@@ -737,7 +737,8 @@ table {
 
  	 	.buton input {
  			padding: 10px 25px;
- 			background-color: #FBBC05;
+ 			background-image: linear-gradient(#FBBC05, #FFFFFF);
+ 			/*background-color: #FBBC05;*/
  			border-radius: 5px;
  			font-size: 120%;
  			letter-spacing: 1px;
@@ -747,7 +748,6 @@ table {
 	@media (max-width: 550px){
 		.buton input {
 			width: 100%;
-			font-weight: bold;
 			font-size: 130%;
 	}
 }
