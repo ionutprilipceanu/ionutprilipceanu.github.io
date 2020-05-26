@@ -734,6 +734,24 @@ table {
  		border-radius: 4px;
  	}
 
+
+ 	 	.buton input {
+ 			padding: 10px 25px;
+ 			background-color: #FBBC05;
+ 			border-radius: 5px;
+ 			font-size: 120%;
+ 			letter-spacing: 1px;
+ 			cursor: pointer;
+ 	}
+
+	@media (max-width: 550px){
+		.buton input {
+			width: 100%;
+			font-weight: bold;
+			font-size: 130%;
+	}
+}
+
 /* Aici incepe footer-ul */
 
 	.politici .logo {
