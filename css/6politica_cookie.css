@@ -675,8 +675,8 @@ table {
 @media screen and (max-width:550px) {
 .continut {
 	width: auto;
-	padding: 3% 2% 5% 2%;
-	margin: 0;
+	padding: 3% 4% 7.5% 4%;
+	margin: 0 2.5%;
 }
 
 .continut h1 {
@@ -684,6 +684,9 @@ table {
 	font-family: "Times New Roman", Times, serif;
 }
 
+.capitol {
+	padding: 2.5% 0;
+}
 .capitol h3 {
 	font-size: 20px;
 	font-family: "Times New Roman", Times, serif;
@@ -694,6 +697,11 @@ table {
 	font-family: "Times New Roman", Times, serif;
 	text-indent: 2%;
 }
+
+.capitol ul {
+	font-size: 15px;
+}
+
 } 
 
 @media screen and (max-width:450px) {
