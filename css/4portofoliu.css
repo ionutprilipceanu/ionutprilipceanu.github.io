@@ -708,15 +708,6 @@ table {
 
 }
 
-@media screen and (max-width: 550px) {
-.continut {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 15px;
-	}
-
-}
-
 
 /* Aici incepe footer-ul */
 
