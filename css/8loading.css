@@ -84,12 +84,20 @@
     width: 30px;
     height: 30px;
   }
+
+  p. {
+    font-family: initial;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .aparat_logo img { /*logo aparat foto*/
     width: 20px;
     height: 20px;
+  }
+
+  p. {
+    font-family: initial;
   }
 
   #preloader{
