@@ -723,6 +723,10 @@ table {
 	font-family: "Times New Roman", Times, serif;
 	text-indent: 2%;
 }
+
+.capitol ul {
+	font-size: 10px;
+}
 } 
 
 /* Aici se termina continutul */
