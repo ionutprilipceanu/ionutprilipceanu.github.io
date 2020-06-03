@@ -57,3 +57,17 @@
     z-index: 9999;
     font-family: "Monument";
 }
+
+
+#preloader .aparat_logo { /*logo aparat foto*/
+  animation: aparat_logo 2s infinite ease-in-out;
+  z-index: 9999;
+}
+
+@keyframes aparat_logo {
+  0% { opacity:0;}
+  25% { opacity:0.5;}
+  50% { opacity:1;}
+  75% { opacity:0.5;}
+  100% { opacity:0;}
+}
