@@ -710,7 +710,7 @@ table {
 		background-color: white;
 		position: sticky;
 		margin-top: 0px;
-		z-index: 1;
+		z-index: 0;
 	}
 
 	@media (max-width: 900px) {
