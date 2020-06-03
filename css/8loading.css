@@ -58,7 +58,6 @@
     font-size: 120%;
     letter-spacing: 3px;
     font-family: "Monument";
-    font-weight: bolder;
 }
 
 
@@ -83,7 +82,9 @@
   }
 
   p. {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Monument";
+    font-weight: bolder;
+
   }
 }
 
@@ -94,7 +95,9 @@
   }
 
   p. {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Monument";
+    font-weight: bolder;
+
   }
 
   #preloader{
