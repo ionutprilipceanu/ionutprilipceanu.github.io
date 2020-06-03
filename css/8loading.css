@@ -57,7 +57,7 @@
     z-index: 9999;
     font-size: 120%;
     letter-spacing: 3px;
-    font-family: "Monument";
+    font-family: "Times New Roman", Times, serif;
 }
 
 
@@ -72,12 +72,6 @@
   50% { opacity:1;}
   75% { opacity:0.5;}
   100% { opacity:0;}
-}
-
-@media screen and (max-width: 550px) {
-  p. {
-    font-family: "Times New Roman", Times, serif;
-  }
 }
 
 
