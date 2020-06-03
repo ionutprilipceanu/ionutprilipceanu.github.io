@@ -75,6 +75,18 @@
   100% { opacity:0;}
 }
 
+@media screen and (max-width: 550px) {
+  .aparat_logo img { /*logo aparat foto*/
+    width: 30px;
+    height: 30px;
+  }
+
+  p. {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    font-size: 140%;
+  }
+}
 
 @media screen and (max-width: 360px) {
   .aparat_logo img { /*logo aparat foto*/
