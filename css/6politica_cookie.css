@@ -702,6 +702,14 @@ table {
 	font-size: 15px;
 }
 
+.capitol ol {
+	font-size: 15px;
+}
+
+.capitol h4 {
+	font-size: 17px;
+}
+
 } 
 
 @media screen and (max-width:450px) {
@@ -734,6 +742,14 @@ table {
 
 .capitol ul {
 	font-size: 15px;
+}
+
+.capitol ol {
+	font-size: 15px;
+}
+
+.capitol h4 {
+	font-size: 17px;
 }
 } 
 
