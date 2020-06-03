@@ -88,7 +88,7 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
   .aparat_logo img { /*logo aparat foto*/
     width: 30px;
     height: 30px;
