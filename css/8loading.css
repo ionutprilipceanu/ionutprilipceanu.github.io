@@ -55,7 +55,7 @@
     transform: translate(-50%, -50%);
     color: #fff;
     z-index: 9999;
-    font-size: 140%;
+    font-size: 180%;
     letter-spacing: 3px;
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
@@ -85,6 +85,7 @@
   p. {
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
+    font-size: 140%;
   }
 }
 
@@ -97,6 +98,7 @@
   p. {
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
+    font-size: 140%;
   }
 
   #preloader{
