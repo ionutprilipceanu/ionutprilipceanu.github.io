@@ -81,7 +81,7 @@
     height: 30px;
   }
 
-  p. {
+  .p {
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
     font-size: 130% !important;
@@ -94,7 +94,7 @@
     height: 30px;
   }
 
-  p. {
+  .p {
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
     font-size: 130% !important;
@@ -107,7 +107,7 @@
     height: 20px;
   }
 
-  p. {
+  .p {
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
     font-size: 130% !important;
