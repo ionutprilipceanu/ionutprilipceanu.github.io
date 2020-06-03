@@ -699,6 +699,15 @@ table {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 700px) {
+.continut {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 15px;
+	}
+
+}
+
 @media screen and (max-width: 550px) {
 .continut {
 	display: flex;
