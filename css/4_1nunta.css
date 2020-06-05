@@ -665,6 +665,7 @@ table {
 		font-size: 20px;
 		text-transform: uppercase;
 		padding: 0 5px 0 5px;
+		font-family: "Times New Roman", Times, serif;
 	} 	
 
 
@@ -721,6 +722,7 @@ table {
     .continut a {
   	font-size: 15px;
   	padding: 0 5px;
+  	font-family: "Times New Roman", Times, serif;
   }
 
   
@@ -734,6 +736,7 @@ table {
   .continut a {
   	font-size: 15px;
   	padding: 0 5px;
+  	font-family: "Times New Roman", Times, serif;
   }
 
   
@@ -748,9 +751,11 @@ table {
   .continut a {
   	font-size: 15px;
   	padding: 0 5px;
+  	font-family: "Times New Roman", Times, serif;
   }
   .header a {
 			font-size: 12px;
+			font-family: "Times New Roman", Times, serif;
    }
    .header { /* pentru bara de navigarede copiat de aici */
 		background-color: white;
