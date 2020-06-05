@@ -657,10 +657,12 @@ table {
 		text-transform: uppercase;
 		font-size: 240%;
 		margin-bottom: 1%;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	.contact p {
 		width: 50%;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	th {
@@ -701,6 +703,7 @@ table {
   		border: 1px solid #ccc;
   		border-radius: 4px;
   		box-sizing: border-box;
+  		font-family: "Times New Roman", Times, serif;
 	}
 
 	input[type=text]:focus {
@@ -719,6 +722,7 @@ table {
   		border: 2px solid #ddd;
   		border-radius: 4px;
   		background-color: #f8f8f8;
+  		font-family: "Times New Roman", Times, serif;
  	}
 
  	.contact #error_message{
@@ -731,6 +735,7 @@ table {
  		transition: all 0.5s ease-in-out;
  		color:black;
  		border-radius: 4px;
+ 		font-family: "Times New Roman", Times, serif;
  	}
 
 
@@ -747,12 +752,14 @@ table {
  			text-transform: uppercase;
  			letter-spacing: 3px;
  			font-family: initial;
+ 			font-family: "Times New Roman", Times, serif;
  	}
 
 	@media (max-width: 550px){
 		.buton input {
 			width: 100%;
 			font-size: 130%;
+			font-family: "Times New Roman", Times, serif;
 	}
 }
 
