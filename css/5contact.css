@@ -651,6 +651,7 @@ table {
 	.contact {
 		margin:2.5% 10% 5% 10%;
 		color: white;
+		font-family: "Times New Roman", Times, serif;
 	}
 	
 	.contact h1 {
@@ -681,10 +682,12 @@ table {
 		}
 		.contact h1 {
 			padding: 5px 0 10px 0;
+			font-family: "Times New Roman", Times, serif;
 		}
 		.contact p {
 			width: 100%;
 			font-size: 80%;
+			font-family: "Times New Roman", Times, serif;
 		}
 		textarea {
   			width: 100% !important;
@@ -708,6 +711,7 @@ table {
 
 	input[type=text]:focus {
   		background-color: #f0fbfc;
+  		font-family: "Times New Roman", Times, serif;
 	}
 
 	textarea:focus {
