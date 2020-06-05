@@ -95,7 +95,7 @@ table {
   		padding: 12px 16px;
   		text-decoration: none;
   		display: block;
-  		
+  		font-family: "Times New Roman", Times, serif;
 	}
 
 
@@ -379,8 +379,7 @@ table {
 
 .menu > div > div > ul > li > a{
 	text-decoration: none;
-	
-	
+	font-family: "Times New Roman", Times, serif;
 	text-transform: uppercase;
 	text-align: center !important;
 	transition: .3s;
@@ -614,7 +613,7 @@ table {
 
 .menu > div > div > ul > li > a{
 	text-decoration: none;
-	
+	font-family: "Times New Roman", Times, serif;
 	text-transform: uppercase;
 	text-align: center !important;
 	transition: .3s;
