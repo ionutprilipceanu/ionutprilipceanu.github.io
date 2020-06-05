@@ -244,6 +244,7 @@ table {
 	}
 
 	.dropdown a {
+	font-family: "Times New Roman", Times, serif;
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
@@ -379,8 +380,7 @@ table {
 
 .menu > div > div > ul > li > a{
 	text-decoration: none;
-	
-	
+	font-family: "Times New Roman", Times, serif;
 	text-transform: uppercase;
 	text-align: center !important;
 	transition: .3s;
@@ -613,7 +613,7 @@ table {
 
 .menu > div > div > ul > li > a{
 	text-decoration: none;
-	
+	font-family: "Times New Roman", Times, serif;
 	text-transform: uppercase;
 	text-align: center !important;
 	transition: .3s;
