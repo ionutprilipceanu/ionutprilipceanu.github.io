@@ -645,6 +645,7 @@ table {
 /* Aici incepe sectiunea*/
 
 	.scris .titlu {
+		font-family: "Times New Roman", Times, serif;
 		text-transform: uppercase;
 		text-align: center;
 		font-size: 240%;
@@ -652,6 +653,7 @@ table {
 	}
 
 	.scris h1 {
+		font-family: "Times New Roman", Times, serif;
 		width: 75%;
 		margin-left: 6.5%;
 		color: rgb(0, 0, 0, 0.6);
@@ -662,6 +664,7 @@ table {
 	}
 	
 	.scris p {
+		font-family: "Times New Roman", Times, serif;
 		width: 85%;
 		padding: 0 1% 1% 1%;
 		margin-left: 6.5%;
@@ -673,6 +676,7 @@ table {
 	}
 
 	a {
+		font-family: "Times New Roman", Times, serif;
 		text-decoration: none;
 		color: rgb(0, 0, 0, 0.6);
 	}
@@ -689,6 +693,7 @@ table {
 	}
 
 	.scris {
+		font-family: "Times New Roman", Times, serif;
 		width: 75%;
 		margin-top: -0.5%;
 		margin-left: 13.5%;
