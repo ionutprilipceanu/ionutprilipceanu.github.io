@@ -715,64 +715,38 @@ table {
 		transition: 1.5s !important;
 	}
 
-
-
-	.box {
+	.row { /* pentru bara de navigare de copiat de aici */
 		display: flex;
-		flex-direction: row;
-		width: 100%;
-		height: auto;
-		background-color: #eee;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.poze{
-		transition: 1s;
-		padding: 2.5px;
-		margin: 0.1% 0.1% 0.1% 0.1%;
-		width: 20%;
-		opacity: 0.9;
-	}
-
-	.poze:hover {
-		opacity: 1;
-		transform:scale(0.9);
-
-	}
-
-	.poze img {
-		border-radius: 4px;
-	}
-
-	.row { /* poze preview*/
-		display: flex;
-		flex-direction: row;
+		justify-content: space-around;
 		padding: 0 5px;
 		margin-top: 0px;
 		z-index: -1;
 		box-sizing: border-box;
 	}
+
 	.coloana {
 		flex-wrap: wrap;
-		width: 16.66%;
+		width: 16.6%;
 		padding: 0 5px;
 	}
 
-	.coloana img {
+	.coloana .column img {
 		margin-top: 8px;
 		vertical-align: middle;
 		transition: 1s;
 		opacity: 0.9;
 		border-radius: 4px;
 	}
+	}
 
-	.coloana img:hover {
+	.coloana .column img:hover {
 		opacity: 1;
 		transform:scale(0.9);
 	}
 
-@media screen and (max-width: 1100px) {
+
+
+@media screen and (max-width: 900px) {
 
 	img{
 		margin-top: -0.5%;
@@ -794,7 +768,7 @@ table {
 		font-family: "Times New Roman", Times, serif;
 	}
 
-	.functie h2 {
+	.functie h2{
 		font-size: 12.5px !important;
 		margin-top: -70px !important;
 		letter-spacing: 60px !important;
@@ -811,41 +785,51 @@ table {
 		font-family: Engravers MT Expanded Medium;
 	}
 
+
+	.row { /* pentru bara de navigare de copiat de aici */
+		display: flex;
+		flex-wrap: wrap;
 	}
+
+	  .coloana {
+   		flex: 30%;
+    	max-width: 33.3%;
+ 	 }
+    .continut a {
+  		font-size: 15px;
+  		padding: 0 5px;
+  	}
+
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+.row { /* pentru bara de navigare de copiat de aici */
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+ .coloana {
+    flex: 50%;
+    max-width: 48%;
+  }
+}		
+
 
 @media screen and (max-width: 550px) {
-		section img{
-		margin-top: 0% !important;
-	}
+.coloana {
+    flex: 100%;
+    max-width: 100%;
+  }
 
-	.box img {
-		margin-top: 0;
-		padding: 2.5px;
-		width: 340px;
-	}
-
-	.box {
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	flex-direction: column;
-	}
-
-	.row {
+.row { /* pentru bara de navigare de copiat de aici */
+		margin-top: 0px;
 		display: flex;
-		align-content: center;
-		justify-content: center;
-		flex-direction: column;
-		z-index: 3;
-		background-color: #eee;
- 	}
-
- 	.coloana a {
-		margin-top: -7px;
-		padding: 2.5px;
-		width: 385px !important;
-		margin-left: 325px;
+		flex-wrap: wrap;
 	}
+
 
 	.chenar {
 		top: 14%;
@@ -863,7 +847,7 @@ table {
 		font-family: "Times New Roman", Times, serif;
 	}
 
-	.functie h2 {
+	.functie h2{
 		font-size: 12.5px !important;
 		margin-top: -70px !important;
 		letter-spacing: 60px !important;
@@ -884,16 +868,8 @@ table {
 		padding-left: 10px !important;
 	}
 
-	.coloana {
-		display: flex;
-		align-content: center;
-		justify-content: center;
-		flex-direction: column;
- 	}
 		
 }
-
-
 
 
 	@media screen and (max-width: 375px) {
@@ -902,36 +878,14 @@ table {
 	}
 
 
-	.box img {
-		margin-top: 0;
-		padding: 2.5px;
-		margin-left: -135.5px;
-		width: 340px;
-		
-	}
-
-	.box {
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	flex-direction: column;
-	
-	}
-
-	.row {
+	.coloana {
+    flex: 100%;
+    max-width: 100%;
+  }
+	.row { /* pentru bara de navigare de copiat de aici */
+		margin-top: 0px;
 		display: flex;
-		align-content: center;
-		justify-content: center;
-		flex-direction: column;
-		z-index: 3;
-		background-color: #eee;
- 	}
-
- 	.coloana a {
-		margin-top: -7px;
-		padding: 2.5px;
-		width: 360px !important;
-		margin-left: 295px;
+		flex-wrap: wrap;
 	}
 
 	.chenar {
@@ -949,7 +903,7 @@ table {
 		font-family: "Times New Roman", Times, serif;
 	}
 
-	.functie h2 {
+	.functie h2{
 		font-size: 12.5px !important;
 		margin-top: -70px !important;
 		letter-spacing: 60px !important;
@@ -964,49 +918,19 @@ table {
 		letter-spacing: 10px;
 		font-family: Engravers MT Expanded Medium;
 	}
-	.coloana {
-		display: flex;
-		align-content: center;
-		justify-content: center;
-		flex-direction: column;
- 	}
 
 }
 
 @media screen and (max-width: 360px) {
-		section img{
-		margin-top: 0%;
-	}
 
-	.box img {
-		margin-top: 0;
-		padding: 2.5px;
-		width: 340px;
-		
-	}
-
-	.box {
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	flex-direction: column;
-	
-	}
-
-	.row {
+.coloana {
+    flex: 100%;
+    max-width: 100%;
+  }
+.row { /* pentru bara de navigare de copiat de aici */
+		margin-top: 0px;
 		display: flex;
-		align-content: center;
-		justify-content: center;
-		flex-direction: column;
-		z-index: 3;
-		background-color: #eee;
- 	}
-
- 	.coloana a {
-		margin-top: -7px;
-		padding: 2.5px;
-		width: 340px !important;
-		margin-left: 281px;
+		flex-wrap: wrap;
 	}
 
 	.prezentare {
@@ -1016,7 +940,7 @@ table {
 		font-family: "Times New Roman", Times, serif;
 	}
 
-	.functie h2 {
+	.functie h2{
 		font-size: 12.5px !important;
 		margin-top: -70px !important;
 		letter-spacing: 60px !important;
@@ -1040,50 +964,17 @@ table {
 		font-family: "Times New Roman", Times, serif;
 	}
 
-	.coloana {
-		display: flex;
-		align-content: center;
-		justify-content: center;
-		flex-direction: column;
- 	}
-
 }
 
 @media screen and (max-width: 325px) {
-	section img{
-		margin-top: 0%;
-	}
-
-	.box img {
-		margin-top: 0;
-		padding: 2.5px;
-		margin-left: -135.5px;
-		width: 340px;
-		
-	}
-
-	.box {
+	.coloana {
+    flex: 100%;
+    max-width: 100%;
+  }
+	.row { /* pentru bara de navigare de copiat de aici */
+		margin-top: 0px;
 		display: flex;
-		align-content: center;
-		justify-content: center;
-		flex-direction: column;
-	}
-
-	.row {
-		display: flex;
-		align-content: center;
-		justify-content: center;
-		flex-direction: column;
-		z-index: 3;
-		background-color: #eee;
-		margin-right: -5%;
- 	}
-
- 	.coloana a {
-		margin-top: -7px;
-		padding: 2.5px;
-		width: 320px !important;
-		margin-left: 260px;
+		flex-wrap: wrap;
 	}
 
 	.chenar {
@@ -1118,13 +1009,6 @@ table {
 		letter-spacing: 10px;
 		font-family: Engravers MT Expanded Medium;
 	}
-
-	.coloana {
-		display: flex;
-		align-content: center;
-		justify-content: center;
-		flex-direction: column;
- 	}
 
 
 }
