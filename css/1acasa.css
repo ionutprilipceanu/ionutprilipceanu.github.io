@@ -1091,6 +1091,8 @@ section .review {
   border:none;
   outline: none;
   font-size: 40px;
+  height: 50px;
+  margin-top: 15%;
 }
 
 
@@ -1121,6 +1123,10 @@ section .review {
   		word-spacing: 2px;
   		line-height: 1.5;
 	}
+
+	.prev-btn , .next-btn{
+  		margin-top: 32.5%;
+}
 
 	
 
