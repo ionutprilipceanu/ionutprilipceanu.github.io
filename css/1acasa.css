@@ -1098,7 +1098,9 @@ section .review {
 		width: 300px;
 	}
 
-	
+	.underline {
+		margin-right: 20%;
+	}
 
 	
 
