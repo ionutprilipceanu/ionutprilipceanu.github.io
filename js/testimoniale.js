@@ -8,6 +8,7 @@ const reviews = [
     img: "https://res.cloudinary.com/doethsghh/image/upload/v1592148405/doi_bytytv.jpg", //'./poze/doi.png'
     text: '"De când l-am cunoscut pe Ionuț, familia mea a apelat doar la el pentru ședințe foto profesionale și evenimente, pentru că e super talentat, dedicat în ceea ce face, discret, cu mult bun simț (aspecte remarcate și de invitații noștri), foarte prietenos și amuzant, fâcându-te astfel să te simți în largul tău atunci când e cu obiectuvul camerei pe tine. Mulțumim pentru tot! P.S. Albumele sunt superbe!"',
   },
+
   {
     id: 2,
     name: "Neculai Ursache",
@@ -15,6 +16,7 @@ const reviews = [
     img: "https://res.cloudinary.com/doethsghh/image/upload/v1592148405/cinci_n8mjvr.jpg", //'./poze/patru.png'
     text: '"Îmi plac oamenii care fac ceva din pasiune iar Ionuț este unul dintre ei. Viziunea, talentul și pasiunea lui pentru fotografiere se poate vedea de la prima întâlnire. Rezultatele sunt superbe. Mă bucur enorm că am apelat la el și cu siguranță voi mai apela. Mult succes în ceea ce faci! Ne revedem curând."',
   },
+
   {
     id: 3,
     name: "Nicoleta Arsene",
@@ -30,6 +32,7 @@ const reviews = [
     img: "https://res.cloudinary.com/doethsghh/image/upload/v1592148405/trei_or0ies.jpg", //'./poze/trei.png'
     text: '"Felicitări pentru profesionalismul și dedicarea de care dai dovadă în creearea fotografiei. Un om minunat și un adevărat artist. Recomand cu drag și din inimă!"',
   },
+
   {
     id: 5,
     name: "Petru Cozma",
@@ -38,7 +41,7 @@ const reviews = [
     text: '"Cum să explic, băiatul ăsta e ca la Kaufland ieftin și bun. Am ieșit așa bine în poze că m-aș fi luat și eu de soț."',
   },
   
-];
+]
 
 
 // selectarea elementelor 
