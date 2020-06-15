@@ -1102,6 +1102,10 @@ section .review {
 		margin-left: 35%;
 	}
 
+	#info {
+  		font-size: 15px;
+	}
+
 	
 
 }
