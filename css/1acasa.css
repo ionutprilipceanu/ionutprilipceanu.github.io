@@ -1093,14 +1093,12 @@ section .review {
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
 	section .review {
 		width: 300px;
 	}
 
-	main {
-		width: auto;
-	}
+	
 
 }
 /* Aici se termina testimonialele*/
