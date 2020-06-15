@@ -1020,7 +1020,7 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(240,242,245); // #283642
+  background-color: rgb(240,242,245); /* #283642 */
   
 }
 
