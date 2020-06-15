@@ -1105,8 +1105,17 @@ section .review {
 		margin-left: 35%;
 	}
 
+
+	#author {
+  		font-size: 20px;
+	}
+
+	#job{
+  		font-size: 15px;
+	}
+
 	#info {
-  		font-size: 10px;
+  		font-size: 12.5px;
 	}
 
 	
