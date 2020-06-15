@@ -1111,11 +1111,14 @@ section .review {
 	}
 
 	#job{
-  		font-size: 15px;
+  		font-size: 17px;
+  		margin-top: 2%;
 	}
 
 	#info {
   		font-size: 12.5px;
+  		word-spacing: 2px;
+  		line-height: 1.5;
 	}
 
 	
