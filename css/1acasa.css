@@ -1097,6 +1097,9 @@ section .review {
 	section .review {
 		width: 300px;
 	}
+	.title h2 {
+	  	font-size: 35px;
+	}
 
 	.underline {
 		margin-left: 35%;
