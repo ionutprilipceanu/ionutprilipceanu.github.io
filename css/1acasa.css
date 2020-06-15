@@ -1021,7 +1021,7 @@ table {
   justify-content: center;
   align-items: center;
   background-color: rgb(240,242,245); /* #283642 */
-  
+  height: 625px;
 }
 
 .title h2 {
