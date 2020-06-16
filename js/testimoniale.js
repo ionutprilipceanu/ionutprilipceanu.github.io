@@ -91,4 +91,3 @@ prevBtn.addEventListener('click' , function(){
 let ilustrati = getElementById('ilustratii');
 
 ilustrati.style.opacity = 0.25;
-ilustrati.style.transition = 2;
