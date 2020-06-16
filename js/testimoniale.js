@@ -86,3 +86,9 @@ prevBtn.addEventListener('click' , function(){
   }
   showPerson();
 });
+
+
+let ilustrati = getElementById('ilustratii');
+
+ilustrati.style.opacity = 0.25;
+ilustrati.style.transform: scale(0.9);
