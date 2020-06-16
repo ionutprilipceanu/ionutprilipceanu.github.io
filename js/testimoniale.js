@@ -88,6 +88,6 @@ prevBtn.addEventListener('click' , function(){
 });
 
 
-let ilustrati = getElementById('ilustratii');
+let ilustrati = document.getElementById('ilustratii');
 
 ilustrati.style.opacity = 0.25;
