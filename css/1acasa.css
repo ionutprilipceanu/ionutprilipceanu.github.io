@@ -739,11 +739,12 @@ table {
 	}
 	}
 
-	.column img : hover {
-		opacity: 1;
-		transform:scale(0.9);
+	#ilustratii img:hover  {
+		opacity: 1 !important;
+		transform: scale(0.9) !important;
 		transition: 1s;
 	}
+
 
 
 
