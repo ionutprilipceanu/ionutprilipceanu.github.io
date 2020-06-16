@@ -734,15 +734,15 @@ table {
 		margin-top: 8px;
 		vertical-align: middle;
 		transition: 1s;
-		opacity: 0.9;
+		opacity: 0.2;
 		border-radius: 4px;
 	}
 	}
 
 	#ilustratii img:hover  {
 		opacity: 1 !important;
-		transform: scale(0.9) !important;
-		transition: 1s;
+		/*transform: scale(0.9) !important;
+		transition: 1s;*/
 	}
 
 

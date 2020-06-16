@@ -87,7 +87,3 @@ prevBtn.addEventListener('click' , function(){
   showPerson();
 });
 
-
-let ilustrati = document.getElementById('ilustratii');
-
-ilustrati.style.opacity = 0.25;
