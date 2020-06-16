@@ -739,9 +739,10 @@ table {
 	}
 	}
 
-	.coloana .column img:hover {
+	.column : hover {
 		opacity: 1;
 		transform:scale(0.9);
+		transition: 1s;
 	}
 
 
