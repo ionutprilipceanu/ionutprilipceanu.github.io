@@ -739,7 +739,7 @@ table {
 	}
 	}
 
-	.column : hover {
+	.column img : hover {
 		opacity: 1;
 		transform:scale(0.9);
 		transition: 1s;
