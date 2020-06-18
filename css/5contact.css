@@ -770,6 +770,10 @@ table {
 	.contact p {
 		width: 80%;
 	}
+
+	textarea {
+  		width: 70% !important;
+  		
 }
 
 	@media screen and (max-width: 550px) {
