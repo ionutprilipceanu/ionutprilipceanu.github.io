@@ -733,11 +733,15 @@ table {
 			position: relative;
 			top: 90%;
 			height: 70%;
-			width: 100%;
+			width: 95%;
 			left: 0;
 			margin-bottom: -9%;
 			margin-top: -9%;
 		}
+		#adresa {
+		width: 120%;
+		
+	}	
 	}
 	
 	input[type=text], select {
