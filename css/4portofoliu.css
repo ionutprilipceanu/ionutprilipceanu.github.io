@@ -739,6 +739,8 @@ table {
 		width: 100%;
 		letter-spacing:0.5px;
 		font-family: "Times New Roman", Times, serif;
+		position: absolute;
+		bottom: 0;
 	}
 
 	.scris_sus {
