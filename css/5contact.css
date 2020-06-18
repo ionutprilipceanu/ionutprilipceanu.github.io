@@ -700,7 +700,7 @@ table {
   		box-sizing: border-box;
   		font-family: "Times New Roman", Times, serif !important;
   		color: black;
-  		outline: none !important;
+  		outline: none;
 	}
 
 	input[type=text]:focus {
@@ -722,7 +722,7 @@ table {
   		background-color: #f8f8f8;
   		font-family: "Times New Roman", Times, serif !important;
   		color: black !important;
-  		outline: none !important;
+  		outline: none;
  	}
 
  	.contact #error_message{
