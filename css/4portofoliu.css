@@ -743,6 +743,11 @@ table {
 		bottom: 0;
 	}
 
+	.hr {
+		position: absolute;
+		bottom: 15%;
+	}
+
 	.scris_sus {
 		display: flex;
 		flex-direction: row;
