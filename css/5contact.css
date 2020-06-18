@@ -773,7 +773,7 @@ table {
 
 	textarea {
   		width: 60% !important;
-  		
+  	}
 }
 
 	@media screen and (max-width: 550px) {
@@ -844,14 +844,14 @@ table {
 	
 
 	.politici {
-		list-style: none !important;
-		background-color: #333333 !important;
-		color: white !important;
-		padding: 2% 0 !important;
-		display: flex !important;
-		flex-direction: row !important;
-		width: 100% !important;
-		letter-spacing:0.5px !important;
+		list-style: none;
+		background-color: #333333;
+		color: white;
+		padding: 2% 0;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		letter-spacing:0.5px;
 		font-family: "Times New Roman", Times, serif !important;
 	}
 
