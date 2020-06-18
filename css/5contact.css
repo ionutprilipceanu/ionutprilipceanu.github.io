@@ -95,7 +95,7 @@ table {
   		padding: 12px 16px;
   		text-decoration: none;
   		display: block;
-  		font-family: "Times New Roman", Times, serif;
+  		font-family: "Times New Roman", Times, serif !important;
 	}
 
 
@@ -245,7 +245,7 @@ table {
 	.dropdown a {
 	text-decoration: none;
 	color: #fff;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Times New Roman", Times, serif !important;
 	text-transform: uppercase;
 	transition: .3s;
 	font-size: 1.2rem;
@@ -379,7 +379,7 @@ table {
 
 .menu > div > div > ul > li > a{
 	text-decoration: none;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Times New Roman", Times, serif !important;
 	text-transform: uppercase;
 	text-align: center !important;
 	transition: .3s;
@@ -479,7 +479,7 @@ table {
 	.dropdown a {
 	text-decoration: none;
 	color: #fff;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Times New Roman", Times, serif !important;
 	text-transform: uppercase;
 	transition: .3s;
 	font-size: 1.2rem;
@@ -613,7 +613,7 @@ table {
 
 .menu > div > div > ul > li > a{
 	text-decoration: none;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Times New Roman", Times, serif !important;
 	text-transform: uppercase;
 	text-align: center !important;
 	transition: .3s;
@@ -676,7 +676,7 @@ table {
 		right: 1%;
 		height: 70%;
 		width: 60%;
-		font-family: Tifont-family: "Times New Roman", Times, serif;
+		font-family: "Times New Roman", Times, serif !important;
 
 	}
 
@@ -685,7 +685,7 @@ table {
 		flex-direction: column;
 		width: 95%;
 		border-radius: 5px;
-		font-family: "Times New Roman", Times, serif;
+		font-family: "Times New Roman", Times, serif !important;
 	}	
 
 	@media screen and (max-width: 1150px) {
@@ -741,12 +741,12 @@ table {
   		border: 1px solid #ccc;
   		border-radius: 4px;
   		box-sizing: border-box;
-  		font-family: "Times New Roman", Times, serif;
+  		font-family: "Times New Roman", Times, serif !important;
 	}
 
 	input[type=text]:focus {
   		background-color: #f0fbfc;
-  		font-family: "Times New Roman", Times, serif;
+  		font-family: "Times New Roman", Times, serif !important;
 	}
 
 	textarea:focus {
@@ -761,7 +761,7 @@ table {
   		border: 2px solid #ddd;
   		border-radius: 4px;
   		background-color: #f8f8f8;
-  		font-family: "Times New Roman", Times, serif;
+  		font-family: "Times New Roman", Times, serif !important;
  	}
 
  	.contact #error_message{
@@ -774,7 +774,7 @@ table {
  		transition: all 0.5s ease-in-out;
  		color:black;
  		border-radius: 4px;
- 		font-family: "Times New Roman", Times, serif;
+ 		font-family: "Times New Roman", Times, serif !important;
  	}
 
 
@@ -791,7 +791,7 @@ table {
  			text-transform: uppercase;
  			letter-spacing: 3px;
  			font-family: initial;
- 			font-family: "Times New Roman", Times, serif;
+ 			font-family: "Times New Roman", Times, serif !important;
  			border-top: 1px solid white;
  			border-left: 1px solid white;
  	}
@@ -800,7 +800,7 @@ table {
 		.buton input {
 			width: 100%;
 			font-size: 130%;
-			font-family: "Times New Roman", Times, serif;
+			font-family: "Times New Roman", Times, serif !important;
 	}
 }
 
@@ -833,7 +833,7 @@ table {
 		flex-direction: row;
 		width: 100%;
 		letter-spacing:0.5px;
-		font-family: "Times New Roman", Times, serif;
+		font-family: "Times New Roman", Times, serif !important;
 	}
 
 	.scris_sus {
