@@ -681,7 +681,7 @@ table {
 	}
 
 	#adresa {
-		display: flex;
+		display: flex !important;
 		flex-direction: column;
 		width: 95%;
 		border-radius: 5px;
