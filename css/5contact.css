@@ -648,28 +648,55 @@ table {
 /* Aici se termina bara de navigare*/
 /* Aici incepe section*/
 
+/* Aici se termina bara de navigare*/
+/* Aici incepe section*/
+
 	.contact {
 		margin:2.5% 10% 5% 10%;
 		color: white;
-		font-family: "Times New Roman", Times, serif;
 	}
 	
 	.contact h1 {
 		text-transform: uppercase;
 		font-size: 240%;
 		margin-bottom: 1%;
-		font-family: "Times New Roman", Times, serif;
 	}
 
 	.contact p {
 		width: 50%;
-		font-family: "Times New Roman", Times, serif;
 	}
 
 	th {
 		padding: 5px;
 	}
 
+	#harta {
+		position: absolute;
+		top: 14%;
+		right: 1%;
+		height: 70%;
+		width: 60%;
+		font-family: Tifont-family: "Times New Roman", Times, serif;
+
+	}
+
+	#adresa {
+		display: flex;
+		flex-direction: column;
+		width: 95%;
+		border-radius: 5px;
+		font-family: "Times New Roman", Times, serif;
+	}	
+
+	@media screen and (max-width: 1150px) {
+	#harta {
+		position: relative;
+		width: 100%;
+		left: 0;
+		right: 0;
+		margin: -5% 5% -3% 3%;
+	}
+}
 
 	@media screen and (max-width: 550px) {
 		.fundal {
@@ -682,12 +709,10 @@ table {
 		}
 		.contact h1 {
 			padding: 5px 0 10px 0;
-			font-family: "Times New Roman", Times, serif;
 		}
 		.contact p {
 			width: 100%;
 			font-size: 80%;
-			font-family: "Times New Roman", Times, serif;
 		}
 		textarea {
   			width: 100% !important;
@@ -696,6 +721,16 @@ table {
   		.contact #error_message{
   			width: auto !important;
   		}
+
+  		#harta {
+			position: relative;
+			top: 90%;
+			height: 70%;
+			width: 100%;
+			left: 0;
+			margin-bottom: -9%;
+			margin-top: -9%;
+		}
 	}
 	
 	input[type=text], select {
