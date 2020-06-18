@@ -649,9 +649,6 @@ table {
 /* Aici se termina bara de navigare*/
 /* Aici incepe section*/
 
-/* Aici se termina bara de navigare*/
-/* Aici incepe section*/
-
 	.contact {
 		margin:2.5% 10% 5% 10%;
 		color: white;
@@ -671,6 +668,13 @@ table {
 
 	th {
 		padding: 5px;
+	}
+
+	.tabel {
+		color: black;
+		font-family: "Times New Roman", Times, serif !important;
+		outline: none;
+		border: none;
 	}
 
 	#harta {
