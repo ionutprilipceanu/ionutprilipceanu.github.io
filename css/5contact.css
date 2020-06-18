@@ -720,7 +720,7 @@ table {
   		border-radius: 4px;
   		background-color: #f8f8f8;
   		font-family: "Times New Roman", Times, serif !important;
-  		color: black;
+  		color: black !important;
  	}
 
  	.contact #error_message{
