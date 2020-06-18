@@ -745,7 +745,8 @@ table {
 
 	.hr {
 		position: absolute;
-		bottom: 15%;
+		bottom: 12.5%;
+		z-index: 3;
 	}
 
 	.scris_sus {
