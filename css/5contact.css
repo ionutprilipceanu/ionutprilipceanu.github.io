@@ -712,9 +712,9 @@ table {
 	}
 
 	textarea {
-  		width: 38%;
+  		width: 38% !important;
   		height: 150px;
-  		padding: 12px 20px;
+  		padding: 12px 20px !important;
   		box-sizing: border-box;
   		border: 2px solid #ddd;
   		border-radius: 4px;
