@@ -721,6 +721,7 @@ table {
   		background-color: #f8f8f8;
   		font-family: "Times New Roman", Times, serif !important;
   		color: black !important;
+  		outline: none !important;
  	}
 
  	.contact #error_message{
