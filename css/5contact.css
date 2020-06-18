@@ -670,13 +670,6 @@ table {
 		padding: 5px;
 	}
 
-	input , textarea {
-		color: black;
-		font-family: "Times New Roman", Times, serif !important;
-		outline: none;
-		border: none;
-	}
-
 	#harta {
 		position: absolute;
 		top: 14%;
@@ -694,6 +687,74 @@ table {
 		border-radius: 5px;
 		font-family: "Times New Roman", Times, serif !important;
 	}	
+
+
+	
+	input[type=text], select {
+  		width: 100%;
+  		padding: 10px 30px;
+  		margin: 8px 0px; 
+  		display: inline-block;
+  		border: 1px solid #ccc;
+  		border-radius: 4px;
+  		box-sizing: border-box;
+  		font-family: "Times New Roman", Times, serif !important;
+  		color: black;
+	}
+
+	input[type=text]:focus {
+  		background-color: #f0fbfc;
+  		font-family: "Times New Roman", Times, serif !important;
+	}
+
+	textarea:focus {
+  		background-color: #f0fbfc;
+	}
+
+	textarea {
+  		width: 38%;
+  		height: 150px;
+  		padding: 12px 20px;
+  		box-sizing: border-box;
+  		border: 2px solid #ddd;
+  		border-radius: 4px;
+  		background-color: #f8f8f8;
+  		font-family: "Times New Roman", Times, serif !important;
+  		color: black;
+ 	}
+
+ 	.contact #error_message{
+ 		width: 37%;
+ 		margin: 15px 0 -15px 0;
+ 		padding: 0px;
+ 		background:#fe8b8e; 
+ 		text-align: center;
+ 		font-size: 16px;
+ 		transition: all 0.5s ease-in-out;
+ 		color:black;
+ 		border-radius: 4px;
+ 		font-family: "Times New Roman", Times, serif !important;
+ 	}
+
+
+ 	 	.buton input {
+ 			padding: 10px 25px;
+ 			background-image: linear-gradient(#8a0518, #8a0518, #000000, #8a0518, #8a0518);
+ 			/*background-image: linear-gradient(#ff980052, #FF9800, #ff980052);*/
+ 			/*background-color: #FBBC05;*/
+ 			border-radius: 5px;
+ 			font-size: 85%;
+ 			letter-spacing: 1px;
+ 			cursor: pointer;
+ 			color: white;
+ 			text-transform: uppercase;
+ 			letter-spacing: 3px;
+ 			font-family: initial;
+ 			font-family: "Times New Roman", Times, serif !important;
+ 			border-top: 1px solid white;
+ 			border-left: 1px solid white;
+ 	}
+
 
 	@media screen and (max-width: 1150px) {
 	#harta {
@@ -746,78 +807,15 @@ table {
 			width: 100%;
 			margin-left: -10%;
 	}	
-	}
-	
-	input[type=text], select {
-  		width: 100%;
-  		padding: 10px 30px;
-  		margin: 8px 0px; 
-  		display: inline-block;
-  		border: 1px solid #ccc;
-  		border-radius: 4px;
-  		box-sizing: border-box;
-  		font-family: "Times New Roman", Times, serif !important;
-	}
 
-	input[type=text]:focus {
-  		background-color: #f0fbfc;
-  		font-family: "Times New Roman", Times, serif !important;
-	}
-
-	textarea:focus {
-  		background-color: #f0fbfc;
-	}
-
-	textarea {
-  		width: 38%;
-  		height: 150px;
-  		padding: 12px 20px;
-  		box-sizing: border-box;
-  		border: 2px solid #ddd;
-  		border-radius: 4px;
-  		background-color: #f8f8f8;
-  		font-family: "Times New Roman", Times, serif !important;
- 	}
-
- 	.contact #error_message{
- 		width: 37%;
- 		margin: 15px 0 -15px 0;
- 		padding: 0px;
- 		background:#fe8b8e; 
- 		text-align: center;
- 		font-size: 16px;
- 		transition: all 0.5s ease-in-out;
- 		color:black;
- 		border-radius: 4px;
- 		font-family: "Times New Roman", Times, serif !important;
- 	}
-
-
- 	 	.buton input {
- 			padding: 10px 25px;
- 			background-image: linear-gradient(#8a0518, #8a0518, #000000, #8a0518, #8a0518);
- 			/*background-image: linear-gradient(#ff980052, #FF9800, #ff980052);*/
- 			/*background-color: #FBBC05;*/
- 			border-radius: 5px;
- 			font-size: 85%;
- 			letter-spacing: 1px;
- 			cursor: pointer;
- 			color: white;
- 			text-transform: uppercase;
- 			letter-spacing: 3px;
- 			font-family: initial;
- 			font-family: "Times New Roman", Times, serif !important;
- 			border-top: 1px solid white;
- 			border-left: 1px solid white;
- 	}
-
-	@media (max-width: 550px){
-		.buton input {
+	.buton input {
 			width: 100%;
 			font-size: 130%;
 			font-family: "Times New Roman", Times, serif !important;
 	}
-}
+
+	}
+
 
 /* Aici incepe footer-ul */
 
