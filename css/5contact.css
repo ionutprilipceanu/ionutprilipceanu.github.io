@@ -670,7 +670,7 @@ table {
 		padding: 5px;
 	}
 
-	.tabel {
+	input , textarea {
 		color: black;
 		font-family: "Times New Roman", Times, serif !important;
 		outline: none;
