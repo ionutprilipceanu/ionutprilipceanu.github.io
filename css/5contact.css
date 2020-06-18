@@ -772,7 +772,7 @@ table {
 	}
 
 	textarea {
-  		width: 70% !important;
+  		width: 60% !important;
   		
 }
 
@@ -885,6 +885,20 @@ table {
 
 	.logo {
 		flex-grow: 2;
+	}
+
+	@media screen and (max-width: 2400px) {
+		.politici {
+		list-style: none;
+		background-color: #333333;
+		color: white;
+		padding: 2% 0;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		letter-spacing:0.5px;
+		font-family: "Times New Roman", Times, serif !important;
+	}
 	}
 
 	@media screen and (max-width: 800px) {
