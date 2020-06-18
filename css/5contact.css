@@ -660,10 +660,12 @@ table {
 		text-transform: uppercase;
 		font-size: 240%;
 		margin-bottom: 1%;
+		font-family: "Times New Roman", Times, serif !important;
 	}
 
 	.contact p {
 		width: 50%;
+		font-family: "Times New Roman", Times, serif !important;
 	}
 
 	th {
