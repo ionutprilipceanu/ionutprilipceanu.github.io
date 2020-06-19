@@ -793,7 +793,15 @@ table {
   		width: 40%;
 		}
 
+		.box {
+		display: flex;
+		flex-direction: column;
+	}
 
+		.poze {
+		width: 100%;
+	}
+	
 	}
 
 	@media screen and (max-width: 320px) {
