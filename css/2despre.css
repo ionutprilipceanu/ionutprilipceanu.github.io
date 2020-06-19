@@ -748,6 +748,12 @@ table {
 		
 		transform:scale(0.9);
 	}
+	
+	@media screen and (min-width: 1400px) {
+		.underline{
+  			width: 10%;
+		}
+	}
 
 	@media screen and (max-width: 1025px) {
 

@@ -665,14 +665,14 @@ table {
   		margin: 0% 0 10% 50%;
 	}
 
-.continut {
-	display: flex;
-	flex-wrap: nowrap;
-	margin-top: 10%;
-	padding-bottom: 13%;
-	z-index: -1;
-	animation-name: myanimation;
-	animation-duration: 4s;
+	.continut {
+		display: flex;
+		flex-wrap: nowrap;
+		margin-top: 10%;
+		padding-bottom: 13%;
+		z-index: -1;
+		animation-name: myanimation;
+		animation-duration: 4s;
 	}
 
 
@@ -713,6 +713,12 @@ table {
   	color: white;
  	 text-transform: uppercase;
 }
+
+@media screen and (min-width: 1400px) {
+		.underline{
+  			width: 10%;
+		}
+	}
 
 @media screen and (max-width: 700px) {
 .continut {
