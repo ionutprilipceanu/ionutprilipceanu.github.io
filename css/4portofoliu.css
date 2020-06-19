@@ -668,7 +668,7 @@ table {
 	display: flex;
 	flex-wrap: nowrap;
 	margin-top: 10%;
-	padding-bottom: 17%;
+	padding-bottom: 15%;
 	z-index: -1;
 	animation-name: myanimation;
 	animation-duration: 4s;
