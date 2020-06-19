@@ -656,9 +656,10 @@ table {
 	}
 
 	.underline{
-		width: 25px;
-		height:10px;
-		color: blue;
+		background-color: #add8e6;
+  		width: 75%;
+  		height: 5px;
+  		margin: -9% 0 10% 50%;
 	}
 
 .continut {
