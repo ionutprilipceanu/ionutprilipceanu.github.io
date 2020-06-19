@@ -193,7 +193,6 @@ table {
 
 	/* Aici se termina setarile pentru logo din meniu telefon*/
 
-
 	.menu-wrap {
 		display: block;
 	}
@@ -233,7 +232,7 @@ table {
 	}
 	
 	.dropdown-content { /* Aici se aliniaza ce-i sub portofoliu */
-  		margin-left: -4.375%;
+  		margin-left: -3.75%;
   		background-color: #aaa;
   		z-index: 1;
   		width: 18%;
@@ -244,9 +243,9 @@ table {
 	}
 
 	.dropdown a {
-	font-family: "Times New Roman", Times, serif;
 	text-decoration: none;
 	color: #fff;
+	font-family: "Times New Roman", Times, serif;
 	text-transform: uppercase;
 	transition: .3s;
 	font-size: 1.2rem;
@@ -414,7 +413,8 @@ table {
 
 
 @media screen and (max-width: 450px) {
-	/* Aici gasesti setarile pentru logo meniu telefon*/
+
+		/* Aici gasesti setarile pentru logo meniu telefon*/
 	.logo_superior {
 		display: flex;
 		flex-direction: row;
@@ -426,7 +426,7 @@ table {
 	} 
 
 	/* Aici se termina setarile pentru logo din meniu telefon*/
-
+	
 	.menu-wrap {
 		display: block;
 	}
@@ -466,7 +466,7 @@ table {
 	}
 	
 	.dropdown-content { /* Aici se aliniaza ce-i sub portofoliu */
-  		margin-left: -4.375%;
+  		margin-left: -3.75%;
   		background-color: #aaa;
   		z-index: 1;
   		width: 18%;
@@ -479,7 +479,7 @@ table {
 	.dropdown a {
 	text-decoration: none;
 	color: #fff;
-	
+	font-family: "Times New Roman", Times, serif;
 	text-transform: uppercase;
 	transition: .3s;
 	font-size: 1.2rem;
@@ -525,7 +525,7 @@ table {
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
-	background: #999999;
+	background: #111111; /* aici schimbi culoarea la disc*/
 }
 
 .hamburger>div{
@@ -533,7 +533,7 @@ table {
 	width: 60%;
 	height: 3px;
 	border-radius: 1.5px;
-	background-color: #111111;
+	background-color: #ffffff; /* aici schimbi culoarea la linia din mijloc*/
 	transition: .4s;
 }
 
@@ -543,7 +543,7 @@ table {
 	width: 100%;
 	height: 3px;
 	border-radius: 1.5px;
-	background-color: #111111;
+	background-color: #ffffff; /* aici schimbi culoarea la linia de sus*/
 	top: -10px;
 	left: 0;
 	transition: .4s;
@@ -555,7 +555,7 @@ table {
 	width: 100%;
 	height: 3px;
 	border-radius: 1.5px;
-	background-color: #111111;
+	background-color: #ffffff; /* aici schimbi culoarea la linia de jos*/
 	top: 10px;
 	left: 0;
 	transition: .4s;
@@ -675,7 +675,7 @@ table {
 		line-height: 110px;
 		text-transform: uppercase;
 		font-family: Engravers MT Expanded Medium;
-		}
+	}
 		
 	.prezentare {
 		height: 130px;
@@ -700,7 +700,6 @@ table {
 		font-size: 45px;
 		padding-top: 3px
 		letter-spacing: 20px;
-		
 		transition: 3s !important;
 	}
 
@@ -838,12 +837,10 @@ table {
 		left: 5%;
 		right: 5%;
 		width: 300px;
-		height: 50px;
-		
+		height: 50px;	
 	}
 
 	.prezentare {
-		
 		font-size: 43%;
 		line-height: 90px;
 		font-family: "Times New Roman", Times, serif;
@@ -985,7 +982,6 @@ table {
 		right: 2%;
 		width: 300px;
 		height: 50px;
-		
 	}
 
 	.prezentare {
@@ -1131,10 +1127,8 @@ section .review {
 
 	.prev-btn , .next-btn{
   		margin-top: 32.5%;
-}
-
+	}
 	
-
 }
 /* Aici se termina testimonialele*/
 	

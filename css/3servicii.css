@@ -226,7 +226,7 @@ table {
 	}
 	
 	.dropdown-content { /* Aici se aliniaza ce-i sub portofoliu */
-  		margin-left: -4.375%;
+  		margin-left: -3.75%;
   		background-color: #aaa;
   		z-index: 1;
   		width: 18%;
@@ -420,7 +420,7 @@ table {
 	} 
 
 	/* Aici se termina setarile pentru logo din meniu telefon*/
-
+	
 	.menu-wrap {
 		display: block;
 	}
@@ -460,7 +460,7 @@ table {
 	}
 	
 	.dropdown-content { /* Aici se aliniaza ce-i sub portofoliu */
-  		margin-left: -4.375%;
+  		margin-left: -3.75%;
   		background-color: #aaa;
   		z-index: 1;
   		width: 18%;
@@ -519,7 +519,7 @@ table {
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
-	background: #999999;
+	background: #111111; /* aici schimbi culoarea la disc*/
 }
 
 .hamburger>div{
@@ -527,7 +527,7 @@ table {
 	width: 60%;
 	height: 3px;
 	border-radius: 1.5px;
-	background-color: #111111;
+	background-color: #ffffff; /* aici schimbi culoarea la linia din mijloc*/
 	transition: .4s;
 }
 
@@ -537,7 +537,7 @@ table {
 	width: 100%;
 	height: 3px;
 	border-radius: 1.5px;
-	background-color: #111111;
+	background-color: #ffffff; /* aici schimbi culoarea la linia de sus*/
 	top: -10px;
 	left: 0;
 	transition: .4s;
@@ -549,7 +549,7 @@ table {
 	width: 100%;
 	height: 3px;
 	border-radius: 1.5px;
-	background-color: #111111;
+	background-color: #ffffff; /* aici schimbi culoarea la linia de jos*/
 	top: 10px;
 	left: 0;
 	transition: .4s;
@@ -640,8 +640,6 @@ table {
 
 }
 /* Aici se termina bara de navigare*/
-
-
 /* Aici incepe sectiunea*/
 
 	.scris .titlu {
