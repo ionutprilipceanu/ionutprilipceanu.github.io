@@ -800,8 +800,11 @@ table {
 
 		.poze {
 		width: 80%;
-		margin: 2% 0;
 	}
+
+		.poze img {
+			border-radius: 5px;
+		}
 
 	}
 
