@@ -763,6 +763,25 @@ table {
  	}
 	}
 
+	@media screen and (max-width: 800px) {
+
+
+		.box {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.poze {
+			width: 95%;
+			padding: 0;
+		}
+
+		.box {
+			margin-left: 0%;
+			width: 100%;
+		}
+	}
+
 	@media screen and (max-width: 550px) {
 		.scris p {
 			font-size: 80%;
@@ -772,27 +791,27 @@ table {
 		.intro {
   			width: 100%;
   			display: block;
-  	}
+  		}
 
  		.intro img {
   			margin-top: 0%;
   			width: 100%;
- 	}
+ 		}
 
  		.scris .titlu {
 			text-transform: uppercase;
 			text-align: center;
 			font-size: 180%;
-	}
+		}
 
 		.scris {
 			width: 100%;
 			margin-left: 0;
-	}
+		}
 
 		.scris h1 {
 			font-size: 140%;
-	}
+		}
 
 		.underline{
   			width: 30%;
@@ -801,18 +820,17 @@ table {
 		.box {
 			display: flex;
 			flex-direction: column;
-	}
+		}
 
 		.poze {
 			width: 95%;
 			padding: 0;
-	}
+		}
 
 		.box {
 			margin-left: 0%;
 			width: 100%;
-	}
-
+		}
 	}
 
 	@media screen and (max-width: 320px) {
