@@ -663,7 +663,7 @@ table {
 
 	.underline{
 		background-color: #add8e6;
-  		width: 15%;
+  		width: 12.5%;
   		height: 5px;
   		margin: -1% 0 1% 12%;
 	}
@@ -798,6 +798,7 @@ table {
 
 		.underline{
   			width: 40%;
+  			margin: -1% 0 1% 12%;
 		}
 		.contact p {
 			width: 100%;
