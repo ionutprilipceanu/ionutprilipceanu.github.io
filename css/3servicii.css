@@ -727,9 +727,9 @@ table {
 }
 
 
-	@media screen and (min-width: 1200px) {
+	@media screen and (min-width: 1350px) {
 		.underline{
-  			width: 20%;
+  			width: 10%;
 		}
 	}
 	@media screen and (max-width: 550px){
