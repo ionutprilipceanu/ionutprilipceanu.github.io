@@ -655,7 +655,7 @@ table {
 		color: white;
 		text-align: center;
 		text-transform: uppercase;
-		margin-top: 3%;
+		margin-top: 2%;
 	}
 
 	.underline{
@@ -669,7 +669,7 @@ table {
 	display: flex;
 	flex-wrap: nowrap;
 	margin-top: 10%;
-	padding-bottom: 12%;
+	padding-bottom: 13%;
 	z-index: -1;
 	animation-name: myanimation;
 	animation-duration: 4s;
