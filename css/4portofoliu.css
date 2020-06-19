@@ -649,6 +649,18 @@ table {
 /* Aici se termina bara de navigare*/
 /* Aici incepe section*/
 
+	#home {
+		font-family: "Times New Roman", Times, serif;
+		font-size: 180px;
+		color: white;
+	}
+
+	.underline{
+		width: 25px;
+		height:10px;
+		color: blue;
+	}
+
 .continut {
 	display: flex;
 	flex-wrap: nowrap;
@@ -657,7 +669,6 @@ table {
 	z-index: -1;
 	animation-name: myanimation;
 	animation-duration: 4s;
-		
 	}
 
 
