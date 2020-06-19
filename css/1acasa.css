@@ -1096,6 +1096,13 @@ section .review {
   margin-top: 15%;
 }
 
+#linie {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	width: 25%;
+
+}
 
 @media screen and (max-width: 600px) {
 	section .review {
