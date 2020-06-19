@@ -651,15 +651,17 @@ table {
 
 	#home {
 		font-family: "Times New Roman", Times, serif;
-		font-size:60px;
+		font-size: 240%;
 		color: white;
+		text-align: center;
+		text-transform: uppercase;
 	}
 
 	.underline{
 		background-color: #add8e6;
   		width: 75%;
   		height: 5px;
-  		margin: -9% 0 10% 50%;
+  		margin: 0.5% 0 10% 50%;
 	}
 
 .continut {
