@@ -721,6 +721,10 @@ table {
 	margin: 15px;
 	}
 
+#home {
+		padding-top: 5px;
+	}
+
 .underline{
   		width: 40%;
 	}
