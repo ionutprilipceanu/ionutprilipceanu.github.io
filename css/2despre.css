@@ -782,6 +782,12 @@ table {
 			font-size: 180%;
 	}
 
+	.scris {
+		width: 100%;
+		margin-left: 0;
+
+	}
+
 		.scris h1 {
 			font-size: 140%;
 	}
@@ -817,7 +823,7 @@ table {
   			margin-top: -6%;
   			width: 100%;
  	}
- 	
+
 	}
 
 
