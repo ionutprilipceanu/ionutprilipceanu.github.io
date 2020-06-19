@@ -782,10 +782,9 @@ table {
 			font-size: 180%;
 	}
 
-	.scris {
-		width: 100%;
-		margin-left: 0;
-
+		.scris {
+			width: 100%;
+			margin-left: 0;
 	}
 
 		.scris h1 {
@@ -803,6 +802,8 @@ table {
 
 		.poze {
 		width: 80%;
+		display: flex;
+		justify-content: space-around;
 	}
 
 		.poze img {
