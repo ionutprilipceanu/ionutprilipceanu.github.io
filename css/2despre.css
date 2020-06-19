@@ -748,7 +748,7 @@ table {
 		
 		transform:scale(0.9);
 	}
-	
+
 	@media screen and (min-width: 1400px) {
 		.underline{
   			width: 10%;
@@ -790,7 +790,7 @@ table {
 	}
 
 		.underline{
-  		width: 40%;
+  		width: 30%;
 		}
 	}
 
