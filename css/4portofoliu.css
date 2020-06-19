@@ -652,8 +652,8 @@ table {
 .continut {
 	display: flex;
 	flex-wrap: nowrap;
-	margin-top: 100px;
-	padding-bottom: 10%;
+	margin-top: 10%;
+	padding-bottom: 17%;
 	z-index: -1;
 	animation-name: myanimation;
 	animation-duration: 4s;
