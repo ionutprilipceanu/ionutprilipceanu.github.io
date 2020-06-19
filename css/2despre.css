@@ -735,11 +735,6 @@ table {
 		align-items: center;
 	}
 
-	.poze img {
-			border-radius: 4px;
-		}
-	}
-
 	.poze{
 		transition: 1s;
 		padding: 5px;
@@ -776,27 +771,22 @@ table {
 		.intro {
   			width: 100%;
   			display: block;
-  		}
+  	}
 
  		.intro img {
   			margin-top: 0%;
   			width: 100%;
- 		}
+ 	}
 
  		.scris .titlu {
 			text-transform: uppercase;
 			text-align: center;
 			font-size: 180%;
-		}
-
-		.scris {
-			width: 100%;
-			margin-left: 0;
-		}
+	}
 
 		.scris h1 {
 			font-size: 140%;
-		}
+	}
 
 		.underline{
   		width: 40%;
@@ -805,12 +795,14 @@ table {
 		.box {
 		display: flex;
 		flex-direction: column;
-		width: 100%;
-		margin-left: 0;
-		}
+	}
 
 		.poze {
 		width: 80%;
+	}
+
+		.poze img {
+			border-radius: 4px;
 		}
 
 	}
@@ -820,7 +812,7 @@ table {
  		.intro img {
   			margin-top: -6%;
   			width: 100%;
- 		}
+ 	}
 	}
 
 
