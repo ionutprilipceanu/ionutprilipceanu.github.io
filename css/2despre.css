@@ -792,6 +792,17 @@ table {
 		.underline{
   		width: 40%;
 		}
+
+		.box {
+		
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		background-color: rgba(238,238,238, 0.4);
+		border-radius: 0 0 10px 10px;
+		justify-content: center;
+		align-items: center;
+	}
 	}
 
 	@media screen and (max-width: 320px) {
