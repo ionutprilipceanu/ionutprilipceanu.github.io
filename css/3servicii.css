@@ -662,6 +662,13 @@ table {
 		z-index: -1;
 		padding-top: 2.5%;
 	}
+
+	.underline{
+		background-color: #add8e6;
+  		width: 15%;
+  		height: 5px;
+  		margin: 0% 0 10% 50%;
+	}
 	
 	.scris p {
 		font-family: "Times New Roman", Times, serif;
@@ -732,6 +739,11 @@ table {
 			padding-top: 15px;
 			font-size: 15px;
 		}
+
+		.underline{
+  		width: 40%;
+		}
+
 		.scris p {
 			padding-bottom: 5px;
 			font-size: 80%;
