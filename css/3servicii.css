@@ -726,6 +726,12 @@ table {
 	100% {opacity: 1;}
 }
 
+
+	@media screen and (min-width: 1200px) {
+		.underline{
+  			width: 20%;
+		}
+	}
 	@media screen and (max-width: 550px){
 		.scris {
 			width: 100%;
