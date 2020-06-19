@@ -693,7 +693,6 @@ table {
 	.intro img {
 		padding: 0%;
 		border-collapse: collapse;
-		
 	}
 
 
@@ -736,6 +735,10 @@ table {
 		align-items: center;
 	}
 
+	.poze img {
+			border-radius: 4px;
+		}
+	
 	.poze{
 		transition: 1s;
 		padding: 5px;
@@ -801,10 +804,6 @@ table {
 		.poze {
 		width: 80%;
 	}
-
-		.poze img {
-			border-radius: 4px;
-		}
 
 	}
 
