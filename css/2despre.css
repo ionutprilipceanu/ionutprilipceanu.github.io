@@ -689,12 +689,10 @@ table {
 		z-index: -1;
 	}
 
-
 	.intro img {
 		padding: 0%;
 		border-collapse: collapse;
 	}
-
 
 	.scris {
 		width: 75%;
@@ -708,6 +706,11 @@ table {
 		font-family: "Times New Roman", Times, serif;
 	}
 
+	@keyframes myanimation {
+		0% {top:-370px;}
+		100% {top: 0px;}
+	}
+
 	#linie {
 		width: 20%;
 		opacity: 0.5;
@@ -718,11 +721,6 @@ table {
 		width: 50%;
 		transition: 0.5s ease-in-out;
 	}
-
-@keyframes myanimation {
-	0% {top:-370px;}
-	100% {top: 0px;}
-}
 
 	.box {
 		margin-left: 12.5%;
@@ -805,6 +803,12 @@ table {
 			border-radius: 4px;
 		}
 
+		.box {
+			margin-left: 0%;
+			width: 100%;
+	}
+
+
 	}
 
 	@media screen and (max-width: 320px) {
@@ -813,6 +817,7 @@ table {
   			margin-top: -6%;
   			width: 100%;
  	}
+ 	
 	}
 
 
