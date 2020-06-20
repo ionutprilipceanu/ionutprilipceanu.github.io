@@ -699,6 +699,8 @@ table {
 	.coloana .column img {
 		margin-top: 8px;
 		vertical-align: middle;
+		border-radius: 4px;
+  		border: 1px solid rgb(25, 60, 80); 
 	}
 
 	.coloana .column img:hover {
