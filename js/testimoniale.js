@@ -74,10 +74,10 @@ nextBtn.addEventListener('click' , function(){
   if(currentItem > reviews.length - 1){
     currentItem = 0;
   }
-  img.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:1000, fill:'forwards'});
-  author.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:1000, fill:'forwards'});
-  job.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:1000, fill:'forwards'});
-  info.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:1000, fill:'forwards'});
+  img.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
+  author.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
+  job.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
+  info.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
   showPerson();
 });
 
@@ -86,10 +86,10 @@ prevBtn.addEventListener('click' , function(){
   if(currentItem < 0){
     currentItem = reviews.length - 1;
   }
-  img.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:1000, fill:'forwards'});
-  author.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:1000, fill:'forwards'});
-  job.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:1000, fill:'forwards'});
-  info.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:1000, fill:'forwards'});
+  img.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
+  author.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
+  job.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
+  info.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
   showPerson();
 });
 
