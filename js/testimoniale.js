@@ -74,10 +74,10 @@ nextBtn.addEventListener('click' , function(){
   if(currentItem > reviews.length - 1){
     currentItem = 0;
   }
-  img.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
-  author.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
-  job.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
-  info.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
+  img.style.transition = "transofrm 0.4s ease-in-out";
+  author.style.transition = "transofrm 0.4s ease-in-out";
+  job.style.transition = "transofrm 0.4s ease-in-out";
+  info.style.transition = "transofrm 0.4s ease-in-out";
   showPerson();
 });
 
