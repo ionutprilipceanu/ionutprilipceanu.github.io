@@ -760,7 +760,7 @@ table {
     font-family: 'Times New Roman', Times, serif;
     font-size: 45px;
     letter-spacing: 1px;
-    margin: 0 2% 0;
+    margin: 1% 0 2% 0;
 }
 
 .underlineTitle {
@@ -770,6 +770,15 @@ table {
   margin: -15% 0 10% 50%;
 }
 
+#descriereSalut {
+	font-family: 'Times New Roman', Times, serif;
+  	text-align: justify;
+  	margin: 2% 2% 2%;
+  	font-style: italic;
+  	opacity: 0.85;
+  	word-spacing: 2px;
+  	line-height: 1.5;
+}
 
 #descriere {
 	font-family: 'Times New Roman', Times, serif;
