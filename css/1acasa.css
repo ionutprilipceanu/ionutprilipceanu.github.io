@@ -744,65 +744,60 @@ table {
 		transition: 1s;
 	}
 
-/* Aici incepe sectiunea despre 
+/* Aici incepe sectiunea despre */
 
-.scris .titlu {
-	 	font-family: "Times New Roman", Times, serif;
-		text-transform: uppercase;
-		text-align: center;
-		font-size: 240%;
-		margin-bottom: -1%;
+#descriere {
+	font-family: 'Times New Roman', Times, serif;
+  	text-align: center;
+  	margin: 2% 2% 10%;
+  	font-style: italic;
+  	opacity: 0.85;
+  	word-spacing: 2px;
+  	line-height: 1.5;
+}
+
+#titluDescriere {
+  font-size: 25px;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  margin: -2.5% 0 0;
+}
+
+/*#linieDescirere {
+	width: 100%;
+	color: #333;
+}*/
+
+@media screen and (max-width: 600px) {
+	section .review {
+		width: 300px;
 	}
 
-	.scris h1 {
-		font-family: "Times New Roman", Times, serif;
-		width: 75%;
-		margin-left: 6.5%;
-		color: rgb(0, 0, 0, 0.6);
-		font-size: 180%;
-		padding: 1%;
-		z-index: -1;
-		padding-top: 2.5%;
+	.title h2 {
+	  	font-size: 35px;
 	}
 
-	.underline{
-		background-color: #add8e6;
-  		width: 15%;
-  		height: 5px;
-  		margin: 0% 0% 0% 45%;
-	}
-	
-	.scris p {
-		font-family: "Times New Roman", Times, serif;
-		width: 85%;
-		padding: 1%;
-		margin-left: 6.5%;
-		color: rgb(0, 0, 0, 0.6);
-		font-size: 120%;
-		text-align: justify;
-		z-index: -1;
+	.underline {
+		margin-left: 35%;
 	}
 
-.scris {
-		width: 100%;
-		margin-top: -0.5%;
-		background-color: #F0F2F5;
-		z-index: -1;
-		position: relative;
-		animation-name: myanimation;
-		animation-duration: 3s;
-		font-family: "Times New Roman", Times, serif;
-		background-color: white;
+	#author {
+  		font-size: 20px;
 	}
 
-.doarScris {
-	width: 75%;
-	background-color: #FFFBFB;
+
+
+	#info {
+  		font-size: 12.5px;
+  		word-spacing: 2px;
+  		line-height: 1.5;
+	}
 
 }
 
 
- Aici se termina sectiunea despre */
+
+ /* Aici se termina sectiunea despre */
 
 @media screen and (max-width: 1100px) {
 
