@@ -751,7 +751,7 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(240,242,245); /* #283642 */
+  background-color: white; /*rgb(240,242,245);*/ /* #283642 */
 }
 
 #descriereTitlu {
@@ -783,6 +783,14 @@ table {
 	border-radius: 7px;
 	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.5);
 	padding: 2%;
+}
+
+.btn_readMore{
+	background-color: #add8e6;
+	font-size: 12px;
+	padding: 2%;
+	border-radius: 4px;
+
 }
 
 
@@ -1087,7 +1095,7 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(240,242,245); /* #283642 */
+  background-color: white; /*rgb(240,242,245);*/ /* #283642 */
 }
 
 .title h2 {
