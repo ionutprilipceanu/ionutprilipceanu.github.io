@@ -798,29 +798,8 @@ table {
 
 
 @media screen and (max-width: 600px) {
-	section .review {
-		width: 300px;
-	}
-
-	.title h2 {
-	  	font-size: 35px;
-	}
-
-	.underline {
-		margin-left: 35%;
-	}
-
-	#author {
-  		font-size: 20px;
-	}
 
 
-
-	#info {
-  		font-size: 12.5px;
-  		word-spacing: 2px;
-  		line-height: 1.5;
-	}
 
 	.btn_readMore{
 	width: 100%;
