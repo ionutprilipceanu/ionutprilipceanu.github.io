@@ -826,6 +826,10 @@ table {
     	font-size: 35px;
 	}
 
+	#descriereSalut {
+  		font-size: 12.5px;
+	}
+
 	#descriere {
 		font-size: 12.5px;
   		word-spacing: 1.5px;
