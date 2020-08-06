@@ -789,10 +789,11 @@ table {
 	background-color: #add8e6;
   	color: black;
   	cursor: pointer;
-  	border: none;
+  	border: 1px solid black;
   	border-radius: 4px;
  	outline: none;
-  	
+  	padding: 2%;
+
 
 }
 
