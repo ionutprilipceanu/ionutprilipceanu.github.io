@@ -822,6 +822,10 @@ table {
   		word-spacing: 1.5px;	
 	}
 
+	.descriereTitle {
+    	font-size: 35px;
+	}
+
 	#descriere {
 		font-size: 12.5px;
   		word-spacing: 1.5px;
