@@ -754,7 +754,7 @@ table {
   background-color: rgb(240,242,245); /* #283642 */
 }
 
-#descriereTitle {
+.descriereTitle {
 	font-family: 'Times New Roman', Times, serif;
   	text-align: left;
   	margin: 0% 2% 0%;
