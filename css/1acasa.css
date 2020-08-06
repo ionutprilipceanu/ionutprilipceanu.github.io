@@ -795,8 +795,8 @@ table {
 }
 
 .btn_readMore:hover {
-	transform: scale(0.8);
-	transition-duration: 2s;
+	transform: scale(1.2);
+	transition-duration: 1.5s;
 }
 
 
@@ -1168,15 +1168,11 @@ section .review {
   margin-top: 15%;
 }
 
-.next-btn:hover {
+.prev-btn:hover , .next-btn:hover {
 	transform: scale(1.5);
-	transition-duration: 2s;
+	transition-duration: 1.5s;
 }
 
-.prev-brn:hover {
-	transform: scale(1.5);
-	transition-duration: 2s;
-}
 
 #linie {
 	width: 100%;
