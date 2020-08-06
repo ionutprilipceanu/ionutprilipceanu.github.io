@@ -754,6 +754,17 @@ table {
   background-color: rgb(240,242,245); /* #283642 */
 }
 
+#descriereTitlu {
+	font-family: 'Times New Roman', Times, serif;
+  	text-align: left;
+  	margin: 2% 2% 0%;
+  	font-style: italic;
+  	opacity: 0.85;
+  	word-spacing: 2px;
+  	line-height: 1.5;
+}
+
+
 #descriere {
 	font-family: 'Times New Roman', Times, serif;
   	text-align: center;
@@ -762,7 +773,6 @@ table {
   	opacity: 0.85;
   	word-spacing: 2px;
   	line-height: 1.5;
-
 }
 
 #continutText {
