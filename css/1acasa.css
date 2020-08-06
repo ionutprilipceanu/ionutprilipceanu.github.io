@@ -786,9 +786,10 @@ table {
 }
 
 .btn_readMore{
-	background-color: #FFFBFB;
-  	color: #add8e6;
+	background-color: #add8e6;
+  	color: black;
   	cursor: pointer;
+  	border: none;
   	border-radius: 4px;
  	outline: none;
   	
