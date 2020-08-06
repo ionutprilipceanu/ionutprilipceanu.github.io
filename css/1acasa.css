@@ -782,8 +782,9 @@ table {
 		text-align: justify;
 		z-index: -1;
 	}
+
 .scris {
-		width: 75%;
+		width: 100%;
 		margin-top: -0.5%;
 		margin-left: 12.5%;
 		background-color: rgba(238,238,238, 0.25);
@@ -792,9 +793,10 @@ table {
 		animation-name: myanimation;
 		animation-duration: 3s;
 		font-family: "Times New Roman", Times, serif;
+		background-color: white;
 	}
 
-	
+
 /* Aici se termina sectiunea despre */
 
 @media screen and (max-width: 1100px) {
