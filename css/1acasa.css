@@ -794,7 +794,6 @@ table {
  	outline: none;
   	padding: 1%;
 
-
 }
 
 
@@ -822,6 +821,12 @@ table {
   		word-spacing: 2px;
   		line-height: 1.5;
 	}
+
+	.btn_readMore{
+	align-items: center;
+  	padding: 3%;
+
+}
 
 }
 
