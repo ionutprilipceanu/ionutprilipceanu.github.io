@@ -799,12 +799,13 @@ table {
 @media screen and (max-width: 600px) {
 
 	#descriereTitlu {
-		font-size: 12px;	
+		font-size: 12.5px;
+  		word-spacing: 1.5px;	
 	}
 
-
 	#descriere {
-		font-size: 12px;
+		font-size: 12.5px;
+  		word-spacing: 1.5px;
 	}
 
 	.btn_readMore{
