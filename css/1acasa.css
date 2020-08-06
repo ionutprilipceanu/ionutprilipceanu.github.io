@@ -795,7 +795,8 @@ table {
 }
 
 .btn_readMore:hover {
-	transform: scale(1.2);
+	opacity: 0.8;
+	transform: scale(1.1);
 	transition-duration: 1.5s;
 }
 
@@ -1169,7 +1170,7 @@ section .review {
 }
 
 .prev-btn:hover , .next-btn:hover {
-	transform: scale(1.5);
+	transform: scale(1.2);
 	transition-duration: 1.5s;
 }
 
