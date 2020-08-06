@@ -744,7 +744,7 @@ table {
 		transition: 1s;
 	}
 
-/* Aici incepe sectiunea despre */
+/* Aici incepe sectiunea despre 
 
 .scris .titlu {
 	 	font-family: "Times New Roman", Times, serif;
@@ -798,11 +798,11 @@ table {
 .doarScris {
 	width: 75%;
 	background-color: #FFFBFB;
-	
+
 }
 
 
-/* Aici se termina sectiunea despre */
+ Aici se termina sectiunea despre */
 
 @media screen and (max-width: 1100px) {
 
