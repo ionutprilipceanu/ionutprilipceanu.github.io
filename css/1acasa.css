@@ -777,7 +777,7 @@ table {
 
 #continutText {
 	width: 75%;
-	background-color: rgb(255, 251, 251);
+	background-color: white; /*rgb(255, 251, 251)*/
 	margin-bottom: 3%;
 	border-radius: 7px;
 	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.5);
@@ -1111,7 +1111,7 @@ table {
 
 section .review {
   width: 600px;
-  background-color: rgb(255, 251, 251);
+  background-color: white; /*rgb(255, 251, 251)*/
   text-align: center;
   margin-bottom: 5%;
   border-radius: 7px;
