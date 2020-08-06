@@ -746,6 +746,14 @@ table {
 
 /* Aici incepe sectiunea despre */
 
+.containerDescriere {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240,242,245); /* #283642 */
+}
+
 #descriere {
 	font-family: 'Times New Roman', Times, serif;
   	text-align: center;
