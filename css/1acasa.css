@@ -757,7 +757,7 @@ table {
 #descriereTitlu {
 	font-family: 'Times New Roman', Times, serif;
   	text-align: left;
-  	margin: 2% 2% 0%;
+  	margin: 2% 2% -2%;
   	font-style: italic;
   	opacity: 0.85;
   	word-spacing: 2px;
