@@ -1170,7 +1170,7 @@ section .review {
 
 .prev-btn:hover , .next-btn:hover {
 	transform: scale(1.2);
-	transition-duration: 1.5s;
+	transition-duration: .75s;
 }
 
 
