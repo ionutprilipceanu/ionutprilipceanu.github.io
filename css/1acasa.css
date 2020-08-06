@@ -764,20 +764,11 @@ table {
   	line-height: 1.5;
 }
 
-.titleTitle h2 {
-  text-align: center;
-  text-transform: capitalize;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 45px;
-  letter-spacing: 1px;
-  margin: 7% 0 10% 0;
-}
-
 .underlineTitle {
   background-color: #add8e6;
   width: 75%;
   height: 5px;
-  margin: -9% 0 10% 50%;
+  margin: -15% 0 10% 50%;
 }
 
 
