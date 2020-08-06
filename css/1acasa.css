@@ -762,7 +762,12 @@ table {
   	opacity: 0.85;
   	word-spacing: 2px;
   	line-height: 1.5;
-  	width: 60%;
+
+}
+
+#continutText {
+	width: 75%;
+	background-color: white;
 }
 
 
