@@ -786,8 +786,7 @@ table {
 .scris {
 		width: 100%;
 		margin-top: -0.5%;
-		
-		background-color: rgba(238,238,238, 0.25);
+		background-color: #F0F2F5;
 		z-index: -1;
 		position: relative;
 		animation-name: myanimation;
@@ -795,6 +794,12 @@ table {
 		font-family: "Times New Roman", Times, serif;
 		background-color: white;
 	}
+
+.doarScris {
+	width: 75%;
+	background-color: #FFFBFB;
+	
+}
 
 
 /* Aici se termina sectiunea despre */
