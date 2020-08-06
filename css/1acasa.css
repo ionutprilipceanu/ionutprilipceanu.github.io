@@ -776,7 +776,6 @@ table {
 }
 
 #continutText {
-
 	width: 75%;
 	background-color: rgb(255, 251, 251);
 	margin-bottom: 3%;
@@ -799,11 +798,18 @@ table {
 
 @media screen and (max-width: 600px) {
 
+	#descriereTitlu {
+		font-size: 12px;	
+	}
 
+
+	#descriere {
+		font-size: 12px;
+	}
 
 	.btn_readMore{
-	width: 100%;
-  	padding: 3%;
+		width: 100%;
+  		padding: 3%;
   	}
 
 }
