@@ -764,7 +764,7 @@ table {
   	line-height: 1.5;
 }
 
-.titluDescriere {
+/*.titluDescriere {
   font-size: 25px;
   text-transform: capitalize;
   letter-spacing: 5px;
@@ -774,8 +774,7 @@ table {
 .underlineDescirere {
 	width: 100%;
 	color: #333;
-}
-
+}*/
 @media screen and (max-width: 600px) {
 	section .review {
 		width: 300px;
