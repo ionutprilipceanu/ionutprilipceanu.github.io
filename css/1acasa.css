@@ -744,8 +744,58 @@ table {
 		transition: 1s;
 	}
 
+/* Aici incepe sectiunea despre */
 
+.scris .titlu {
+	 	font-family: "Times New Roman", Times, serif;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 240%;
+		margin-bottom: -1%;
+	}
 
+	.scris h1 {
+		font-family: "Times New Roman", Times, serif;
+		width: 75%;
+		margin-left: 6.5%;
+		color: rgb(0, 0, 0, 0.6);
+		font-size: 180%;
+		padding: 1%;
+		z-index: -1;
+		padding-top: 2.5%;
+	}
+
+	.underline{
+		background-color: #add8e6;
+  		width: 15%;
+  		height: 5px;
+  		margin: 0% 0% 0% 45%;
+	}
+	
+	.scris p {
+		font-family: "Times New Roman", Times, serif;
+		width: 85%;
+		padding: 1%;
+		margin-left: 6.5%;
+		color: rgb(0, 0, 0, 0.6);
+		font-size: 120%;
+		text-align: justify;
+		z-index: -1;
+	}
+.scris {
+		width: 75%;
+		margin-top: -0.5%;
+		margin-left: 12.5%;
+		background-color: rgba(238,238,238, 0.25);
+		z-index: -1;
+		position: relative;
+		animation-name: myanimation;
+		animation-duration: 3s;
+		font-family: "Times New Roman", Times, serif;
+	}
+
+	
+/* Aici se termina sectiunea despre */
 
 @media screen and (max-width: 1100px) {
 
