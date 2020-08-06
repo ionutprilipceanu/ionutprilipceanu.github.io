@@ -808,6 +808,7 @@ table {
   	border-radius: 4px;
  	outline: none;
   	padding: 1%;
+  	font-weight: bold;
 }
 
 .btn_readMore:hover {
