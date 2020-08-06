@@ -796,7 +796,7 @@ table {
 
 .btn_readMore:hover {
 	opacity: 0.75;
-	transition-duration: 1.5s;
+	transition-duration: .75s;
 }
 
 
