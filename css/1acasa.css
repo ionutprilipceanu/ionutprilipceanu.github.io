@@ -773,7 +773,7 @@ table {
 #descriereSalut {
 	font-family: 'Times New Roman', Times, serif;
   	text-align: justify;
-  	margin: 2% 2% 2%;
+  	margin: 2% 2% -1% 2%;
   	font-style: italic;
   	opacity: 0.85;
   	word-spacing: 2px;
