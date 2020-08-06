@@ -762,7 +762,6 @@ table {
   	opacity: 0.85;
   	word-spacing: 2px;
   	line-height: 1.5;
-  	padding: 2%;
 }
 
 
@@ -774,7 +773,7 @@ table {
   	opacity: 0.85;
   	word-spacing: 2px;
   	line-height: 1.5;
-  	padding: 2%;
+  	padding: 1%;
 }
 
 #continutText {
