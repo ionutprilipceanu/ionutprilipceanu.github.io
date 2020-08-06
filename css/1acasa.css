@@ -792,7 +792,10 @@ table {
   	border-radius: 4px;
  	outline: none;
   	padding: 1%;
+}
 
+.btn_readMore:hover {
+	transform: scale(1.5);
 }
 
 
@@ -1162,6 +1165,10 @@ section .review {
   font-size: 40px;
   height: 50px;
   margin-top: 15%;
+}
+
+.prev-brn:hover , .next-btn:hover {
+	transform: scale(1.5);
 }
 
 #linie {
