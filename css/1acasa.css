@@ -1154,7 +1154,7 @@ section .review {
 }
 
 .prev-btn , .next-btn{
-  background-color: #FFFBFB;
+  background-color: white; /*#FFFBFB*/
   color: #add8e6;
   cursor: pointer;
   border:none;
