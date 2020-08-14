@@ -1262,7 +1262,7 @@ section .review {
 
 	.politici {
 		list-style: none;
-		background-color: #333333;
+		
 		color: white;
 		padding: 2% 0;
 		display: flex;
@@ -1307,11 +1307,12 @@ section .review {
 	.continutTotal {
 		display: flex;
 		flex-direction: column;
+		background-color: #333333;
 	}
 
 	.btnContact {
 		width: 20%;
-		padding: 2% 2% 2% 2%;
+		margin: 2% 2% 2% 2%;
 	}
 
 
