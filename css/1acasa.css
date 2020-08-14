@@ -1328,7 +1328,7 @@ section .review {
 		transition-duration: .75s;
 	}
 
-	.btnContact a {
+	.contactTotal a {
 		color: black;
 		cursor: pointer;
 		width: 100%;
