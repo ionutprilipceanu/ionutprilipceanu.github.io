@@ -1310,7 +1310,7 @@ section .review {
 
 	.btnContact {
 		padding: 0.5%;
-   		width: 25px;
+   		width: 10%;
     	margin: 1% 2% -1% 2%;
     	background-color: rgb(173,216,230);
     	border: solid 0.25px black;
@@ -1426,6 +1426,11 @@ section .review {
 			font-size: 30px;
 			padding: 0 3%;
 		}
+
+		.btnContact {
+   		width: 100%;
+		}
+
 	}
 	/* Aici se termina footer-ul*/
 
