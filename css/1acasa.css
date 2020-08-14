@@ -1402,6 +1402,11 @@ section .review {
 		.scris_sus {
 		display: none;
 	}
+
+	.btnContact {
+   		width: 96%;
+   		padding: 1% 0;
+	}
 	
 	}
 
