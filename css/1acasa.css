@@ -1314,11 +1314,12 @@ section .review {
 		padding: 0.5%;
    		width: 10%;
     	margin: 1% 2% -1% 2%;
+    	background-color: rgb(173,216,230);
 	}
 
 	.btnContact a {
 		color: black;
-		background-color: rgb(173,216,230);
+		
 	}
 
 
