@@ -1304,6 +1304,13 @@ section .review {
 		flex-grow: 2;
 	}
 
+	.continutTotal {
+		display: flex;
+		flex-direction: column;
+	}
+
+	
+
 	@media screen and (max-width: 800px) {
 
 		.politici{
