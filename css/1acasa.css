@@ -671,7 +671,7 @@ table {
 		background-color: #111111;
 	}
  
-	header .logo_mare img{
+	header .logo_mare {
 		position: relative;
 		display: block;
 		padding-top: 10% !important;
