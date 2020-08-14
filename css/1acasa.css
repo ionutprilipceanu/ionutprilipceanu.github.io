@@ -808,7 +808,6 @@ table {
   	border-radius: 4px;
  	outline: none;
   	padding: 1%;
-  	
 }
 
 .btn_readMore:hover {
@@ -1315,6 +1314,7 @@ section .review {
    		width: 10%;
     	margin: 1% 2% -1% 2%;
     	background-color: rgb(173,216,230);
+    	border-radius: 4px;
 	}
 
 	.btnContact a {
