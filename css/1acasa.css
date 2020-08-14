@@ -1438,9 +1438,9 @@ section .review {
 		}
 
 		.btnContact {
-   			width: 100%;
+   			width: 98%;
     		padding: 1% 0;
-    		margin: 1% 0% -1% 0%;
+    		margin: 1% 1% -1% 1%;
 		}
 
 	}
