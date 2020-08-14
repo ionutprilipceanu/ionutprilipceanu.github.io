@@ -1320,6 +1320,7 @@ section .review {
  		outline: none;
     	cursor: pointer;
     	font-size: 16px;
+    	padding: 0.5%;
 	}
 
 
@@ -1331,9 +1332,9 @@ section .review {
 	.contactTotal a {
 		color: black;
 		cursor: pointer;
-		width: 100%;
+		width: 10%;
 		margin: 1% 2% -1% 2%;
-		padding: 0.5%;
+		
 	}
 
 
