@@ -1309,7 +1309,11 @@ section .review {
 		flex-direction: column;
 	}
 
-	
+	.btnContact {
+		width: 20%
+	}
+
+
 
 	@media screen and (max-width: 800px) {
 
