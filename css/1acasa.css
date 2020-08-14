@@ -1310,7 +1310,7 @@ section .review {
 
 	.btnContact {
 		padding: 0.5%;
-   		width: 10%;
+   		width: 25px;
     	margin: 1% 2% -1% 2%;
     	background-color: rgb(173,216,230);
     	border: solid 0.25px black;
