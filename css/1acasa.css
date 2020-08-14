@@ -1313,7 +1313,7 @@ section .review {
 	}
 
 	.btnContact {
-   		width: 100%;
+   		
     	background-color: rgb(173,216,230);
     	border: solid 0.25px black;
   		border-radius: 4px;
