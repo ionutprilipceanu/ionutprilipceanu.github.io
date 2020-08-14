@@ -1315,6 +1315,7 @@ section .review {
     	margin: 1% 2% -1% 2%;
     	background-color: rgb(173,216,230);
     	border-radius: 4px;
+    	cursor: pointer;
 	}
 
 	.btnContact a {
