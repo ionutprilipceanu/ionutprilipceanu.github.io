@@ -1321,6 +1321,8 @@ section .review {
   		border-radius: 4px;
  		outline: none;
     	cursor: pointer;
+    	font-size: initial;
+
 	}
 
 
@@ -1348,19 +1350,20 @@ section .review {
 		}
 
 		.politici .logo {
-		padding: 3% 0;
-		text-align: center;
-		margin-right: 0;
-	}
+			padding: 3% 0;
+			text-align: center;
+			margin-right: 0;
+		}
+
 		.logo a {
 			font-size: 30px;
 			padding: 0 3%;
 		}
 
 		.scris_jos a{
-		display: block;
-		padding-left: 2%;
-		text-align: center;
+			display: block;
+			padding-left: 2%;
+			text-align: center;
 		}
 	
 	}
@@ -1380,10 +1383,11 @@ section .review {
 		}
 
 		.politici .logo {
-		padding: 3% 0;
-		text-align: center;
-		margin-right: 0;
-	}
+			padding: 3% 0;
+			text-align: center;
+			margin-right: 0;
+		}
+
 		.logo a {
 			font-size: 30px;
 			padding: 0 3%;
@@ -1394,43 +1398,44 @@ section .review {
 		}
 
 		.scris_jos a{
-		display: block;
-		padding-left: 2%;
-		text-align: center;
-	}
+			display: block;
+			padding-left: 2%;
+			text-align: center;
+		}
 
 		.scris_sus {
-		display: none;
-	}
+			display: none;
+		}
 
-	.btnContact {
-   		width: 100%;
-    	padding: 1% 0;
-    	margin: 1% 0% -1% 0%;
-	}
+		.btnContact {
+   			width: 100%;
+    		padding: 1% 0;
+    		margin: 1% 0% -1% 0%;
+    		font-size: initial;
+		}
 	
 	}
 
 	@media screen and (max-width: 450px) {
 
 		.scris_jos ul {
-		display: block;
-		padding-left: 2%;
-	}
+			display: block;
+			padding-left: 2%;
+		}
 
 		.scris_sus {
-		display: none;
-	}
+			display: none;
+		}
 
 		.scris_jos a{
 			width: auto;
 		}
 
 		.politici .logo {
-		padding: 3% 0;
-		text-align: center;
-		margin-right: 0;
-	}
+			padding: 3% 0;
+			text-align: center;
+			margin-right: 0;
+		}
 
 		.logo a {
 			font-size: 30px;
