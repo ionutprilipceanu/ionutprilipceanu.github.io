@@ -1235,6 +1235,10 @@ section .review {
 	.prev-btn , .next-btn{
   		margin-top: 32.5%;
 	}
+
+	#linie {
+	width: 98%;
+}
 	
 }
 /* Aici se termina testimonialele*/
@@ -1428,7 +1432,7 @@ section .review {
 		}
 
 		.btnContact {
-   		width: 100%;
+   		width: 96%;
 		}
 
 	}
