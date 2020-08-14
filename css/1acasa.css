@@ -412,7 +412,7 @@ table {
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 610px) {
 
 		/* Aici gasesti setarile pentru logo meniu telefon*/
 	.logo_superior {
@@ -477,13 +477,13 @@ table {
 	}
 
 	.dropdown a {
-	text-decoration: none;
-	color: #fff;
-	font-family: "Times New Roman", Times, serif;
-	text-transform: uppercase;
-	transition: .3s;
-	font-size: 1.2rem;
-	display: block;
+		text-decoration: none;
+		color: #fff;
+		font-family: "Times New Roman", Times, serif;
+		text-transform: uppercase;
+		transition: .3s;
+		font-size: 1.2rem;
+		display: block;
 	}
 
 	.menu ul li {
