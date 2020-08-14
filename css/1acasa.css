@@ -1433,6 +1433,7 @@ section .review {
 
 		.btnContact {
    		width: 96%;
+   		padding: 1% 0;
 		}
 
 	}
