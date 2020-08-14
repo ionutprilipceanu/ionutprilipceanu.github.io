@@ -1322,7 +1322,7 @@ section .review {
  		outline: none;
     	cursor: pointer;
     	font-size: initial;
-
+    	overflow: hidden;
 	}
 
 
