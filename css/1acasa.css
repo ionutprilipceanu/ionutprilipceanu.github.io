@@ -1323,6 +1323,7 @@ section .review {
     	cursor: pointer;
     	font-size: initial;
     	overflow: hidden;
+    	white-space: nowrap;
 	}
 
 
