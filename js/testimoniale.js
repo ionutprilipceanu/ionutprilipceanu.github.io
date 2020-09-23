@@ -41,7 +41,7 @@ const reviews = [
     id: 6,
     name: "Andreea Năstacă",
     job: "Septembrie 2020",
-    img: /*"https://res.cloudinary.com/doethsghh/image/upload/v1592148405/patru_xcdvto.jpg", */ ".//imagini/testimoniale/sasse.jpg",
+    img: /*"https://res.cloudinary.com/doethsghh/image/upload/v1592148405/patru_xcdvto.jpg", */ ".//imagini/testimoniale/sase.jpg",
     text: '"Naturalețea și creativitatea definesc fotografiile lui Ionuț! Profesionist, dezinvolt, cu mult bun simț, foarte implicat surprinde într-un mod plăcut trăsăturile oamenilor și cadrele. Promptitudinea de care a dat dovadă este un alt atuu care îl recomandă, foarte rar găsindu-se un fotograf care să îți înmâneze atât de repede materialele. Mulțumim Ionuț pentru amintirile frumoase surprinse în fotografii! Cu siguranță vom mai apela la serviciile tale!"',
   },
 ];
