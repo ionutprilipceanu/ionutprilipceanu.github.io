@@ -35,7 +35,7 @@ const reviews = [
     id: 5,
     name: "Petru Cozma",
     job: "Februarie 2019",
-    img: /*"https://res.cloudinary.com/doethsghh/image/upload/v1592148405/patru_xcdvto.jpg", */ ".//imagini/testimoniale/patru.jpg",
+    img: /*"https://res.cloudinary.com/doethsghh/image/upload/v1592148405/patru_xcdvto.jpg", */ ".//imagini/testimoniale/sase.jpg",
     text: '"Cum să explic, băiatul ăsta e ca la Kaufland ieftin și bun. Am ieșit așa bine în poze că m-aș fi luat și eu de soț."',
   },
   {
