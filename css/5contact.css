@@ -960,9 +960,9 @@ table {
   		font-family: "Times New Roman", Times, serif !important;
 	}
 
-	input{
+	input:-internal-autofill-selected {
     appearance: menulist-button;
-    background-color: rgb(0, 8, 22) !important;
+    background-color: rgb(2, 9, 22) !important;
     background-image: none !important;
     color: -internal-light-dark(black, white) !important;
 }
