@@ -960,6 +960,10 @@ table {
   		font-family: "Times New Roman", Times, serif !important;
 	}
 
+	input::placeholder {
+		color: #000000;
+	}
+
 	input[type=date], select {
 		width: 100%;
 		padding: 10px 30px;
