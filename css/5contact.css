@@ -971,8 +971,7 @@ table {
 		font-family: "Times New Roman", Times, serif !important;
 		color: black;
 		outline: none;
-		background-color: rgb(232, 240, 254);
-}
+	}
 
 input[type=date]:focus {
 		background-color: #f0fbfc;
