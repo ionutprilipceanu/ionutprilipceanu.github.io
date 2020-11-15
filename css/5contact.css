@@ -961,7 +961,7 @@ table {
 	}
 
 	::placeholder {
-		color: #000000 !important;
+		color: grey !important;
 	}
 
 	input[type=date], select {
