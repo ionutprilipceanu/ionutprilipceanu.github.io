@@ -960,6 +960,13 @@ table {
   		font-family: "Times New Roman", Times, serif !important;
 	}
 
+	input{
+    appearance: menulist-button;
+    background-color: rgb(0, 8, 22) !important;
+    background-image: none !important;
+    color: -internal-light-dark(black, white) !important;
+}
+
 	::placeholder {
 		color: grey !important;
 	}
