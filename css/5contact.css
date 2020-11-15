@@ -960,13 +960,6 @@ table {
   		font-family: "Times New Roman", Times, serif !important;
 	}
 
-	input:-internal-autofill-selected {
-    appearance: menulist-button;
-    background-color: red !important;
-    background-image: none !important;
-    color: -internal-light-dark(black, white) !important;
-}
-
 	input[type=date], select {
 		width: 100%;
 		padding: 10px 30px;
