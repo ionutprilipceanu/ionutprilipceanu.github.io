@@ -962,10 +962,6 @@ table {
   		font-family: "Times New Roman", Times, serif !important;
 	}
 
-	::placeholder {
-		color: grey !important;
-	}
-
 	input[type=date], select {
 		width: 100%;
 		padding: 10px 30px;
