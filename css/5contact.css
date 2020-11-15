@@ -955,7 +955,6 @@ table {
   		font-family: "Times New Roman", Times, serif !important;
   		color: black;
 			outline: none;
-			background-color: rgb(255, 255, 255);
 	}
 
 	input[type=text]:focus {
@@ -978,7 +977,6 @@ table {
 		font-family: "Times New Roman", Times, serif !important;
 		color: black;
 		outline: none;
-		background-color: rgb(255, 255, 255);
 	}
 
 input[type=date]:focus {
