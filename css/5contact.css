@@ -960,7 +960,7 @@ table {
   		font-family: "Times New Roman", Times, serif !important;
 	}
 
-	input::placeholder {
+	::placeholder {
 		color: #000000;
 	}
 
