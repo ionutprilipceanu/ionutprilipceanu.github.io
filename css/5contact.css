@@ -960,7 +960,7 @@ table {
   		font-family: "Times New Roman", Times, serif !important;
 	}
 
-	input:-internal-autofill-selected {
+	input:-webkit-autofill {
     appearance: menulist-button;
     background-color: rgb(2, 9, 22) !important;
     background-image: none !important;
