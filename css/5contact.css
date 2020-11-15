@@ -960,6 +960,25 @@ table {
   		font-family: "Times New Roman", Times, serif !important;
 	}
 
+	input[type=date], select {
+		width: 100%;
+		padding: 10px 30px;
+		margin: 8px 0px; 
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		font-family: "Times New Roman", Times, serif !important;
+		color: black;
+		outline: none;
+}
+
+input[type=date]:focus {
+		background-color: #f0fbfc;
+		font-family: "Times New Roman", Times, serif !important;
+}
+	
+
 	textarea:focus {
   		background-color: #f0fbfc;
 	}
