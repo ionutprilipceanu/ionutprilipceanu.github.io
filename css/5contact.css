@@ -941,7 +941,7 @@ table {
 	}	
 
 	input:-webkit-autofill {
-    background-color: #b5c419 !important;
+    background-color: none !important;
 	}
 	
 	input[type=text], select {
