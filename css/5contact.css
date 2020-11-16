@@ -1093,8 +1093,10 @@ input[type=date]:focus {
 			width: 95%;
 			left: 0;
 			margin-bottom: -9%;
-			margin-top: -9%;
+			margin-top: 9%;
+			padding-top: 0;
 		}
+		
 		#adresa {
 			width: 100%;
 			margin-left: -10%;
