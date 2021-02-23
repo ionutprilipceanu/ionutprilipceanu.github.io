@@ -22,7 +22,7 @@ const reviews = [
     img: /*"https://res.cloudinary.com/doethsghh/image/upload/v1592148405/unu_shp0us.jpg", */ ".//imagini/testimoniale/unu.jpg",
     text: '"Un fotograf dedicat, natural, creativ, cu multă răbdare, atent la detalii și foarte prompt (am primit foarte repede materialele de la el). Bravo pentru implicare și profesionalism. Recomand cu mare drag!"',
   },
-  
+
   {
     id: 4,
     name: "Marta Magopeț-Grahoschi",
@@ -60,12 +60,12 @@ const nextBtn = document.querySelector('.next-btn');
 let currentItem = 0;
 
 // load initial item
-window.addEventListener("DOMContentLoaded", function(){
+window.addEventListener("DOMContentLoaded", function () {
   showPerson(currentItem);
 });
 
 //show person based on item
-function showPerson(){
+function showPerson() {
   const item = reviews[currentItem];
   img.src = item.img;
   author.textContent = item.name;
@@ -74,27 +74,27 @@ function showPerson(){
 }
 
 // show next person
-nextBtn.addEventListener('click' , function(){
+nextBtn.addEventListener('click', function () {
   currentItem++;
-  if(currentItem > reviews.length - 1){
+  if (currentItem > reviews.length - 1) {
     currentItem = 0;
   }
-  img.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
-  author.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
-  job.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
-  info.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
+  img.animate([{ opacity: '0.2' }, { opacity: '1.0' }], { duration: 500, fill: 'forwards' });
+  author.animate([{ opacity: '0.2' }, { opacity: '1.0' }], { duration: 500, fill: 'forwards' });
+  job.animate([{ opacity: '0.2' }, { opacity: '1.0' }], { duration: 500, fill: 'forwards' });
+  info.animate([{ opacity: '0.2' }, { opacity: '1.0' }], { duration: 500, fill: 'forwards' });
   showPerson();
 });
 
-prevBtn.addEventListener('click' , function(){
+prevBtn.addEventListener('click', function () {
   currentItem--;
-  if(currentItem < 0){
+  if (currentItem < 0) {
     currentItem = reviews.length - 1;
   }
-  img.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
-  author.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
-  job.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
-  info.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:500, fill:'forwards'});
+  img.animate([{ opacity: '0.2' }, { opacity: '1.0' }], { duration: 500, fill: 'forwards' });
+  author.animate([{ opacity: '0.2' }, { opacity: '1.0' }], { duration: 500, fill: 'forwards' });
+  job.animate([{ opacity: '0.2' }, { opacity: '1.0' }], { duration: 500, fill: 'forwards' });
+  info.animate([{ opacity: '0.2' }, { opacity: '1.0' }], { duration: 500, fill: 'forwards' });
   showPerson();
 });
 

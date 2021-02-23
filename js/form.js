@@ -1,4 +1,4 @@
-function validation (){
+function validation() {
 	var name = document.getElementById("name").value;
 	var eveniment = document.getElementById("eveniment").value;
 	var telefon = document.getElementById("telefon").value;
@@ -12,49 +12,49 @@ function validation (){
 
 	error_message.style.padding = "12px";
 
-	if(name.length <5){
+	if (name.length < 5) {
 		text = "Te rog să introduci un nume valid!";
 		error_message.innerHTML = text;
 		return false;
 	}
 
-	if(eveniment.length <5){
+	if (eveniment.length < 5) {
 		text = "Te rog să introduci tipul evenimentului!";
 		error_message.innerHTML = text;
 		return false;
 	}
-	
-	if(isNaN(telefon) || telefon.length < 10){
+
+	if (isNaN(telefon) || telefon.length < 10) {
 		text = "Te rog să introduci un număr valid!";
 		error_message.innerHTML = text;
 		return false;
 	}
 
-	if(data.length <8){
+	if (data.length < 8) {
 		text = "Te rog să introduci o dată validă!";
 		error_message.innerHTML = text;
 		return false;
 	}
 
-	if(mail.indexOf("@") == -1 || mail.length <6){
+	if (mail.indexOf("@") == -1 || mail.length < 6) {
 		text = "Te rog să introduci o adresă de e-mail validă!";
 		error_message.innerHTML = text;
 		return false;
 	}
 
-	if(locatie.length <4){
+	if (locatie.length < 4) {
 		text = "Te rog să introduci locația!";
 		error_message.innerHTML = text;
 		return false;
 	}
 
-	if(facebook.length <4){
+	if (facebook.length < 4) {
 		text = "Te rog să introduci profilul facebook!";
 		error_message.innerHTML = text;
 		return false;
 	}
 
-	if(poveste.length <= 40){
+	if (poveste.length <= 40) {
 		text = "Te rog să povestești mai mult!";
 		error_message.innerHTML = text;
 		return false;
@@ -62,5 +62,5 @@ function validation (){
 
 	alert("Mesajul a fost trimis cu succes, voi reveni în cel mai scurt timp cu un răspuns.")
 
-		return true;
+	return true;
 }
